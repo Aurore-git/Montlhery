@@ -8,13 +8,13 @@
 </head>
 <body>
 <!--header-->
-<php? include 'includes/header.php'; ?>
+<?php include 'includes/header.php'; ?>
 <!--carousel-->
 <!--historique-->
 <!--statistiques-->
 <!--formateurs-->
 <!--footer-->
-<php? include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
 <!--Scripts-->
 <script href="assets/js/script.js"></script>
 </body>
