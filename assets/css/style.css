@@ -1,0 +1,47 @@
+@font-face{
+	font-family: 'Raleway-Medium';
+	src: url(../fonts/raleway/Raleway-Medium.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway-Medium';
+}
+ 
+.flickity .custom-div {
+  background-color: #f0f2ff;
+}
+
+.flickity .carousel {
+  width: 50%;
+  margin: auto;
+}
+
+.flickity .carousel-cell {
+  width: 150px;
+  height: 150px;
+  margin-right: 20%;
+  border-radius: 50%;
+  counter-increment: carousel-cell;
+}
+
+.flickity .carousel-cell.is-selected {
+  /* background: #ed2; */
+  border: turquoise;
+}
+
+.flickity .carousel-cell img {
+  border-radius: 50%;
+  width: 100%;
+}
+.flickity .custom-color {
+  color: #1668ba;
+  font-weight: 700;
+}
+
+.flickity ol.flickity-page-dots{
+	display: none;
+}
