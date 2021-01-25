@@ -94,10 +94,30 @@ header ul.dropdown-menu li a{
 	}
 }
 
+@media (max-width: 1020px){
+	header .nav-link a{
+		font-size: 1.3em;
+	}
+
+	header li.nav-item{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
 @media (max-width: 991px){
 
-	header li:nth-child(2), li:nth-child(3){
-	padding-left: 15px;
-	padding-right: 15px;
+	header li{
+		padding-left: 15px !important;
+		padding-right: 15px;
+	}
+
+
+}
+
+@media (max-width: 320px){
+	header ul.dropdown-menu li a{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }

@@ -15,7 +15,7 @@
     </div>
     <!--section deuxième image-->
     <div class="carousel-item">
-      <img src="assets/img/slider/driver.png" class="d-block w-100" alt="Second slide">
+      <img src="assets/img/slider/diapo2.jpg" class="d-block w-100" alt="Second slide">
       <div class="carousel-caption d-none d-lg-block zonetextcarousel">
         <p class="slider-p"><span class="titretextcarousel">Tu veux apprendre le code</span><br/>
           <span class="titretextcarousel">dés aujourd'hui ?</span><br/>
@@ -25,7 +25,7 @@
     </div>
         <!--section troisième image-->
     <div class="carousel-item">
-      <img src="assets/img/slider/driver.png" class="d-block w-100" alt="Third slide">
+      <img src="assets/img/slider/diapo3.jpg" class="d-block w-100" alt="Third slide">
       <div class="carousel-caption d-none d-lg-block zonetextcarousel">
         <p class="slider-p"><span class="titretextcarousel">Tu peux voir</span><br/>
           <span class="titretextcarousel">tous nos permis</span><br/>
