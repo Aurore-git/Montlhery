@@ -20,15 +20,16 @@
 
     <!-- -----------------_Custom CSS_---------------- -->
 
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/slider.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
 </head>
 <body>
 <!--Barre de navigation-->
 <div class="font-weight-bold sticky-top">
+  <header>
     <nav class=" nav navbar navbar-expand-lg navbar-light bg-white">
       <!--Logo-->
       <a class="navbar-brand" href="index.php"><img src="assets/img/logos/montlhery.png" alt="logo" class="logo" width="auto" height="80em"></a>
@@ -65,4 +66,5 @@
           </ul>
         </div>
     </nav>
+  </header>
 </div>

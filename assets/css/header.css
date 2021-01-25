@@ -3,7 +3,7 @@
 	src: url(../fonts/raleway/Raleway-Medium.ttf);
 }
 
-nav{
+header nav{
 	box-shadow: 0 0 6px 4px #75757575;
 	border-bottom: 5px solid #012169;
 	letter-spacing: 1px;
@@ -11,7 +11,7 @@ nav{
 	font-size: 1.5em;
 }
 
-li{
+header li{
 	border-right: 1px solid #dde5eF;
 	padding: 10px;
 	padding-left: 20px;
@@ -19,20 +19,20 @@ li{
 	font-weight: normal;
 }
 
-li:last-child{
+header li:last-child{
 	border-right: none;
 }
 
-li:nth-child(2), li:nth-child(3){
+header li:nth-child(2), header li:nth-child(3){
 	padding-left: 70px;
 	padding-right: 70px;
 }
 
-li a{
+header li a{
 	color: #2f3474 !important;
 }
 
-li a:hover{
+header li a:hover{
 	color: #1668bA !important;
 
 }
@@ -44,17 +44,17 @@ li a:hover{
 }
 
 /*dropdown menu*/
-ul.dropdown-menu{
+header ul.dropdown-menu{
 	margin: 0;
 	padding: 0;
 }
 
-ul.dropdown-menu li{
+header ul.dropdown-menu li{
 	margin: 0;
 	padding: 0;
 }
 
-ul.dropdown-menu li a{
+header ul.dropdown-menu li a{
 	margin: 0;
 	padding: 20px;
 	padding-left: 30px;
@@ -63,11 +63,11 @@ ul.dropdown-menu li a{
 
 @media (max-width: 1600px){
 
-	nav{
+	header nav{
 		font-size: 1em;
 	}
 
-	li{
+	header li{
 	border-right: 1px solid #dde5eF;
 	padding: 5px;
 	padding-left: 10px;
@@ -79,12 +79,24 @@ ul.dropdown-menu li a{
 	width: 150px;
 	height: auto;
 	margin: 10px;
+	}
 }
+
+@media (min-width: 992px) and (max-width: 1153px){
+	header li{
+	padding: 5px;
+	font-weight: normal;
+	}
+
+	header li:nth-child(2), li:nth-child(3){
+	padding-left: 15px;
+	padding-right: 15px;
+	}
 }
 
 @media (max-width: 991px){
 
-	li:nth-child(2), li:nth-child(3){
+	header li:nth-child(2), li:nth-child(3){
 	padding-left: 15px;
 	padding-right: 15px;
 	}

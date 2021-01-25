@@ -1,7 +1,7 @@
     <footer>
       <div class="container-fluid">
         <div class="row justify-content-around">
-          <div class="card bg-transparent border-0" style="width: 18rem">
+          <div class="card bg-transparent border-0">
             <div class="card-body">
               <h4 class="card-title">Horaires</h4>
               <p class="card-text">
@@ -12,13 +12,13 @@
               </p>
             </div>
           </div>
-          <div class="card bg-transparent border-0" style="width: 18rem">
+          <div class="card bg-transparent border-0">
             <div class="card-body">
               <h4 class="card-title">Nous joindre</h4>
               <p class="card-text">
                 <a
                   rel="noopener noreferrer"
-                  class="btn text-white font-weight-bold"
+                  class="btn text-white"
                   href="tel:+0468324949"
                 >
                   <svg
@@ -35,9 +35,10 @@
                   </svg>
                   0468324949
                 </a>
+                <br/>
                 <a
                   rel="noopener noreferrer"
-                  class="btn text-white font-weight-bold"
+                  class="btn text-white"
                   href="mailto:adressemail@gmail.com"
                 >
                   <svg
@@ -57,19 +58,19 @@
               </p>
             </div>
           </div>
-          <div class="card bg-transparent border-0" style="width: 18rem">
+          <div class="card bg-transparent border-0">
             <div class="card-body">
               <h4 class="card-title">
-                Prépare ton code en ligne avec
+                Prépare ton code en ligne<br/> avec
                 <u>Prépacode</u>
               </h4>
-              <p class="card-text">
+              <p class="card-text prepacode-section">
                 <a
                   href="https://www.prepacode-enpc.fr/landing_page"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="../assets/img/logos/prepacode.png" alt="prepacode" />
+                  <img src="../assets/img/logos/prepacode.png" alt="prepacode" class="prepacode" />
                 </a>
               </p>
             </div>
@@ -102,7 +103,7 @@
     -->
 
     <!-- ----------------_Custom JS_---------------- -->
-    <script src="../assets/js/script.js"></script>
+    <script src="script.js"></script>
 
     <!-- JavaScript -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

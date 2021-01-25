@@ -3,6 +3,11 @@
 	src: url(../fonts/raleway/Raleway-Medium.ttf);
 }
 
+@font-face{
+  font-family: 'Roboto-Slab';
+  src: url(../fonts/roboto-slab/RobotoSlab-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,26 +15,249 @@
 body {
   font-family: 'Raleway-Medium';
 }
- 
-.flickity .custom-div {
-  background-color: #f0f2ff;
+
+button{
+  letter-spacing: 1px;
 }
 
+h2{
+  font-family: 'Roboto-Slab';
+  text-align: center !important;
+  font-size: 4em !important;
+  font-weight: bold;
+  color: #1668BA;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/*------Section - J'obtiens mon permis------*/
+.container-permis{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.permis{
+  margin-bottom: 80px;
+}
+
+div.card{
+  background-color: #f0f2ff;
+  border: none;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.card-img-top{
+  width: 65%;
+  height: auto;
+  align-self: center;
+  margin-top: -40%;
+}
+
+.card-title{
+  text-align: center;
+  color: #1c2381;
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+button.interest{
+  border: none;
+  background-color: #d8e6fc;
+  color: #1C458a;
+  font-size: 1.4em;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 30px;
+}
+
+button.interest a{
+  color: #1c458A;
+}
+
+button.interest a:hover{
+  color: #113571;
+  text-decoration: none;
+}
+
+button.interest:hover{
+  background-color: #c0d1ee;
+}
+
+/*------Section : J'obtiens mon code------*/
+
+div.container-fluid.section-code{
+  background-color: #f0f2ff;
+  background-image: url(../img/illustrations/code.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  height: 380px;
+}
+
+.section-inner-code{
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+}
+
+.description-code{
+  color: #757575;
+  letter-spacing: 1px;
+}
+
+button.code-interest{
+  border: none;
+  background-color: #1668ba;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+h2.left{
+  text-align: left !important;
+  margin-bottom: 20px;
+}
+
+button.code-interest:hover{
+  background-color: #0f559b;
+}
+
+button.code-interest a{
+  color: white;
+}
+
+button.code-interest a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+/*------Section - Notre histoire------*/
+
+.container-fluid-history{
+  margin-bottom: 80px;
+}
+
+.section-history{
+  justify-content: center;
+}
+
+.title-our-history{
+    margin-bottom: 55px;
+}
+
+.section-history-description{
+  text-align: justify;
+  border-left: 1px solid #bebebe;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.section-photo-history{
+  align-self: center;
+}
+
+.photo-history{
+  width: auto;
+  height: auto;
+}
+
+div.section-history-description strong{
+  color: #1668bA;
+}
+
+/*------Section - Notre équipe------*/
+/*------Les formateurs------*/
+
+.section-team:last-child{
+  justify-content: center;
+  background-color: #f0f2ff;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.photo-history{
+  width: 80%;
+}
+
+.section-team-formateurs{
+  padding-left: 30px;
+}
+
+.section-team h2{
+  text-align: left !important;
+}
+
+.section-flickity{
+  align-self: center;
+}
+
+.team-description{
+  font-family: 'Roboto-Slab';
+  font-size: 2.2em;
+  color: #1668bA;
+  margin-top: -40px;
+}
+
+.six{
+  font-size: 2.4em;
+}
+
+.section-team ul li{
+  list-style: none;
+  color: #757575 !important;
+  font-size: 1.2em;
+}
+
+.section-team ul li::before{
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  background-image: url(../img/icones/check.png);
+  background-size: cover;
+}
+
+.section-team ul li:nth-child(2){
+  padding-left: 15px;
+}
+
+.section-team ul li:last-child{
+  padding-left: 30px;
+}
+
+/*------Flickity carousel------*/
+ 
 .flickity .carousel {
-  width: 50%;
+  width: 90%;
   margin: auto;
 }
 
 .flickity .carousel-cell {
-  width: 150px;
-  height: 150px;
-  margin-right: 20%;
+  width: 250px;
+  height: 250px;
+  margin-right: 10%;
   border-radius: 50%;
   counter-increment: carousel-cell;
+  padding-bottom: 20px;
 }
 
 .flickity .carousel-cell.is-selected {
-  /* background: #ed2; */
   border: turquoise;
 }
 
@@ -37,6 +265,7 @@ body {
   border-radius: 50%;
   width: 100%;
 }
+
 .flickity .custom-color {
   color: #1668ba;
   font-weight: 700;
@@ -44,4 +273,223 @@ body {
 
 .flickity ol.flickity-page-dots{
 	display: none;
+}
+
+.flickity-prev-next-button .flickity-button-icon {
+  width: 130%;
+  height: 130%;
+}
+
+.flickity-prev-next-button.next{
+  margin-right: -30px !important;
+}
+
+.flickity-prev-next-button.previous{
+  margin-left: -60px !important;
+}
+
+.flickity-button {
+  position: absolute;
+  background: none;
+  color: #b4b5b6;
+}
+
+.flickity-button:hover {
+  background: none;
+  color: #1668BA;
+}
+
+
+/*------------Responsive------------*/
+
+@media (min-width : 1500px){
+  .section-inner-code{
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1600px){
+
+  h2{
+    font-size: 3em !important;
+  }
+
+  .card-title{
+    font-size: 1.5em;
+  }
+
+  button.interest{
+    border: none;
+    background-color: #d8e6fc;
+    color: #1C458a;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1300px){
+  h2{
+    font-size: 2em !important;
+  }
+
+  .container-permis{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  div.card{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .section-inner-code{
+    margin-right: 50px;
+  }
+
+@media (max-width : 1200px){
+  div.container-fluid.section-code{
+    height: 340px;
+    background-position: -50px;
+  }
+}
+
+@media (max-width: 1100px){
+  .flickity .carousel-cell {
+    width: 200px;
+    height: 200px;
+  }
+  .section-team ul li{
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1000px){
+  p.description-code{
+    font-size: 0.8em;
+  }
+
+  div.container-fluid.section-code{
+    height: 350px;
+    background-position: -150px;
+    margin-top: 20px;
+  }
+
+  .permis{
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 930px){
+  h2{
+    font-size: 2.5em !important;
+  }
+
+  .card-title{
+    font-size: 1.3em;
+  }
+
+  button.interest{
+    font-size: 0.8em;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  button.interest{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  p.card-title, button.interest{
+    margin-top: -30px;
+  }
+
+  div.container-fluid.section-code{
+    height: 400px;
+    background-position: -300px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px){
+  div.container-fluid.section-code{
+    background-image: none;
+    height: 330px;
+  }
+
+  p.description-code{
+    font-size: 1.2em;
+  }
+
+  .section-inner-code{
+    position: relative;
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  div.container-permis.section-permis div.card:first-child{
+    margin-top: 150px;
+  }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+  .card-title{
+    font-size: 2em;
+  }
+
+  button.interest{
+    font-size: 1.4em;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  p.card-title, button.interest{
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 620px){
+  div.container-fluid.section-code{
+    height: 370px;
+  }
+
+  div.container-permis.section-permis div.card:first-child{
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 430px){
+  div.container-fluid.section-code{
+    height: 460px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  div.container-permis.section-permis div.card:first-child{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 390px){
+  div.container-fluid.section-code{
+    height: 480px;
+  }
+}
+
+@media (max-width: 350px){
+  div.container-fluid.section-code{
+    height: 500px;
+  }
+}
+
+@media (max-width: 330px){
+  div.container-fluid.section-code{
+    height: 480px;
+  }
+}
+
+@media (max-width: 300px){
+  div.container-fluid.section-code{
+    height: 500px;
+  }
 }

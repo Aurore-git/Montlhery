@@ -1,4 +1,8 @@
 /*section carousel*/
+.carousel{
+  margin-bottom: 80px;
+}
+
 .zonetextcarousel{
   font-size:1.6em;
   margin-bottom: 20%;
@@ -75,4 +79,44 @@ button.button-slider a{
 button.button-slider a:hover{
    color: white !important;
    text-decoration: none;
+}
+
+@media (max-width: 1400px){
+  .zonetextcarousel{
+  margin-bottom: 15%;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon { 
+    height: 7em; 
+    width: 7em;
+  } 
+}
+
+@media (max-width: 1145px){
+  .zonetextcarousel{
+    font-size: 1.2em;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon { 
+    height: 6em; 
+    width: 6em;
+  } 
+
+  .carousel{
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 700px){
+  .carousel-control-prev-icon, .carousel-control-next-icon { 
+    height: 4em; 
+    width: 4em;
+  } 
+}
+
+@media (max-width: 500px){
+  .carousel-control-prev-icon, .carousel-control-next-icon { 
+    height: 2em; 
+    width: 2em;
+  } 
 }

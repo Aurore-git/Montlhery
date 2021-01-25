@@ -1,9 +1,49 @@
 footer {
   background: #012169;
   color: #ffffff;
+  letter-spacing: 1px;
+}
+
+footer div.card:first-child{
+	margin: 0;
+	padding: 30px;
+	margin: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+footer div.card:nth-child(2), div.card:last-child{
+	padding-top: 30px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+footer div.card-body p.prepacode-section{
+	text-align: center;
+}
+
+footer p.card-text{
+	text-align: left;
+	line-height: 30px;
+}
+
+footer h4.card-title{
+	color: white;
+	text-align: left;
+}
+
+footer a {
+	font-weight: normal !important;
+}
+
+.prepacode{
+	width: 200px;
+	height: auto;
 }
 
 footer .copyright {
   background: #07182a;
   color: #5f6f80;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
