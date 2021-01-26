@@ -31,6 +31,13 @@ h1{
   letter-spacing: 1px;
 }
 
+h2{
+  font-family: 'Raleway-Medium';
+  font-size: 1.6em !important;
+  font-weight: bold;
+  color: #1668BA;
+}
+
 .row{
   margin: 0;
 }
@@ -319,6 +326,54 @@ div.section-history-description strong{
   color: #1668BA;
 }
 
+/*------Statistics------*/
+
+.section-stats{
+  margin-left: 80px !important;
+  margin-right: 80px !important;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.section-stats-pictures{
+  text-align: center;
+}
+
+.section-stats h1{
+  text-align: left !important;
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.icon-info{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.section-stats h2{
+  margin-top: -20px;
+  margin-bottom: 30px;
+  font-size: 1.2em !important;
+}
+
+.pictures{
+  width: 70%;
+  height: auto;
+}
+
+.section-stats p{
+  color: #757575;
+  font-size: 1.1em;
+}
+
+.pourcentage{
+  font-size: 2em;
+  color: #1668BA;
+  font-weight: bold;
+}
 
 /*------------Responsive------------*/
 
@@ -406,6 +461,12 @@ div.section-history-description strong{
   .section-history-description{
     font-size: 1.2em;
   }
+
+  .icon-info{
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
 }
 
 @media (max-width: 1400px){
@@ -441,6 +502,12 @@ div.section-history-description strong{
   .section-history-description{
     font-size: 1em;
   }
+
+  .icon-info{
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
 }
 
 @media (max-width : 1200px){
@@ -525,6 +592,10 @@ div.section-history-description strong{
 }
 
 @media (max-width: 900px){
+  h1{
+    font-size: 1.8em !important;
+  }
+
   .flickity .carousel-cell {
   width: 150px;
   height: 150px;
@@ -667,6 +738,10 @@ div.section-history-description strong{
   .flickity-prev-next-button .flickity-button-icon {
   width: 70%;
   height: 70%;
+  }
+
+   .section-stats{
+    margin: 10px !important;
   }
 }
 

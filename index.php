@@ -197,7 +197,28 @@ Nicolas et Gary Caussignac dirigent l’auto-école accompagnés de cinq autres 
     </div>
   </div>
 </div>
-	
+
+<!--Stats-->
+<div class="container-fluid">
+  <div class="row section-stats">
+    <div class="col-12 col-md-6 col-lg-5 d-md-grid">
+      <div class="section-stats-pictures">
+        <img src="assets/img/illustrations/avis.png" alt="picture" class="pictures"/>
+      </div>
+        <h1>Satisfaction <img src="assets/img/icones/i-grey.png" alt="informations" class="icon-info"></h1>
+        <h2>Parce que votre avis compte pour nous !</h2>
+        <p>Notre enquête satisfaction montre que les apprenants à l'auto-
+  école Montlhery sont très satisfaits de la formation proposée.</p>
+    </div>
+    <div class="col-12 col-md-6 col-lg-5 d-md-grid">
+      <div class="section-stats-pictures">
+        <img src="assets/img/illustrations/stats.png" alt="picture" class="pictures"/>
+      </div>
+      <h1>Taux de réussite</h1>
+      <p>En 2018, <span class="pourcentage">95%</span> des <strong>66 candidats</strong> ont réussi à obtenir le permis motocyclettes !</p>
+    </div>
+  </div>
+</div>
 
 <!--footer-->
 <?php include 'includes/footer.php'; ?>
