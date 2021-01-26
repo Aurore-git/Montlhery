@@ -374,6 +374,64 @@ div.section-history-description strong{
   color: #1668BA;
   font-weight: bold;
 }
+/* Permis accélleré Landing Page */
+.landing-page-image-container {
+  display: flex;
+  max-height: 300px;
+  overflow: hidden;
+}
+.landing-page-image-container img {
+  width: 100%;
+  align-self: center;
+  object-fit: cover;
+}
+
+.landing-page-description .jumbotron {
+  background-color: #ffffff;
+}
+
+.landing-page-description .jumbotron ul li::before {
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  background-image: url(../img/icones/check.png);
+  background-size: cover;
+}
+.landing-page-description .jumbotron ul li {
+  list-style: none;
+  color: #757575 !important;
+  font-size: 1.2em;
+}
+.landing-page-description .jumbotron ul {
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+
+.my-6 {
+  margin-bottom: 6rem !important;
+  margin-top: 6rem !important;
+}
+
+div.container-fluid.section-accelere {
+  background-color: #f0f2ff;
+  background-image: url(../img/illustrations/accelere.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -30%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  height: 440px;
+}
+
+
+
+
+
 
 /*------------Responsive------------*/
 
