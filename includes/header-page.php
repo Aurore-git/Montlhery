@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/header.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="stylesheet" href="../assets/css/slider.css" />
+    <link rel="stylesheet" href="../assets/css/permis.css">
 
 </head>
 <body>

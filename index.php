@@ -6,7 +6,7 @@
     <!--section première image-->
     <div class="carousel-item active">
       <img src="assets/img/slider/driver.png" class="d-block w-100" alt="First slide">
-      <div class="carousel-caption d-none d-lg-block zonetextcarousel">
+      <div class="carousel-caption d-lg-block zonetextcarousel">
         <p class="slider-p"><span class="titretextcarousel">Passe ton permis</span><br/>
           <span class="titretextcarousel">en accéléré</span><br/>
         </p>
@@ -16,7 +16,7 @@
     <!--section deuxième image-->
     <div class="carousel-item">
       <img src="assets/img/slider/diapo2.jpg" class="d-block w-100" alt="Second slide">
-      <div class="carousel-caption d-none d-lg-block zonetextcarousel">
+      <div class="carousel-caption d-lg-block zonetextcarousel">
         <p class="slider-p"><span class="titretextcarousel">Tu veux apprendre le code</span><br/>
           <span class="titretextcarousel">dés aujourd'hui ?</span><br/>
         </p>
@@ -26,7 +26,7 @@
         <!--section troisième image-->
     <div class="carousel-item">
       <img src="assets/img/slider/diapo3.jpg" class="d-block w-100" alt="Third slide">
-      <div class="carousel-caption d-none d-lg-block zonetextcarousel">
+      <div class="carousel-caption d-lg-block zonetextcarousel">
         <p class="slider-p"><span class="titretextcarousel">Tu peux voir</span><br/>
           <span class="titretextcarousel">tous nos permis</span><br/>
         </p>
@@ -201,21 +201,25 @@ Nicolas et Gary Caussignac dirigent l’auto-école accompagnés de cinq autres 
 <!--Stats-->
 <div class="container-fluid">
   <div class="row section-stats">
-    <div class="col-12 col-md-6 col-lg-5 d-md-grid">
+    <div class="col-12 col-md-6 col-lg-5 d-md-grid mx-lg-4">
       <div class="section-stats-pictures">
         <img src="assets/img/illustrations/avis.png" alt="picture" class="pictures"/>
       </div>
-        <h1>Satisfaction <img src="assets/img/icones/i-grey.png" alt="informations" class="icon-info"></h1>
+        <h1>Satisfaction <img src="assets/img/icones/i-grey.png" alt="informations" class="icon-info" title="Moyenne de la note Appréciation Globale attribuée par les élèves ayant repondu à l'enquête"></h1>
         <h2>Parce que votre avis compte pour nous !</h2>
         <p>Notre enquête satisfaction montre que les apprenants à l'auto-
   école Montlhery sont très satisfaits de la formation proposée.</p>
+        <p class="font-weight-bold marknote">Note : <span class="mark-number">8,5</span>/10 <span class="collected-marks-number mx-4">85 <span class="collected-marks">avis collectés</span></span></p>
     </div>
-    <div class="col-12 col-md-6 col-lg-5 d-md-grid">
+    <div class="col-12 col-md-6 col-lg-5 d-md-grid mx-lg-4">
       <div class="section-stats-pictures">
         <img src="assets/img/illustrations/stats.png" alt="picture" class="pictures"/>
       </div>
       <h1>Taux de réussite</h1>
       <p>En 2018, <span class="pourcentage">95%</span> des <strong>66 candidats</strong> ont réussi à obtenir le permis motocyclettes !</p>
+      <p class="button-stats">
+      <a href="https://www.vroomvroom.fr/auto-ecoles/aude/narbonne/auto-ecole-montlhery" target="_blank"><button class="button-info-stat"><img src="assets/img/icones/information.png" alt="icon" class="button-info-stat-i">Statistiques</button></a>
+      </p>
     </div>
   </div>
 </div>

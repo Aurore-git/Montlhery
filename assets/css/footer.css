@@ -12,7 +12,7 @@ footer div.card:first-child{
 	padding-bottom: 0;
 }
 
-footer div.card:nth-child(2), div.card:last-child{
+footer div.card:nth-child(2), footer div.card:last-child{
 	padding-top: 30px;
 	margin-top: 20px;
 	margin-bottom: 40px;
