@@ -49,7 +49,7 @@
 <div class="container-permis section-permis">
   <div class="row">
     <div class="col-12 permis">
-      <h2>J'obtiens mon permis</h2>
+      <h1>J'obtiens mon permis</h1>
     </div>
     <div class="col-12 col-md-4">
       <div class="card">
@@ -115,7 +115,7 @@
 <div class="container-fluid section-code">
   <div class="row">
     <div class="col-12 col-md-5 section-inner-code">
-      <h2 class="left">J'obtiens mon code</h2>
+      <h1 class="left">J'obtiens mon code</h1>
       <p class="description-code">Envie de passer le code ? Prends des cours avec notre auto-école pour passer l'examen sereinement. Apprends, révise et entraîne toi à faire moins de 5 fautes afin de l'obtenir !</p>
       <a href="code/cours-de-code.php"><button class="code-interest">Ca m'intéresse !</button></a>
     </div>
@@ -125,7 +125,7 @@
 <div class="container-fluid container-fluid-history">
   <div class="row section-history">
     <div class="col-12 title-our-history">
-      <h2>Notre histoire</h2>
+      <h1>Notre histoire</h1>
     </div>
     <div class="col-12 col-md-6 col-lg-5 section-history-description">
       <p>L’<strong>auto école Montlhéry</strong> a été crée en 1974 par Bernard Caussignac.<br/><br/>
@@ -142,8 +142,8 @@ Nicolas et Gary Caussignac dirigent l’auto-école accompagnés de cinq autres 
 <!-- Flickity HTML init -->
 <div class="container-fluid section-team">
   <div class="row section-team">
-    <div class="col-12 col-md-4 section-team-formateurs">
-      <h2>Notre équipe</h2>
+    <div class="col-12 col-md-4 col-xl-4 section-team-formateurs">
+      <h1>Notre équipe</h1>
       <p class="team-description"><span class="six">6</span> formateurs</p>
         <ul>
           <li>Compétents</li>
@@ -151,7 +151,7 @@ Nicolas et Gary Caussignac dirigent l’auto-école accompagnés de cinq autres 
           <li>Qui aiment leur métier</li>
         </ul>
     </div>
-    <div class="col-12 col-md-7 section-flickity">
+    <div class="col-12 col-md-7 col-xl-5 section-flickity">
       <div class="flickity">
         <div class="carousel custom-div" data-flickity='{ "groupCells": true }'>
           <div class="carousel-cell">
