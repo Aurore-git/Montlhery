@@ -17,7 +17,7 @@
         </p>
         <hr class="my-4" />
         <div class="row">
-          <div class="d-flex justify-content-around">
+          <div>
             <p>
               Le permis de conduire B est soumis à des délais préfectoraux qui
               rendent impossible les formules accélérées si elles ne sont pas
