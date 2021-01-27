@@ -2,6 +2,10 @@
   letter-spacing: 1px;
 }
 
+.p-8{
+  padding: 40px 80px;
+}
+
 /* Permis accélleré Landing Page */
 .landing-page-image-container {
   display: flex;
@@ -128,3 +132,26 @@ div.container-fluid.section-vacation {
     margin-left: 0;
   }
 }
+
+/*------Section - Permis moto ------*/
+
+.title-section-categories-permis-moto{
+  font-size: 2em;
+}
+
+h2.nom-permis-moto{
+  font-family: 'Roboto-Slab';
+  font-size: 3em !important;
+}
+/*------Responsive-------*/
+
+@media (max-width: 1200px){
+  .p-8{
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 600px){
+  .p-8{
+    padding: 0 10px;
+  }
