@@ -1,139 +1,138 @@
-@font-face{
-	font-family: 'Raleway-Medium';
-	src: url(../fonts/raleway/Raleway-Medium.ttf);
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url(../fonts/raleway/Raleway-Medium.ttf);
 }
 
-header nav{
-	box-shadow: 0 0 6px 4px #75757575;
-	border-bottom: 5px solid #012169;
-	letter-spacing: 1px;
-	font-family: 'Raleway-Medium';
-	font-size: 1.5em;
+header nav {
+  box-shadow: 0 0 6px 4px #75757575;
+  border-bottom: 5px solid #012169;
+  letter-spacing: 1px;
+  font-family: 'Raleway-Medium';
+  font-size: 1.5em;
 }
 
-header li{
-	border-right: 1px solid #dde5eF;
-	padding: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	font-weight: normal;
+header li {
+  border-right: 1px solid #dde5ef;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: normal;
 }
 
-header li:last-child{
-	border-right: none;
+header li:last-child {
+  border-right: none;
 }
 
-header li:nth-child(2), header li:nth-child(3){
-	padding-left: 70px;
-	padding-right: 70px;
+header li:nth-child(2),
+header li:nth-child(3) {
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
-header li a{
-	color: #2f3474 !important;
+header li a {
+  color: #2f3474 !important;
 }
 
-header li a:hover{
-	color: #1668bA !important;
-
+header li a:hover {
+  color: #1668ba !important;
 }
 
-.logo{
-	width: 240px;
-	height: auto;
-	margin: 10px;
+.logo {
+  width: 240px;
+  height: auto;
+  margin: 10px;
 }
 
 /*dropdown menu*/
-header ul.dropdown-menu{
-	margin: 0;
-	padding: 0;
+header ul.dropdown-menu {
+  margin: 0;
+  padding: 0;
 }
 
-header ul.dropdown-menu li{
-	margin: 0;
-	padding: 0;
+header ul.dropdown-menu li {
+  margin: 0;
+  padding: 0;
 }
 
-header ul.dropdown-menu li a{
-	margin: 0;
-	padding: 20px;
-	padding-left: 30px;
-	padding-right: 100px;
+header ul.dropdown-menu li a {
+  margin: 0;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 100px;
 }
 
 header ul.dropdown-menu li a:active {
- background-color: #f8f9fa !important;
+  background-color: #f8f9fa !important;
 }
 
-header .dropdown-toggle::after{
-	display: none;
+header .dropdown-toggle::after {
+  display: none;
 }
 
-header img.arrow-nav-dropdown-menu{
-	width: 25px;
-	margin-left: 10px;
+header img.arrow-nav-dropdown-menu {
+  width: 20px;
+  margin-left: 10px;
 }
 
-@media (max-width: 1600px){
+@media (max-width: 1600px) {
+  header nav {
+    font-size: 1em;
+  }
 
-	header nav{
-		font-size: 1em;
-	}
+  header li {
+    border-right: 1px solid #dde5ef;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-weight: normal;
+  }
 
-	header li{
-	border-right: 1px solid #dde5eF;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 15px;
-	font-weight: normal;
-	}
+  .logo {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+  }
 
-	.logo{
-	width: 150px;
-	height: auto;
-	margin: 10px;
-	}
-
-	header img.arrow-nav-dropdown-menu{
-		width: 15px;
-		margin-left: 10px;
-	}
+  header img.arrow-nav-dropdown-menu {
+    width: 15px;
+    margin-left: 10px;
+  }
 }
 
-@media (min-width: 992px) and (max-width: 1200px){
-	header li{
-	padding: 5px;
-	font-weight: normal;
-	}
+@media (min-width: 992px) and (max-width: 1200px) {
+  header li {
+    padding: 5px;
+    font-weight: normal;
+  }
 
-	header li:nth-child(2), li:nth-child(3){
-	padding-left: 15px;
-	padding-right: 15px;
-	}
+  header li:nth-child(2),
+  li:nth-child(3) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
-@media (max-width: 1020px){
-	header .nav-link a{
-		font-size: 1.3em;
-	}
+@media (max-width: 1020px) {
+  header .nav-link a {
+    font-size: 1.3em;
+  }
 
-	header li.nav-item{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
+  header li.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
-@media (max-width: 991px){
-
-	header li{
-		padding-left: 15px !important;
-		padding-right: 15px;
-	}
+@media (max-width: 991px) {
+  header li {
+    padding-left: 15px !important;
+    padding-right: 15px;
+  }
 }
 
-@media (max-width: 320px){
-	header ul.dropdown-menu li a{
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+@media (max-width: 320px) {
+  header ul.dropdown-menu li a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

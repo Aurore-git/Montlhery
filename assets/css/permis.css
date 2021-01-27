@@ -10,6 +10,7 @@
   object-fit: cover;
 }
 
+/* Permis accélléré Jumbotron */
 .landing-page-description .jumbotron {
   background-color: #ffffff;
 }
@@ -31,24 +32,11 @@
 .landing-page-description .jumbotron ul {
   margin: 0;
   padding: 0;
-  color: red;
 }
 
-div.container-fluid.section-accelere {
-  background-color: #f0f2ff;
-  background-image: url(../img/illustrations/accelere.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: -30%;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  height: 440px;
-}
-
+/* JUMBOTRON CARD  */
 .card-custom-position {
-  display: flex;
+  display: block;
   justify-content: center;
 }
 .card-custom-position .card {
@@ -56,32 +44,83 @@ div.container-fluid.section-accelere {
   padding: 0;
 }
 
-.card-custom-position > .card > .card-body {
-  align-self: center;
-  color: red;
-}
-
 .card-custom-position .card:nth-child(2),
 .card-custom-position .card:last-child {
   padding-top: 30px;
   margin-top: 60px;
-  /* margin-bottom: 40px; */
 }
 
-/* Mik Responsif */
-@media (max-width: 1200px) {
-  /* div.container-fluid.section-accelere {
-    background-image: none;
-  } */
+/* SECTION EXAM */
+div.container-fluid.section-exam {
+  background-color: #f0f2ff;
+  background-image: url(../img/illustrations/accelere.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -40%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
 
-  .section-inner-code {
-    position: relative;
-    margin: 0 auto 0 auto;
-    padding: 0;
-    width: 80%;
+.custom-row-exam {
+  justify-content: flex-end;
+}
+
+/* SECTION FORMULE */
+.formule-description {
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.4em;
+  align-self: center;
+  letter-spacing: 0.25px;
+}
+
+.formule-description strong {
+  color: #1668ba;
+}
+
+/* SECTION VACATION */
+div.container-fluid.section-vacation {
+  background-color: #f0f2ff;
+  background-image: url(../img/illustrations/vacation2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 230px;
+  background-position: right;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.custom-row-vacation {
+  justify-content: start;
+}
+
+.custom-row-vacation > div {
+  margin-left: 1.5rem;
+}
+
+/* Responsif */
+@media (max-width: 1200px) {
+  div.container-fluid.section-exam {
+    background-image: none;
   }
 
-  /* .col-md-6 {
-    width: 100%;
-  } */
+  div.container-fluid.section-vacation {
+    background-image: none;
+  }
+
+  .custom-row-exam {
+    justify-content: center;
+  }
+  .custom-row-vacation {
+    justify-content: center;
+  }
+
+  .custom-row-vacation > div {
+    margin-left: 0;
+  }
 }
