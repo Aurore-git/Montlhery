@@ -65,6 +65,15 @@ header ul.dropdown-menu li a:active {
  background-color: #f8f9fa !important;
 }
 
+header .dropdown-toggle::after{
+	display: none;
+}
+
+header img.arrow-nav-dropdown-menu{
+	width: 25px;
+	margin-left: 10px;
+}
+
 @media (max-width: 1600px){
 
 	header nav{
@@ -84,9 +93,14 @@ header ul.dropdown-menu li a:active {
 	height: auto;
 	margin: 10px;
 	}
+
+	header img.arrow-nav-dropdown-menu{
+		width: 15px;
+		margin-left: 10px;
+	}
 }
 
-@media (min-width: 992px) and (max-width: 1153px){
+@media (min-width: 992px) and (max-width: 1200px){
 	header li{
 	padding: 5px;
 	font-weight: normal;
@@ -115,8 +129,6 @@ header ul.dropdown-menu li a:active {
 		padding-left: 15px !important;
 		padding-right: 15px;
 	}
-
-
 }
 
 @media (max-width: 320px){

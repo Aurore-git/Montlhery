@@ -42,7 +42,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="permis.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Permis
+                Permis <img src="../assets/img/icones/arrow.png" alt="dropdown-menu" class="arrow-nav-dropdown-menu"/>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                <li><a class="dropdown-item" href="permis-accelere.php">Permis accéléré</a></li>
