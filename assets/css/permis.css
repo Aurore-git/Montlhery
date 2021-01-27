@@ -135,14 +135,47 @@ div.container-fluid.section-vacation {
 
 /*------Section - Permis moto ------*/
 
+.section-categories-permis-moto{
+  background-color: #f2f0ff;
+}
+
 .title-section-categories-permis-moto{
   font-size: 2em;
+}
+
+.middle-section-categories-permis-moto{
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
 }
 
 h2.nom-permis-moto{
   font-family: 'Roboto-Slab';
   font-size: 3em !important;
 }
+
+.age-permis-moto{
+  font-size: 2em;
+}
+
+.description-permis-moto-lower{
+  font-size: 0.75em;
+}
+
+.bell-section-info-permis-moto{
+  background-color: #1668bA;
+  color: white;
+}
+
+svg.bi.bi-bell{
+  color: white;
+  float: left;
+  margin-right: 30px;
+}
+
+h2.competences-permis-moto{
+  font-family: 'Roboto-Slab';
+}
+
 /*------Responsive-------*/
 
 @media (max-width: 1200px){
@@ -153,5 +186,5 @@ h2.nom-permis-moto{
 
 @media (max-width: 600px){
   .p-8{
-    padding: 0 10px;
+    padding: 10px 10px;
   }
