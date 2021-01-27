@@ -423,6 +423,12 @@ span.collected-marks{
   font-size: 15px;
 }
 
+/*------Section - Map------*/
+
+.section-map h1{
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
 /* Permis accélleré Landing Page */
 .landing-page-image-container {
   display: flex;
