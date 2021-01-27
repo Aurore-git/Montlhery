@@ -711,6 +711,9 @@ div.container-fluid.section-accelere {
 }
 
 @media (max-width: 900px){
+  h1{
+    font-size: 1.8em !important;
+  }
 
   .flickity .carousel-cell {
   width: 150px;

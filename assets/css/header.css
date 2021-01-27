@@ -61,6 +61,10 @@ header ul.dropdown-menu li a{
 	padding-right: 100px;
 }
 
+header ul.dropdown-menu li a:active {
+ background-color: #f8f9fa !important;
+}
+
 @media (max-width: 1600px){
 
 	header nav{
