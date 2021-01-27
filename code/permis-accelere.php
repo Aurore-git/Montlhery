@@ -113,7 +113,7 @@
 <!-- Section vacance -->
 <div class="container-fluid section-vacation my-5">
   <div class="custom-row-vacation row">
-    <div class="col-11 col-md-9 col-lg-7">
+    <div class="col-11 col-md-9 col-lg-8">
       <h1 class="text-left">
         Vacances à Narbonne?<br />
         Viens passer ton permis !
