@@ -4,41 +4,32 @@ footer {
   letter-spacing: 1px;
 }
 
-footer div.card:first-child{
-	margin: 0;
-	padding: 30px;
-	margin: 20px;
-	margin-bottom: 0;
-	padding-bottom: 0;
+.custom-row .card {
+  justify-content: center;
+  align-items: center;
 }
 
-footer div.card:nth-child(2), footer div.card:last-child{
-	padding-top: 30px;
-	margin-top: 20px;
-	margin-bottom: 40px;
+footer div.card-body p.prepacode-section {
+  text-align: center;
 }
 
-footer div.card-body p.prepacode-section{
-	text-align: center;
+footer p.card-text {
+  text-align: left;
+  line-height: 30px;
 }
 
-footer p.card-text{
-	text-align: left;
-	line-height: 30px;
-}
-
-footer h4.card-title{
-	color: white;
-	text-align: left;
+footer h4.card-title {
+  color: white;
+  text-align: left;
 }
 
 footer a {
-	font-weight: normal !important;
+  font-weight: normal !important;
 }
 
-.prepacode{
-	width: 200px;
-	height: auto;
+.prepacode {
+  width: 200px;
+  height: auto;
 }
 
 footer .copyright {
@@ -46,4 +37,19 @@ footer .copyright {
   color: #5f6f80;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.separator-custom {
+  border-top: #ffffff 0px solid;
+}
+
+.social svg {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+@media (max-width: 1000px) {
+  .separator-custom {
+    border-top: #ffffff 2px solid;
+    margin-top: 0;
+  }
 }
