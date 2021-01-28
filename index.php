@@ -49,7 +49,7 @@
 <div class="container-permis section-permis">
   <div class="row">
     <div class="col-12 permis">
-      <h1>J'obtiens mon permis</h1>
+      <h1>Préparer son permis</h1>
     </div>
     <div class="col-12 col-md-4">
       <div class="card">
@@ -113,9 +113,12 @@
 </div>
 <!--Code-->
 <div class="container-fluid section-code">
-  <div class="row">
-    <div class="col-12 col-md-5 section-inner-code">
-      <h1 class="left">J'obtiens mon code</h1>
+  <div class="row p-8">
+    <div class="col-12 col-md-4 text-center section-code-logo-prepacode">
+      <img src="assets/img/logos/prepacode-index.png" alt="logo-prepacode">
+    </div>
+    <div class="col-12 col-md-8 section-inner-code">
+      <h1 class="left">Bien se préparer au code</h1>
       <p class="description-code">Envie de passer le code ? Prends des cours avec notre auto-école pour passer l'examen sereinement. Apprends, révise et entraîne toi à faire moins de 5 fautes afin de l'obtenir !</p>
       <a href="code/cours-de-code.php"><button class="code-interest">Ca m'intéresse !</button></a>
     </div>

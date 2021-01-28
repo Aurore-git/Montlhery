@@ -173,10 +173,35 @@ svg.bi.bi-bell{
   margin-right: 30px;
 }
 
+svg.skills-1-svg{color: #2042AB;}
+svg.skills-2-svg{color: #2074AB;}
+svg.skills-3-svg{color: #20AB94;}
+svg.skills-4-svg{color: #20AB39;}
+
 h2.competences-permis-moto{
   font-family: 'Roboto-Slab';
 }
 
+div.formation-pistes-moto ul li{
+  list-style-type: none;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+.formation-pistes-moto ul li::before {
+  content: '';
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  margin-right: 10px;
+  background-image: url(../img/icones/check.png);
+  background-size: cover;
+}
+
+/*Section historique permis moto*/
+.section-history-permis-moto-all-p{
+  font-size: 0.8em;
+}
 /*------Responsive-------*/
 
 @media (max-width: 1200px){
