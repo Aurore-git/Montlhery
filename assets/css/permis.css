@@ -109,9 +109,7 @@ div.container-fluid.section-vacation {
   justify-content: start;
 }
 
-.custom-row-vacation > div {
-  margin-left: 1.5rem;
-}
+
 
 /* Responsif */
 @media(max-width: 1800px){

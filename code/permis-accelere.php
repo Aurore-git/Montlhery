@@ -6,9 +6,9 @@
 </div>
 
 <!--Section JUMBOTRON-->
-<div class="container-fluid mt-2 mb-5">
+<div class="container-fluid mt-2 mb-5 p-8">
   <div class="landing-page-description">
-    <div class="jumbotron row p-4">
+    <div class="jumbotron row">
       <div class="col-12 col-md-8">
         <h1 class="">Permis accéléré</h1>
         <p class="lead">
@@ -27,7 +27,7 @@
               la présentation à l’épreuve pratique du permis de conduire .
             </p>
           </div>
-          <div id="hiden-description" class="d-none">
+          <div id="monCollapse" class="collapse">
             <p>
               Le permis de conduire B est soumis à des délais préfectoraux qui
               rendent impossibles les formules accélérées si elles ne sont pas
@@ -41,9 +41,7 @@
             </p>
           </div>
 
-          <button id="boutton-description-toggle" class="code-interest">
-            Lire plus
-          </button>
+          <button class="code-interest" type="button" data-target="#monCollapse" data-toggle="collapse" aria-expanded="false" aria-controls="#monCollapse">Lire la suite</button>
         </div>
       </div>
 
@@ -91,10 +89,10 @@
 </div>
 
 <!-- Section formule -->
-<div class="container-fluid section-formule my-5">
+<div class="container-fluid section-formule my-5 p-8">
   <h1 class="mb-4">Nos formules</h1>
   <div class="row justify-content-around">
-    <p class="col-11 formule-description">
+    <p class="col-12 formule-description">
       Pour les personnes qui le souhaitent <strong>c’est possible</strong> et
       donc nous proposons des formules accélérées.<br /><br />
       Que se soit pour les <strong>permis moto ou auto</strong> il est possible
@@ -108,7 +106,7 @@
 </div>
 
 <!-- Section vacance -->
-<div class="container-fluid section-vacation my-5">
+<div class="container-fluid section-vacation my-5 p-8">
   <div class="custom-row-vacation row">
     <div class="col-11 col-md-9 col-lg-8">
       <h1 class="text-left">
@@ -124,7 +122,7 @@
         Nous vous enverrons alors les codes d’accès personnalisés pour
         travailler le code de chez vous sur internet.
       </p>
-      <div id="vacation-hiden-description" class="d-none">
+      <div id="monCollapse2" class="collapse">
         En effet passer le permis à Narbonne peut représenter un coup économique
         : la circulation étant assez calme, la formation demande une charge de
         travail moins importante et du coup moins onéreuse que dans des grandes
@@ -136,9 +134,7 @@
         moindre prix, un été à la plage et gagner quelques sous pour financer
         tout ça.
       </div>
-      <button id="boutton-vacation-description-toggle" class="code-interest">
-        Lire plus
-      </button>
+      <button class="code-interest" type="button" data-target="#monCollapse2" data-toggle="collapse" aria-expanded="false" aria-controls="#monCollapse2">Lire la suite</button>
     </div>
   </div>
 </div>
