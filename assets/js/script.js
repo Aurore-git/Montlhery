@@ -27,3 +27,7 @@ buttonVacationDescriptionToggle.addEventListener('click', function () {
     hidenVacationDescription.className = 'd-none';
   }
 });
+
+$('#MonCollapse').collapse({
+show: true
+})
