@@ -156,33 +156,6 @@ Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernés
     <h1>Histoire et évolution du permis moto</h1>
   </div>
 </div>
-<div class="row p-8 text-justify section-history-permis-moto-all-p">
-  <div class="col-12 col-md-4 col-xl-3">
-    <p >a – Avant le 1er mars 1980, la réglementation française distinguait deux catégories d’engins à 2 roues immatriculés :
-– les véhicules dont la cylindré était comprise entre 50 et 125 cm3 au plus, administrativement catalogués « vélomoteurs », conduits à partir de 16 ans après un examen qui ne comporté pas d’épreuve pratique, ou à partir de 18 ans avec le permis B.
-– les véhicules de plus de 125 cm3, administrativement intitulés « motocyclettes », conduits à partir de 18 ans, après un examen comportant des épreuves théoriques et pratiques.
-    </p>
-  </div>
-  <div class="col-12 col-md-4 col-xl-3">
-    <p>b – Entre le 1er mars 1980 et le 31 décembre 1984 Les motocyclettes sont réparties en 3 catégories auxquelles correspondent 3 permis de conduire différents :
-– motocycles de moins de 80 cm3 (permis AI) : âge requis 16 ans
-– motocycles de 80 à 400 cm3 (permis A2) : âge requis 18 ans
-– motocycles de plus de 400 cm3 (permis A3) : âge requis 18 ans</p>
-  </div>
-  <div class="col-12 col-md-4 col-xl-3">
-    <p>c – Entre le 1 er janvier 1985.et le 4 iuillet 1996 Il n’existe plus que deux catégories de permis
-– la première catégorie
-– permis AL concerne la conduite des motocyclettes légères dont la cylindrée est limitée ci 125 cm3 et d’une puissance n’excédant pas 13 CV. Age requis: 16 ans mais jusqu’à 17 ans ne peuvent être conduits que des engins de cylindrée n’excédant pas 80 cm3.
-– la seconde catégorie  – permis A concerne la conduite de toutes les motocyclettes quelle que soit la cylindrée, mais dont la puissance est limitée à 100 CV. Age requis: 18 ans.</p>
-  </div>
-  <div class="col-12 col-md-4 col-xl-3">
-    <p>d – Entre le 4 juillet 1996 et le 19 janvier 2013.
-Accès progressif à la conduite des motocyclettes
-Le décret n° 96-600 du 4 juillet 1996, en application de la directive communautaire concernant la délivrance du permis moto, introduit un accès progressif à la conduite des motos les plus puissantes destiné à améliorer la sécurité routière :
-
-permis A1 -16 ans: accès à la conduite des motocyclettes légères limitées à une cylindrée de 125 cm3 et dont la puissance n’excède pas 11 kW (15 CV).</p>
-  </div>
-</div>
 <div class="row p-8">
   <div class="col-12 col-md-4 col-xl-3"></div>
   <div class="col-12 col-md-4 col-xl-3"></div>
