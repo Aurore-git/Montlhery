@@ -65,7 +65,7 @@ div.container-fluid.section-exam {
   background-image: url(../img/illustrations/accelere.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: -40%;
+  background-position: left;
   margin-top: 70px;
   margin-bottom: 70px;
   padding-top: 30px;
@@ -97,7 +97,7 @@ div.container-fluid.section-vacation {
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 230px;
-  background-position: 60rem 2rem;
+  background-position: 90% 50%;
   margin-top: 70px;
   margin-bottom: 70px;
   padding-top: 30px;
@@ -113,6 +113,22 @@ div.container-fluid.section-vacation {
 }
 
 /* Responsif */
+@media(max-width: 1800px){
+  div.container-fluid.section-exam {
+    background-position: -15%;
+  }
+}
+
+@media(max-width: 1500px){
+  div.container-fluid.section-exam {
+    background-position: -25%;
+  }
+}
+@media(max-width: 1300px){
+  div.container-fluid.section-exam {
+    background-position: -35%;
+  }
+}
 @media (max-width: 1200px) {
   div.container-fluid.section-exam {
     background-image: none;

@@ -70,7 +70,7 @@
 <!--Section Exam-->
 <div class="container-fluid section-exam my-5">
   <div class="custom-row-exam row">
-    <div class="col-11 col-lg-7 description-code">
+    <div class="col-11 col-lg-8 description-code">
       <h1 class="left">Je passe l'examen</h1>
       <p>
         Au niveau des places d’examen, il faut savoir qu’elles sont attribuées
