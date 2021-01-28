@@ -26,14 +26,14 @@
       <div class="card-custom-position col-12 col-md-4">
         <div class="card">
           <img
-            src="../assets/img/cards/moto.png"
+            src="../assets/img/cards/caravane.png"
             alt="icon"
             class="card-img-top"
           />
           <div class="card-body">
             <ul>
-              <li>Passe ton permis moto<br/>
-              avec notre auto-école
+              <li>Permis remorque<br/>
+              indisponible
               </li>
             </ul>
           </div>
