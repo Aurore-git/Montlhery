@@ -33,7 +33,7 @@
           </div>
 
           <!-- les boutons d'actions -->
-          <button class="code-interest" type="button" data-target="#MonCollapse2" data-toggle="collapse" aria-expanded="false" aria-controls="MonCollapse">Lire la suite</button>
+          <button class="code-interest" type="button" data-target="#MonCollapse2" data-toggle="collapse" aria-expanded="false" aria-controls="MonCollapse2">Lire la suite</button>
  
         </div>
       </div>
@@ -165,7 +165,7 @@ Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernés
 
 <!-- les boutons d'actions -->
 <p class="text-center">
-  <button class="button-historique-permis-moto" type="button" data-target="#MonCollapse" data-toggle="collapse" aria-expanded="false" aria-controls="MonCollapse">Lire tout l'historique du permis moto</button>
+  <button class="button-historique-permis-moto mb-5" type="button" data-target="#MonCollapse" data-toggle="collapse" aria-expanded="false" aria-controls="MonCollapse">Lire tout l'historique du permis moto</button>
 </p>
  
 <!-- le contenu masqué -->
