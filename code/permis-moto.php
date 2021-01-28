@@ -18,12 +18,12 @@
         <div class="row">
           <div>
             <p>
-              Pour vous accompagner dans votre formation et vous faire progresser sur les différents points techniques importants, l’auto école Montlhéry vous propose une formation assurée par deux moniteurs d’expérience (plus de 700 motards ayant suivit leur formation). 
+              Pour vous accompagner dans votre formation et vous faire progresser sur les différents points techniques importants, l’auto-école Montlhéry vous propose une formation assurée par deux moniteurs d’expérience (plus de 700 motards ayant suivi leur formation). 
             </p>
           </div>
           <div id="MonCollapse2" class="collapse">
             <p>
-              Vous profiterez d’un matériel adapté qui augmentera toutes vos chances de réussite à l’examen (une moto pour chaque élève : MT-07), un contact radio permanent sur route.Les cours hors circulation s’effectuent sur la piste moto-école qui se trouve à 1,4 km de l’auto-école (à l’entrée de Narbonne coté Coursan proche de la déchetterie) ce qui permet de ne pas perdre de temps pour accéder à celle-ci (4 minutes de trajet).
+              Vous profiterez d’un matériel adapté qui augmentera toutes vos chances de réussite à l’examen (une moto pour chaque élève : MT-07), un contact radio permanent sur route. Les cours hors circulation s’effectuent sur la piste moto-école qui se trouve à 1,4 km de l’auto-école (à l’entrée de Narbonne coté Coursan proche de la déchetterie) ce qui permet de ne pas perdre de temps pour accéder à celle-ci (4 minutes de trajet).
             </p>
 
             <p>
@@ -46,8 +46,11 @@
             class="card-img-top"
           />
           <div class="card-body">
-            <p>Passe ton permis moto<br/>
-            avec notre auto-école</p>
+            <ul>
+              <li>Passe ton permis moto<br/>
+              avec notre auto-école
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -70,7 +73,7 @@
     <h2 class="text-center font-weight-bold mb-4 nom-permis-moto">A2</h2>
     <p class="text-center age-permis-moto">18 ans</p>
     <p class="text-center"> accès à la conduite des motocyclettes dont la puissance est inférieure ou égale à 35 kW (47,6 CV) et d’un rapport puissance / poids inférieur ou égal à 0.2 kW/kg ( 0.27 CV/kg).</p>
-    <p class="description-permis-moto-lower">*Si la moto est bridé, il faut qu’a l’origine sa puissance ne dépasse pas 70kW(95.2CV).</p>
+    <p class="description-permis-moto-lower">*Si la moto est bridé, il faut qu’à l’origine sa puissance ne dépasse pas 70kW(95.2CV).</p>
   </div>
   <div class="col-12 col-md-4">
     <h2 class="text-center font-weight-bold mb-4 nom-permis-moto">A</h2>
@@ -85,8 +88,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
   <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
       </svg>
-      Les titulaires du permis B depuis au moins deux ans peuvent conduire une motocyclette légère sous réserve d’effectuer une formation de 7h donnant lieu à la délivrance d’une attestation de formation permettant de s’assurer et de conduire sur le territoire français uniquement.
-Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernés par cette formation ainsi que celles qui étaient déja assurés sur un 125cm3 dans les 5 ans qui précédait le 1 janvier 2011.</p>
+      Les titulaires du permis B depuis au moins deux ans peuvent conduire une motocyclette légère sous réserve d’effectuer une formation de 7h donnant lieu à la délivrance d’une attestation de formation permettant de s’assurer et de conduire sur le territoire français uniquement. Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernées par cette formation ainsi que celles qui étaient déja assurées sur un 125cm3 dans les 5 ans qui précédaient le 1 janvier 2011.</p>
   </div>
 </div>
 <!-----------Section - Skills needed - permis moto---------->
@@ -121,7 +123,7 @@ Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernés
       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-droplet-fill text-center mb-4 skills-3-svg" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6zM6.646 4.646c-.376.377-1.272 1.489-2.093 3.13l.894.448c.78-1.559 1.616-2.58 1.907-2.87l-.708-.708z"/>
   </svg><br/>
-      Circuler dans des conditions difficiels et partager la route avec les autres usagers</p>
+      Circuler dans des conditions difficiles et partager la route avec les autres usagers</p>
     </div>
   </div>
   <div class="col-12 col-md-6 col-xl-3 section-card-skills">
@@ -141,7 +143,7 @@ Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernés
 <div class="row p-8 formation-pistes-moto">
   <div class="col-12 col-lg-6">
     <h3 class="text-center mb-5">Formation <br/>sur piste fermée</h3>
-    <ul>
+    <ul class="mb-4">
       <li>Etude des différentes positions sur la moto (route et vitesse) et leurs conséquences</li>
       <li>Education et amélioration du sens de l’équilibre par le regard et les différentes sensations physiques.</li>
       <li>Technique du freinage (avant-arrière dissocié et associé) Freinage d’urgence en ligne et en virage</li>
@@ -171,31 +173,79 @@ Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernés
 <!-- le contenu masqué -->
  
 <section id="MonCollapse" class="collapse">
-  <div class="row p-8">
-    <div class="col-12">
-      <p class="text-center">
-        <div>
-          <p>
-                a – Avant le 1er mars 1980, la réglementation française distinguait deux catégories d’engins à 2 roues immatriculés :
-  – les véhicules dont la cylindré était comprise entre 50 et 125 cm3 au plus, administrativement catalogués « vélomoteurs », conduits à partir de 16 ans après un examen qui ne comporté pas d’épreuve pratique, ou à partir de 18 ans avec le permis B.
-  – les véhicules de plus de 125 cm3, administrativement intitulés « motocyclettes », conduits à partir de 18 ans, après un examen comportant des épreuves théoriques et pratiques.
-
-  b – Entre le 1er mars 1980 et le 31 décembre 1984 Les motocyclettes sont réparties en 3 catégories auxquelles correspondent 3 permis de conduire différents :
-  – motocycles de moins de 80 cm3 (permis AI) : âge requis 16 ans
-  – motocycles de 80 à 400 cm3 (permis A2) : âge requis 18 ans
-  – motocycles de plus de 400 cm3 (permis A3) : âge requis 18 ans
-
-  c – Entre le 1 er janvier 1985.et le 4 iuillet 1996 Il n’existe plus que deux catégories de permis
-  – la première catégorie
-  – permis AL concerne la conduite des motocyclettes légères dont la cylindrée est limitée ci 125 cm3 et d’une puissance n’excédant pas 13 CV. Age requis: 16 ans mais jusqu’à 17 ans ne peuvent être conduits que des engins de cylindrée n’excédant pas 80 cm3.
-  – la seconde catégorie  – permis A concerne la conduite de toutes les motocyclettes quelle que soit la cylindrée, mais dont la puissance est limitée à 100 CV. Age requis: 18 ans.
-
-  d – Entre le 4 juillet 1996 et le 19 janvier 2013.
-  Accès progressif à la conduite des motocyclettes
-  Le décret n° 96-600 du 4 juillet 1996, en application de la directive communautaire concernant la délivrance du permis moto, introduit un accès progressif à la conduite des motos les plus puissantes destiné à améliorer la sécurité routière :
-
-  permis A1 -16 ans: accès à la conduite des motocyclettes légères limitées à une cylindrée de 125 cm3 et dont la puissance n’excède pas 11 kW (15 CV).
-          </p>
+  <div class="col-12">
+      <h1 class="mb-3">Historique et évolution du permis moto</h1>
+  </div>
+  <div class="row history-permis-moto p-8">
+    <div class="col-12 col-md-4">
+      <p>
+        <span class="font-weight-bold">a – Avant le 1er mars 1980, la réglementation française distinguait deux catégories d’engins à 2 roues immatriculés :</span>
+        <hr/>
+        – les véhicules dont la cylindré était comprise entre 50 et 125 cm3 au plus, administrativement catalogués « vélomoteurs », conduits à partir de 16 ans après un examen qui ne comporté pas d’épreuve pratique, ou à partir de 18 ans avec le permis B.<br/>
+        – les véhicules de plus de 125 cm3, administrativement intitulés « motocyclettes », conduits à partir de 18 ans, après un examen comportant des épreuves théoriques et pratiques.
+      </p>
+    </div>
+    <div class="col-12 col-md-4">
+      <p>
+        <span class="font-weight-bold">b – Entre le 1er mars 1980 et le 31 décembre 1984</span><hr/>
+        Les motocyclettes sont réparties en 3 catégories auxquelles correspondent 3 permis de conduire différents :<br/><br/>
+        – motocycles de moins de 80 cm3 (permis AI) : âge requis 16 ans<br/>
+        – motocycles de 80 à 400 cm3 (permis A2) : âge requis 18 ans<br/>
+        – motocycles de plus de 400 cm3 (permis A3) : âge requis 18 ans<br/>
+    </p> 
+    </div>
+    <div class="col-12 col-md-4">
+      <p>
+        <span class="font-weight-bold">c – Entre le 1 er janvier 1985.et le 4 iuillet 1996 Il n’existe plus que deux catégories de permis :</span><hr/>
+        – la première catégorie<br/>
+        – permis AL concerne la conduite des motocyclettes légères dont la cylindrée est limitée ci 125 cm3 et d’une puissance n’excédant pas 13 CV. Age requis: 16 ans mais jusqu’à 17 ans ne peuvent être conduits que des engins de cylindrée n’excédant pas 80 cm3.
+        – la seconde catégorie  – permis A concerne la conduite de toutes les motocyclettes quelle que soit la cylindrée, mais dont la puissance est limitée à 100 CV. Age requis: 18 ans.
+      </p>
+    </div>
+  </div>
+  <div class="history-permis-moto-grey">
+    <div class="row p-8">
+      <div class="col-12 col-md-9">
+        <p>
+          <span class="font-weight-bold">d – Entre le 4 juillet 1996 et le 19 janvier 2013.</span><br/><br/>
+          Accès progressif à la conduite des motocyclettes<br/>
+          Le décret n° 96-600 du 4 juillet 1996, en application de la directive communautaire concernant la délivrance du permis moto, introduit un accès progressif à la conduite des motos les plus puissantes destiné à améliorer la sécurité routière :<br/>
+          permis A1 -16 ans: accès à la conduite des motocyclettes légères limitées à une cylindrée de 125 cm3 et dont la puissance n’excède pas 11 kW (15 CV).<br/>
+          Les titulaires du permis B depuis au moins deux ans peuvent conduire une motocyclette légère. (progressivement des formations obligatoires sont mises en place pour valider l’accés au permis A1) permis A -18 ans: accès à la conduite des motocyclettes dont la puissance est inférieure ou égale à 25 kW (34 CV) et d’un rapport puissance / poids inférieur ou égal à 0.16 kW/kg ( 0.22 CV/kg)
+          -20 ans : accès à la conduite de toutes motocyclettes à l’issue de deux années d’expériences en catégorie A et à 21 ans accès direct à toutes les motocyclettes.
+        </p>
+      </div>
+      <div class="col-12 col-md-3">
+        <p class="p-pictures-permis-moto my-4">
+          <img src="../assets/img/illustrations/moto1.png" alt="picture" class="pictures-permis-moto"/>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row p-8 history-permis-moto">
+    <div class="col-12 col-md-3">
+      <p class="p-pictures-permis-moto my-4">
+        <img src="../assets/img/illustrations/moto2.png" alt="picture" class="pictures-permis-moto"/>
+      </p>
+    </div>
+    <div class="col-12 col-md-9">
+      <p>
+        <span class="font-weight-bold">e- Entre le 19 janvier 2013 et le 31 mai 2016</span><br/><br/>
+        A1 -16 ans accès à la conduite des motocyclettes légères limitées à une cylindrée de 125 cm3 et dont la puissance n’excède pas 11 kW (15 CV). Les titulaires du permis B depuis au moins deux ans peuvent conduire une motocyclette légère sous réserve d’effectuer une formation de 7h donnant lieu à la délivrance d’une attestation de formation permettant de s’assurer et de conduire sur le territoire français uniquement. Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernés par cette formation ainsi que celles qui étaient déja assurés sur un 125cm3 dans les 5 ans qui précédait le 1 janvier 2011.<br/>
+        A2 -18 – 24 ans accès à la conduite des motocyclettes dont la puissance est inférieure ou égale à 35 kW (47,6 CV) et d’un rapport puissance / poids inférieur ou égal à 0.2 kW/kg ( 0.27 CV/kg). Si la moto est bridé, il faut qu’a l’origine sa puissance ne dépasse pas 70kW(95.2CV).<br/>
+        A – 24 ans accès à la conduite de toutes motocyclettes.
+        Pour ceux qui ont passé le permis A2, a l’issue de deux années d’expériences une formation de 7h est necessaire pour valider le permis A. Attention si vous avez passé le permis A2, les 2 ans d’expériences sont indispensable pour basculer en permis A, meme si vous fêtez entre temps votre 24eme anniversaire.
+      </p>
+    </div>
+  </div>
+  <div class="history-permis-moto-grey">
+    <div class="row p-8">
+      <div class="col-12">
+        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-info-circle bi-info-circle-permis-moto" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+        </svg>
+        <p>Désormais,depuis le 31 mai 2016 un candidat au permis, dès 18 ans et quelque soit son âge, n’a le droit de conduire, durant deux ans après l’obtention du précieux sésame, qu’une moto dont la puissance est inférieure à 35 kW (47,5 chevaux). Les conditions du permis A2 sont étendus à la catégorie du permis A. Au bout de deux ans, le conducteur ne pourra conduire une moto de puissance plus importante qu’après avoir suivi une formation spécifique de 7 heures en école de conduite, non sanctionnée par un examen.</p>
       </div>
     </div>
   </div>

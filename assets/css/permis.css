@@ -38,7 +38,8 @@
   font-size: 1.2em;
 }
 .landing-page-description .jumbotron ul {
-  margin: 0;
+  margin-top: -30px;
+  margin-bottom: 30px;
   padding: 0;
 }
 
@@ -167,7 +168,7 @@ div.container-fluid.section-internet {
 
 
 /*------Section - Permis moto ------*/
-
+/*section catégories*/
 .section-categories-permis-moto{
   background-color: #f2f0ff;
 }
@@ -212,13 +213,14 @@ svg.bi.bi-bell{
   justify-content: center;
 }
 
+/*section skills*/
 div.card-skills{
   padding: 20px;
-  width: 250px;
-  height: 200px;
+  height: 230px;
   margin: 0;
   margin-right: 0;
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 svg.skills-1-svg{color: #2042AB;}
@@ -260,7 +262,43 @@ button.button-historique-permis-moto:hover{
   background-color: #1879DA;
 }
 
+.history-permis-moto, .history-permis-moto-grey{
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+.history-permis-moto-grey{
+  background-color: #f2f0ff;
+}
+
+.pictures-permis-moto{
+  width: 320px;
+  height: auto;
+  align-self: center;
+}
+
+p.p-pictures-permis-moto{
+  text-align: center;
+}
+
+svg.bi-info-circle-permis-moto{
+  float: left;
+  margin-right: 30px;
+}
+
 /*------Responsive-------*/
+
+@media (min-width: 1800px){
+  .pictures-permis-moto{
+    width: 400px;
+  }
+}
+
+@media (max-width: 1400px){
+  .pictures-permis-moto{
+    width: 250px;
+  }
+}
 
 @media (max-width: 1200px){
   .p-8{
@@ -268,7 +306,35 @@ button.button-historique-permis-moto:hover{
   }
 }
 
+@media (max-width: 1000px){
+  .pictures-permis-moto{
+    width: 200px;
+  }
+
+  div.formation-pistes-moto ul{
+    padding: 0;
+  }
+}
+
+@media (max-width: 900px){
+  .pictures-permis-moto{
+    width: 170px;
+  }
+}
+
+@media (max-width: 767px){
+  .middle-section-categories-permis-moto{
+    border-left: none;
+    border-right: none;
+  }
+}
+
 @media (max-width: 600px){
   .p-8{
     padding: 10px 10px;
   }
+
+  .competences-permis-moto ul{
+    padding: 0;
+  }
+}

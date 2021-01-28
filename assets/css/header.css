@@ -106,7 +106,7 @@ header img.arrow-nav-dropdown-menu {
   }
 
   header li:nth-child(2),
-  li:nth-child(3) {
+  header li:nth-child(3) {
     padding-left: 15px;
     padding-right: 15px;
   }
