@@ -6,7 +6,7 @@ var hidenDescription = document.getElementById('hiden-description');
 
 buttonDescriptionToggle.addEventListener('click', function () {
   if (hidenDescription.className == 'd-none') {
-    hidenDescription.className = 'd-block';
+    hidenDescription.className = 'd-block text-justify';
   } else {
     hidenDescription.className = 'd-none';
   }
