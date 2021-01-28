@@ -6,9 +6,9 @@
 </div>
 
 <!--Section JUMBOTRON-->
-<div class="container-fluid mt-2 mb-5 p-8">
+<div class="container-fluid mt-2 mb-5">
   <div class="landing-page-description">
-    <div class="jumbotron row">
+    <div class="jumbotron row p-8">
       <div class="col-12 col-md-8">
         <h1 class="">Permis accéléré</h1>
         <p class="lead">
@@ -66,8 +66,8 @@
 </div>
 
 <!--Section Exam-->
-<div class="container-fluid section-exam my-5">
-  <div class="custom-row-exam row">
+<div class="container-fluid section-exam">
+  <div class="custom-row-exam row p-8">
     <div class="col-11 col-lg-8 description-code">
       <h1 class="left">Je passe l'examen</h1>
       <p>
@@ -89,7 +89,7 @@
 </div>
 
 <!-- Section formule -->
-<div class="container-fluid section-formule my-5 p-8">
+<div class="container-fluid section-formule p-8">
   <h1 class="mb-4">Nos formules</h1>
   <div class="row justify-content-around">
     <p class="col-12 formule-description">
@@ -106,7 +106,7 @@
 </div>
 
 <!-- Section vacance -->
-<div class="container-fluid section-vacation my-5 p-8">
+<div class="container-fluid section-vacation p-8">
   <div class="custom-row-vacation row">
     <div class="col-11 col-md-9 col-lg-8">
       <h1 class="text-left">

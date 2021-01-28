@@ -37,12 +37,14 @@
   background-image: url(../img/icones/check.png);
   background-size: cover;
 }
+
 .landing-page-description .jumbotron ul li {
   list-style: none;
   color: #757575 !important;
   font-size: 1.2em;
   margin-bottom: 7px;
 }
+
 .landing-page-description .jumbotron ul {
   margin-top: -30px;
   margin-bottom: 30px;
@@ -73,10 +75,8 @@ div.container-fluid.section-exam {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .custom-row-exam {
@@ -105,7 +105,7 @@ div.container-fluid.section-vacation {
   background-size: contain;
   background-size: 230px;
   background-position: 90% 50%;
-  margin-top: 70px;
+  margin-top: 40px;
   margin-bottom: 70px;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -293,6 +293,16 @@ p.p-pictures-permis-moto{
 svg.bi-info-circle-permis-moto{
   float: left;
   margin-right: 30px;
+}
+
+/*premis remorque*/
+
+.landing-page-description .jumbotron .caravane-card ul li::before {
+  display: none;
+}
+
+.caravane-card svg.caravane-svg{
+  color: #DB3025;
 }
 
 /*------Responsive-------*/

@@ -6,7 +6,7 @@
 </div>
 
 <!--Section JUMBOTRON-->
-<div class="container-fluid mt-3 mb-5">
+<div class="container-fluid">
   <div class="landing-page-description">
     <div class="jumbotron row p-8">
       <div class="col-12 col-md-8">
