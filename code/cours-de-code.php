@@ -6,7 +6,7 @@
 </div>
 
 <!--Section JUMBOTRON-->
-<div class="container-fluid mt-2 mb-5">
+<div class="container-fluid mt-3 mb-5">
   <div class="landing-page-description">
     <div class="jumbotron row p-8">
       <div class="col-12 col-md-8">
@@ -121,5 +121,41 @@
     <div class="col-lg-4 internet-img"></div>
   </div>
 </div>
+
+<!-- Section PrepaCode -->
+<div class="container-fluid my-5">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h2 class="text-center">Le bon code pour tous les permis !</h2>
+    </div>
+  </div>
+  <div class="row p-8">
+    <div class="col-12 mb-5 col-md-6 text-center align-self-center">
+      <a
+        class="prepa-code-transition"
+        href="https://www.prepacode-enpc.fr/landing_page"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="../assets/img/logos/prepacode-index.png"
+          alt="logo-prepacode"
+        />
+      </a>
+    </div>
+    <div class="col-12 col-md-6 align-self-center">
+      <p class="lead">
+        Grâce à Prépacode, travaillez votre code en ligne pour réussir votre
+        examen théorique !<br /> <br/> Plus de 2100 questions, un parcours pédagogique
+        personnalisé, des indicateurs de progression clairs et pertinents ! A
+        réaliser sur votre ordinateur, tablette ou smartphone.
+      </p>
+    </div>
+  </div>
+
+    
+  </div>
+</div>
+
 <!--footer-->
 <?php include '../includes/footer-page.php'; ?>
