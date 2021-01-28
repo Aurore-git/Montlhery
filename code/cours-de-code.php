@@ -51,11 +51,11 @@
 <!--Section cour de code -->
 <div class="row section-categories-permis-moto p-8">
   <div class="col-md-12 col-lg-4">
-    <h2 class="text-center font-weight-bold mb-5 nom-permis-moto">
+    <h2 class="text-center font-weight-bold mb-5 nom-cours-de-code">
       Cours de code collectifs
     </h2>
 
-    <p class="my-4">
+    <p class="my-4 text-center">
       Les cours de code collectifs dispensés par un moniteur, durant lesquels
       vous pourrez vous tester et suivre des cours complets auxquels vous
       participerez.
@@ -70,10 +70,10 @@
     </p>
   </div>
   <div class="col-md-12 col-lg-4 middle-section-categories-permis-moto">
-    <h2 class="text-center font-weight-bold mb-5 nom-permis-moto">
+    <h2 class="text-center font-weight-bold mb-5 nom-cours-de-code">
       Cours de code individuels
     </h2>
-    <p class="my-4">
+    <p class="my-4 text-center">
       Les cours de code individuels permanents durant lesquels vous vous testez
       et le dvd donne la correction.Ces cours sont proposés tous les jours aux
       heures d’ouverture du bureau :<br />
@@ -87,11 +87,11 @@
     </p>
   </div>
   <div class="col-md-12 col-lg-4">
-    <h2 class="text-center font-weight-bold mb-5 nom-permis-moto">
+    <h2 class="text-center font-weight-bold mb-5 nom-cours-de-code">
       Cours de code théorique
     </h2>
 
-    <p class="my-4">
+    <p class="my-4 text-center">
       Cours théorique dispensé par un enseignant sur la règlementation et les
       thèmes les grands themes de la sécurité routière (alcool, stupéfiant,
       vitesse, port de la ceinture…)

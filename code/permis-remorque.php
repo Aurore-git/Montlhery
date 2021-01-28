@@ -1,12 +1,15 @@
 <!--header-->
 <?php include '../includes/header-page.php'; ?>
 
+<div class="landing-page-image-container">
+  <img src="../assets/img/permis/5.jpg" alt="Permis caravane photo" />
+</div> 
 <!--Section JUMBOTRON-->
 <div class="container-fluid mt-2">
   <div class="landing-page-description">
     <div class="jumbotron row p-8">
       <div class="col-12 col-md-8">
-        <h1 class="">Permis remorque</h1>
+        <h1 class="">Permis remorque, Caravane...</h1>
         <p class="lead">
           Réforme du 19 janvier 2013 
         </p>
@@ -45,7 +48,7 @@
 
 <!--Section formation B96-->
 <div class="history-permis-moto-grey">
-	<div class="row p-8">
+	<div class="row p-8 mt-5">
 		<div class="col-12 col-md-6">
 			<h1>Formation B96</h1>
 			<p class="text-center font-weight-bold">Dans quelles conditions le permis B + la formation 7 heures sont-ils nécessaires ?</p>

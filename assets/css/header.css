@@ -136,3 +136,10 @@ header img.arrow-nav-dropdown-menu {
     padding-right: 20px;
   }
 }
+
+@media (min-width: 800px){
+  .dropdown:hover .dropdown-menu {
+    display: inline;
+    margin-top: 0;
+ }
+}

@@ -2,6 +2,10 @@
   letter-spacing: 1px;
 }
 
+.c-blue{
+  color: #1868ba;
+}
+
 .p-8{
   padding: 40px 80px;
 }
@@ -185,6 +189,11 @@ div.container-fluid.section-internet {
 h2.nom-permis-moto{
   font-family: 'Roboto-Slab';
   font-size: 3em !important;
+}
+
+h2.nom-cours-de-code{
+  font-family: 'Roboto-Slab';
+  font-size: 2em !important;
 }
 
 .age-permis-moto{
