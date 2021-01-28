@@ -94,9 +94,6 @@
 <div class="container-fluid section-formule my-5">
   <h1 class="mb-4">Nos formules</h1>
   <div class="row justify-content-around">
-    <!-- <div class="col-2 fomule-images d-flex flex-column">
-      <img src="../assets/img/cards/formule.png.svg" alt="image formule" />
-    </div> -->
     <p class="col-11 formule-description">
       Pour les personnes qui le souhaitent <strong>c’est possible</strong> et
       donc nous proposons des formules accélérées.<br /><br />
