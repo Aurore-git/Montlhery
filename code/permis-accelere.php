@@ -27,7 +27,7 @@
               la présentation à l’épreuve pratique du permis de conduire .
             </p>
           </div>
-          <div id="hiden-description" class="d-none">
+          <div id="monCollapse" class="collapse">
             <p>
               Le permis de conduire B est soumis à des délais préfectoraux qui
               rendent impossibles les formules accélérées si elles ne sont pas
@@ -41,9 +41,7 @@
             </p>
           </div>
 
-          <button id="boutton-description-toggle" class="code-interest">
-            Lire la suite
-          </button>
+          <button class="code-interest" type="button" data-target="#monCollapse" data-toggle="collapse" aria-expanded="false" aria-controls="#monCollapse">Lire la suite</button>
         </div>
       </div>
 
@@ -124,7 +122,7 @@
         Nous vous enverrons alors les codes d’accès personnalisés pour
         travailler le code de chez vous sur internet.
       </p>
-      <div id="vacation-hiden-description" class="d-none">
+      <div id="monCollapse2" class="collapse">
         En effet passer le permis à Narbonne peut représenter un coup économique
         : la circulation étant assez calme, la formation demande une charge de
         travail moins importante et du coup moins onéreuse que dans des grandes
@@ -136,9 +134,7 @@
         moindre prix, un été à la plage et gagner quelques sous pour financer
         tout ça.
       </div>
-      <button id="boutton-vacation-description-toggle" class="code-interest">
-        Lire plus
-      </button>
+      <button class="code-interest" type="button" data-target="#monCollapse2" data-toggle="collapse" aria-expanded="false" aria-controls="#monCollapse2">Lire la suite</button>
     </div>
   </div>
 </div>
