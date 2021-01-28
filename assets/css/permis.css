@@ -134,6 +134,23 @@ div.container-fluid.section-vacation {
   }
 }
 
+/*------Section - Code ------*/
+div.container-fluid.section-internet {
+  background-color: #1668ba;
+  margin-bottom: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.internet-img{
+  background-image: url(../img/illustrations/internet.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+
 /*------Section - Permis moto ------*/
 
 .section-categories-permis-moto{

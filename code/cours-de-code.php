@@ -48,79 +48,77 @@
   </div>
 </div>
 
-<!--Section Exam-->
-<div class="container-fluid section-exam my-5">
-  <div class="custom-row-exam row">
-    <div class="col-11 col-lg-7 description-code">
-      <h1 class="left">Les cours de code collectifs</h1>
-      <p>
-        Au niveau des places d’examen, il faut savoir qu’elles sont attribuées
-        aux auto-écoles en fonction de la réussite de leurs élèves durant
-        l’année précédente. Nos statistiques (présentées dans une rubrique du
-        site) montrent que nous avons des résultats probants qui sont pour
-        l’élève la garantie d’une bonne formation et donc de grande chances
-        d’obtenir son permis du premier coup mais aussi l’assurance en cas
-        d’échec d’être représenté à l’examen dans les plus brefs délais. Ces
-        résultats nous permettent aussi de proposer les formules accélérées.
-      </p>
-      <em>
-        Pédagogiquement nous déconseillons la formule accélérée qui est pour
-        l’élève une grosse charge d’informations à emmagasiner en peu de temps.
-      </em>
-    </div>
-  </div>
-</div>
+<!--Section cour de code -->
+<div class="row section-categories-permis-moto p-8">
+  <div class="col-md-12 col-lg-4">
+    <h2 class="text-center font-weight-bold mb-5 nom-permis-moto">
+      Cours de code collectifs
+    </h2>
 
-<!-- Section formule -->
-<div class="container-fluid section-formule my-5">
-  <h1 class="mb-4">Nos formules</h1>
-  <div class="row justify-content-around">
-    <p class="col-11 formule-description">
-      Pour les personnes qui le souhaitent <strong>c’est possible</strong> et
-      donc nous proposons des formules accélérées.<br /><br />
-      Que se soit pour les <strong>permis moto ou auto</strong> il est possible
-      d’organiser un planning permettant d’effectuer la formation dans un
-      <strong>temps réduit.</strong>
-      Pour pallier à la contrainte des délais administratifs il suffit de
-      constituer le <strong>dossier d’inscription à l’avance</strong> et donc
-      d’organiser cela à l’avance.
+    <p class="my-4">
+      Les cours de code collectifs dispensés par un moniteur, durant lesquels
+      vous pourrez vous tester et suivre des cours complets auxquels vous
+      participerez.
+    </p>
+
+    <p class="text-center font-weight-bold">Horaires</p>
+    <p class="text-center">
+      Le Lundi, Mardi, Jeudi, Vendredi<br />
+      de 17h à 18h et de 18h à 19h.<br /><br />
+      Le Mercredi et Samedi<br />
+      de 14h à 15h et de 15h à 16h.
     </p>
   </div>
+  <div class="col-md-12 col-lg-4 middle-section-categories-permis-moto">
+    <h2 class="text-center font-weight-bold mb-5 nom-permis-moto">
+      Cours de code individuels
+    </h2>
+    <p class="my-4">
+      Les cours de code individuels permanents durant lesquels vous vous testez
+      et le dvd donne la correction.Ces cours sont proposés tous les jours aux
+      heures d’ouverture du bureau :<br />
+    </p>
+    <p class="text-center font-weight-bold">Horaires</p>
+
+    <p class="text-center">
+      Du Lundi au Vendredi<br />
+      de 10h à 12h et de 14h à 19h<br /><br />
+      Le Samedi de 10h à 12h et de 14h à 18h
+    </p>
+  </div>
+  <div class="col-md-12 col-lg-4">
+    <h2 class="text-center font-weight-bold mb-5 nom-permis-moto">
+      Cours de code théorique
+    </h2>
+
+    <p class="my-4">
+      Cours théorique dispensé par un enseignant sur la règlementation et les
+      thèmes les grands themes de la sécurité routière (alcool, stupéfiant,
+      vitesse, port de la ceinture…)
+    </p>
+
+    <p class="text-center font-weight-bold">Horaires</p>
+    <p class="text-center">Mercredi de 16h à 17h</p>
+  </div>
 </div>
 
-<!-- Section vacance -->
-<div class="container-fluid section-vacation my-5">
-  <div class="custom-row-vacation row p-5">
-    <div class="col-11 col-md-9 col-lg-8">
-      <h1 class="text-left">
-        Vacances à Narbonne?<br />
-        Viens passer ton permis !
-      </h1>
+<!-- Section internet -->
+<div class="container-fluid section-internet">
+  <div class="row p-8">
+    <div class="col-md-12 col-lg-8">
+      <h1 class="text-left text-white mb-4">Les cours de code sur internet.</h1>
       <p class="text-justify lead">
-        Pour les personnes qui viendraient à Narbonne en vacances, le dossier
-        devrait être constitué à l’avance, à distance puis posté.
+        Compris dans le forfait code, un code d’accès personnalisé vous sera
+        attribué par l’auto école vous permettant de profiter de 150 séries sur
+        votre ordinateur, tablette ou téléphone.
       </p>
-      <hr />
+      <hr class="bg-white" />
       <p>
-        Nous vous enverrons alors les codes d’accès personnalisés pour
-        travailler le code de chez vous sur internet.
+        Les cours de code individuels et sur internet restent des compléments
+        aux cours collectifs dispensés par le moniteur.
       </p>
-      <div id="vacation-hiden-description" class="d-none">
-        En effet passer le permis à Narbonne peut représenter un coup économique
-        : la circulation étant assez calme, la formation demande une charge de
-        travail moins importante et du coup moins onéreuse que dans des grandes
-        villes. Pour les étudiants ou les personnes qui seraient sans travail et
-        qui voudraient passer leur été près de la plage et leur permis à
-        Narbonne, il est possible de financer son permis en faisant les
-        vendanges dans le narbonnais où de nombreux vignerons recherchent de la
-        main d’œuvre après l’été. Voici une solution pour passer son permis à
-        moindre prix, un été à la plage et gagner quelques sous pour financer
-        tout ça.
-      </div>
-      <button id="boutton-vacation-description-toggle" class="code-interest">
-        Lire plus
-      </button>
     </div>
+    <div class="col-lg-4 internet-img"></div>
   </div>
 </div>
 <!--footer-->
