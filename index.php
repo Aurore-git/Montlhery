@@ -115,7 +115,7 @@
 <div class="container-fluid section-code">
   <div class="row p-8">
     <div class="col-12 col-md-4 text-center section-code-logo-prepacode">
-      <img src="assets/img/logos/prepacode-index.png" alt="logo-prepacode">
+      <a href="https://www.prepacode-enpc.fr/landing_page" target="_blank"><img src="assets/img/logos/prepacode-index.png" alt="logo-prepacode"></a>
     </div>
     <div class="col-12 col-md-8 section-inner-code">
       <h1 class="left">Bien se préparer au code</h1>
