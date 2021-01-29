@@ -15,6 +15,25 @@
   background-color: #f2f0ff;
 }
 
+ul.ul-style{
+  list-style: none;
+}
+
+ul.ul-style li{
+  margin-bottom: 10px;
+}
+
+ul.ul-style li::before{
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-bottom: -4px;
+  background-image: url(../img/icones/check.png);
+  background-size: cover;
+}
+
 /* Permis accélleré Landing Page */
 .landing-page-image-container {
   display: flex;

@@ -10,7 +10,7 @@
         <p class="slider-p"><span class="titretextcarousel">Passe ton permis</span><br/>
           <span class="titretextcarousel">en accéléré</span><br/>
         </p>
-          <button class="button-slider"><a href="code/permis-accelere.php">J'obtiens mon permis</a></button>
+          <button class="button-slider"><a href="code/permis-accelere.php">Se renseigner</a></button>
       </div>
     </div>
     <!--section deuxième image-->
@@ -20,7 +20,7 @@
         <p class="slider-p"><span class="titretextcarousel">Tu veux apprendre le code</span><br/>
           <span class="titretextcarousel">dés aujourd'hui ?</span><br/>
         </p>
-          <button class="button-slider"><a href="code/cours-de-code.php">J'obtiens mon code</a></button>
+          <button class="button-slider"><a href="code/cours-de-code.php">Se renseigner</a></button>
       </div>
     </div>
         <!--section troisième image-->
