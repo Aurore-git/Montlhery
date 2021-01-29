@@ -6,7 +6,7 @@
 </div>
 
 <!--Section JUMBOTRON-->
-<div class="container-fluid">
+<div class="container-fluid mt-2 mb-5">
   <div class="landing-page-description">
     <div class="jumbotron row p-8">
       <div class="col-12 col-md-8">
@@ -103,8 +103,8 @@
 </div>
 
 <!-- Section internet -->
-<div class="container-fluid section-internet">
-  <div class="row p-8">
+<div class="container-fluid section-internet p-8">
+  <div class="row">
     <div class="col-md-12 col-lg-8">
       <h1 class="text-left text-white mb-4">Les cours de code sur internet.</h1>
       <p class="text-justify lead">

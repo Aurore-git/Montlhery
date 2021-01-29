@@ -10,7 +10,7 @@
   <div class="landing-page-description">
     <div class="jumbotron row p-8">
       <div class="col-12 col-md-8">
-        <h1 class="">Permis accéléré</h1>
+        <h1>Permis accéléré</h1>
         <p class="lead">
           Le permis accéléré ou permis intensif ! Oui pour les personnes qui le
           souhaitent c’est possible et donc nous proposons des formules

@@ -8,9 +8,9 @@
 <!--Section JUMBOTRON-->
 <div class="container-fluid mt-2 mb-5">
   <div class="landing-page-description">
-    <div class="jumbotron row p-4">
+    <div class="jumbotron row p-8">
       <div class="col-12 col-md-8">
-        <h1 class="">Le Permis Am (Brevet de Sécurité Routière)</h1>
+        <h1>Le Permis Am (Brevet de Sécurité Routière)</h1>
         <p class="lead">
           Le scooter, le 50 à vitesses, la mobylette sont les premiers moyens de
           locomotion qui sont mis à la disposition du jeune conducteur. Pour
@@ -66,9 +66,9 @@
           />
           <div class="card-body">
             <ul>
-              <li>Organisation</li>
-              <li>Procédure Courte</li>
-              <li>Gain de temps</li>
+              <li>Jeune Conducteur</li>
+              <li>8 heures de formation</li>
+              <li>Attestation</li>
             </ul>
           </div>
         </div>
@@ -77,80 +77,140 @@
   </div>
 </div>
 
-<!--Section Exam-->
-<div class="container-fluid section-exam my-5">
-  <div class="custom-row-exam row">
-    <div class="col-11 col-lg-8 description-code">
-      <h1 class="left">Je passe l'examen</h1>
-      <p>
-        Au niveau des places d’examen, il faut savoir qu’elles sont attribuées
-        aux auto-écoles en fonction de la réussite de leurs élèves durant
-        l’année précédente. Nos statistiques (présentées dans une rubrique du
-        site) montrent que nous avons des résultats probants qui sont pour
-        l’élève la garantie d’une bonne formation et donc de grande chances
-        d’obtenir son permis du premier coup mais aussi l’assurance en cas
-        d’échec d’être représenté à l’examen dans les plus brefs délais. Ces
-        résultats nous permettent aussi de proposer les formules accélérées.
-      </p>
-      <em>
-        Pédagogiquement nous déconseillons la formule accélérée qui est pour
-        l’élève une grosse charge d’informations à emmagasiner en peu de temps.
-      </em>
-    </div>
-  </div>
-</div>
-
-<!-- Section formule -->
-<div class="container-fluid section-formule my-5">
-  <h1 class="mb-4">Nos formules</h1>
-  <div class="row justify-content-around">
-    <p class="col-11 formule-description">
-      Pour les personnes qui le souhaitent <strong>c’est possible</strong> et
-      donc nous proposons des formules accélérées.<br /><br />
-      Que se soit pour les <strong>permis moto ou auto</strong> il est possible
-      d’organiser un planning permettant d’effectuer la formation dans un
-      <strong>temps réduit.</strong>
-      Pour pallier à la contrainte des délais administratifs il suffit de
-      constituer le <strong>dossier d’inscription à l’avance</strong> et donc
-      d’organiser cela à l’avance.
-    </p>
-  </div>
-</div>
-
-<!-- Section vacance -->
-<div class="container-fluid section-vacation my-5">
-  <div class="custom-row-vacation row">
-    <div class="col-11 col-md-9 col-lg-8">
-      <h1 class="text-left">
-        Vacances à Narbonne?<br />
-        Viens passer ton permis !
-      </h1>
-      <p class="text-justify lead">
-        Pour les personnes qui viendraient à Narbonne en vacances, le dossier
-        devrait être constitué à l’avance, à distance puis posté.
-      </p>
-      <hr />
-      <p>
-        Nous vous enverrons alors les codes d’accès personnalisés pour
-        travailler le code de chez vous sur internet.
-      </p>
-      <div id="vacation-hiden-description" class="d-none">
-        En effet passer le permis à Narbonne peut représenter un coup économique
-        : la circulation étant assez calme, la formation demande une charge de
-        travail moins importante et du coup moins onéreuse que dans des grandes
-        villes. Pour les étudiants ou les personnes qui seraient sans travail et
-        qui voudraient passer leur été près de la plage et leur permis à
-        Narbonne, il est possible de financer son permis en faisant les
-        vendanges dans le narbonnais où de nombreux vignerons recherchent de la
-        main d’œuvre après l’été. Voici une solution pour passer son permis à
-        moindre prix, un été à la plage et gagner quelques sous pour financer
-        tout ça.
+<!-- Section formation BSR -->
+<div class="container-fluid section-formation my-5 p-8">
+  <h1 class="mb-4">Déroulement de la formation</h1>
+  <div>
+    <div class="row mb-4">
+      <div class="col-sm-12 col-xl-6 mb-3 d-flex justify-content-around">
+        <div class="bsr-custom-row">
+          <div class="bsr-image">
+            <img
+              src="../assets/img/illustrations/bsr.png"
+              alt="Permis Bsr image"
+            />
+          </div>
+          <div class="align-self-center mr-2">
+            <h4>5 Séquence d'une durée de<br/> <strong>8 heures.</strong></h4>
+            <p>La formation s’effectue par groupe de deux élèves (14 ans minimum) sur un cyclomoteur ( 1 cyclo par élève)</p>
+          </div>
+          
+        </div>
       </div>
-      <button id="boutton-vacation-description-toggle" class="code-interest">
-        Lire plus
-      </button>
+      <div class="col-sm-12 col-xl-6 mb-3 d-flex justify-content-center">
+        <div class="card align-self-center">
+          <div class="card-body">
+            <h5 class="card-title">Séquence 1</h5>
+            <p class="card-text lead">30 minutes</p>
+            <p class="card-text align-self-center">
+              Échanges autour des représentations de la conduite et de
+              l’expérience de chacun.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-3 d-flex justify-content-center">
+        <div class="card align-self-center">
+          <div class="card-body">
+            <h5 class="card-title">Séquence 2</h5>
+            <p class="card-text lead text-center">
+              1 heure minimum<br />
+              Formation pratique hors circulation
+            </p>
+            <div class="card-text row text-left">
+              <p class="col-12 col-md-6">
+                -Prise en main du 2 roues<br />
+                -Travail de l’équilibre et dosage du freinage<br />
+                -Inclinaison du scooter.
+              </p>
+              <p class="col-12 col-md-6">
+                Les cours hors circulation s’effectuent sur la piste moto-école
+                qui se trouve à 1,4 km de l’auto-école (à l’entrée de Narbonne
+                coté Coursan proche de la déchetterie) ce qui permet de ne pas
+                perdre de temps pour accéder à celle-ci.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row justify-content-around mb-3 d-flex justify-content-center"
+      >
+        <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
+          <div class="card h-100 align-self-center">
+            <div class="card-body">
+              <h5 class="card-title">Séquence 3</h5>
+              <p class="card-text lead">
+                30 minutes<br />
+                Formation théorique de la pratique
+              </p>
+              <div class="card-text row text-left">
+                <p class="align-self-center">
+                  -Connaissance des règles de circulation.<br />
+                  -Savoir reconnaître les zones de danger.<br />
+                  -Savoir évaluer le danger. <br />
+                  -Prises de risques et ses conséquences. <br />
+                  -Savoir se comporter à l’égard des autres usagers. <br />
+                  -Adaptation de la vitesse.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
+          <div class="card h-100 align-self-baseline">
+            <div class="card-body">
+              <h5 class="card-title">Séquence 4</h5>
+              <p class="card-text lead">
+                3 heures minimum <br />
+                Formation pratique en circulation
+              </p>
+              <p class="card-text text-left">
+                -Mise en pratique des règles de circulation.<br />
+                -Recherche des indices formels et informels. <br />
+                -Maintenir les marges de sécurité. <br />
+                -Adapter son allure. <br />
+                -Franchir les intersections et changer de direction. <br />
+                -Saisir les informations (anticiper)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-4 mb-3 d-flex justify-content-center flex-column"
+        >
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Séquence 5</h5>
+            <p class="card-text lead">1 heure <br /> Sensibilisation</p>
+            <p class="card-text">Sensibilisation aux risques en présence pour les mineurs d’un représentant légal</p>
+          </div>
+          <div class="bsr-certification">
+            <img class="card-img-bottom" src="../assets/img/illustrations/brevet.png" alt="bsr ilustration">
+          </div>
+          
+        </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+  <!-- Section vacance -->
+  <div class="container-fluid section-vacation my-5 p-8">
+    <div class="custom-row-vacation row">
+      <div class="col-12 col-md-10 col-lg-8">
+        <h1 class="text-left">
+          L’enjeu de la formation
+        </h1>
+        <p class="text-justify lead">
+          L’objectif général de la formation est d’amener tout conducteur à la maitrise de compétences en termes de savoirs, savoir-être, savoir-faire et savoir devenir.
+          Cette formation permet aux débutants ainsi qu’aux initiés d’acquérir des bases qui leur permettront d’avoir un avenir au guidon d’un cyclo avec les connaissances indispensables pour allier plaisir et sécurité.
+        </p>
+
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <?php include '../includes/footer-page.php'; ?>
 </div>
-<!--footer-->
-<?php include '../includes/footer-page.php'; ?>
