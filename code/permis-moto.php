@@ -10,7 +10,7 @@
   <div class="landing-page-description">
     <div class="jumbotron row p-8">
       <div class="col-12 col-md-8">
-        <h1 class="">Permis moto</h1>
+        <h1>Permis moto</h1>
         <p class="lead">
           <strong>A moto encore plus qu’en voiture le conducteur est vulnérable</strong>, c’est pourquoi une <strong>formation sérieuse</strong> et <strong>technique</strong> semble être nécessaire à toute personne sensée.
         </p>
@@ -47,7 +47,7 @@
           />
           <div class="card-body">
             <ul>
-              <li>Passe ton permis moto<br/>
+              <li>Passe le permis moto<br/>
               avec notre auto-école
               </li>
             </ul>

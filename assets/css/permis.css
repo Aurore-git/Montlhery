@@ -2,6 +2,7 @@
   letter-spacing: 1px;
 }
 
+/*general styles*/
 .c-blue {
   color: #1868ba;
 }
@@ -11,6 +12,29 @@
 }
 .p-8 {
   padding: 40px 80px;
+}
+
+.bg-custom-grey {
+  background-color: #f2f0ff;
+}
+
+ul.ul-style {
+  list-style: none;
+}
+
+ul.ul-style li {
+  margin-bottom: 10px;
+}
+
+ul.ul-style li::before {
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-bottom: -4px;
+  background-image: url(../img/icones/check.png);
+  background-size: cover;
 }
 
 /* Permis accélleré Landing Page */
@@ -218,7 +242,8 @@ div.container-fluid.section-internet {
   background-color: #f2f0ff;
 }
 
-.title-section-categories-permis-moto {
+.title-section-categories-permis-moto,
+.title-section-categories-permis-scooter {
   font-size: 2em;
 }
 
@@ -355,11 +380,94 @@ svg.bi-info-circle-permis-moto {
   color: #db3025;
 }
 
+/*permis 125*/
+
+.end-section-categories-permis-moto {
+  border-left: 1px solid lightgrey;
+}
+
+.title-section-categories-permis-scooter {
+  margin-top: -40px;
+}
+
+.picture-permis-scooter {
+  width: 300px;
+  align-self: center;
+}
+
+.picture-permis-scooter-theory {
+  width: 400px;
+  align-self: center;
+}
+
+.time-description {
+  font-size: 3em;
+  font-weight: bold;
+  color: #1668ba;
+}
+
+ul.skills-permis-scooter {
+  list-style: none;
+}
+
+ul.skills-permis-scooter li {
+  margin-bottom: 15px;
+}
+
+ul.skills-permis-scooter li:nth-child(2) {
+  padding-left: 15px;
+}
+ul.skills-permis-scooter li:nth-child(3) {
+  padding-left: 30px;
+}
+ul.skills-permis-scooter li:nth-child(4) {
+  padding-left: 45px;
+}
+ul.skills-permis-scooter li:nth-child(5) {
+  padding-left: 60px;
+}
+ul.skills-permis-scooter li:nth-child(6) {
+  padding-left: 75px;
+}
+ul.skills-permis-scooter li:last-child {
+  padding-left: 90px;
+}
+
+ul.skills-permis-scooter li::before {
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  margin-bottom: -6px;
+  background-image: url(../img/icones/check.png);
+  background-size: cover;
+}
+
 /*------Responsive-------*/
 
 @media (min-width: 1800px) {
   .pictures-permis-moto {
     width: 400px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .picture-permis-scooter {
+    width: 250px;
+  }
+
+  .picture-permis-scooter-theory {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg-custom-img {
+    background-image: url(../img/illustrations/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
   }
 }
 
@@ -371,7 +479,7 @@ svg.bi-info-circle-permis-moto {
 
 @media (max-width: 1200px) {
   .p-8 {
-    padding: 20px 40px;
+    padding: 25px 45px;
   }
 }
 
@@ -380,8 +488,19 @@ svg.bi-info-circle-permis-moto {
     width: 200px;
   }
 
-  div.formation-pistes-moto ul {
+  div.formation-pistes-moto ul,
+  ul.skills-permis-scooter,
+  ul.skills-permis-scooter li:nth-child(2),
+  ul.skills-permis-scooter li:nth-child(3),
+  ul.skills-permis-scooter li:nth-child(4),
+  ul.skills-permis-scooter li:nth-child(5),
+  ul.skills-permis-scooter li:nth-child(6),
+  ul.skills-permis-scooter li:last-child {
     padding: 0;
+  }
+
+  .picture-permis-scooter-theory {
+    width: 250px;
   }
 }
 
@@ -391,10 +510,29 @@ svg.bi-info-circle-permis-moto {
   }
 }
 
+@media (min-width: 767px) {
+  .picture-permis-scooter {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .picture-permis-scooter-theory {
+    float: right;
+    margin-left: 20px;
+  }
+}
+
 @media (max-width: 767px) {
   .middle-section-categories-permis-moto {
     border-left: none;
     border-right: none;
+  }
+
+  .section-part-2-permis-scooter {
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
   }
 }
 
