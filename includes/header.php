@@ -30,9 +30,9 @@
 <!--Barre de navigation-->
 <div class="font-weight-bold sticky-top">
   <header>
-    <nav class=" nav navbar navbar-expand-lg navbar-light bg-white">
+    <nav class=" nav navbar navbar-expand-lg navbar-light bg-white" id="nav">
       <!--Logo-->
-      <a class="navbar-brand" href="index.php"><img src="assets/img/logos/montlhery.png" alt="logo" class="logo" width="auto" height="80em"></a>
+      <a class="navbar-brand" href="index.php"><img src="assets/img/logos/montlhery.png" alt="logo" class="logo" id="logo" width="auto" height="80em"></a>
       <!--Bouton pour téléphone-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>

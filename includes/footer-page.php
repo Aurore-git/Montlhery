@@ -122,6 +122,7 @@
 
 <!-- ----------------_Custom JS_---------------- -->
 <script src="../assets/js/script.js"></script>
+<script src="assets/js/nav.js"></script>
 
 <!-- JavaScript -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

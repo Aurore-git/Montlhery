@@ -14,9 +14,12 @@
   padding: 40px 80px;
 }
 
-.bg-custom-grey {
-  background-color: #f2f0ff;
-}
+.bg-custom-grey {background-color: #f2f0ff;}
+.bg-custom-blue{background-color: #1668ba;}
+.bg-custom-blue2{background-color: #1697BA;}
+.bg-custom-blue3{background-color: #16B5BA;}
+.bg-custom-blue4{background-color: #16BAA1;}
+.bg-custom-blue5{background-color: #16BA72;}
 
 ul.ul-style {
   list-style: none;
@@ -193,13 +196,12 @@ div.container-fluid.section-internet {
 }
 .prepa-code-transition img {
   padding: 3%;
+  transition: 1s;
 }
 .prepa-code-transition img:hover {
   box-shadow: 0 0 25px 10px #c0c0c0;
   background: #1668ba;
-  /* border-radius: 10px; */
   transform: rotateZ(10deg);
-  transition: background 1s, border 0.5s, transform 1s, box-shadaw 2s;
 }
 
 /*------Section - PERMIS BSR AM------*/
@@ -442,6 +444,18 @@ ul.skills-permis-scooter li::before {
   margin-bottom: -6px;
   background-image: url(../img/icones/check.png);
   background-size: cover;
+}
+
+/*page récupération de points*/
+
+.lead-points{
+  color: white;
+  font-size: 1.6em;
+}
+
+h2.title-cases-law{
+  font-family: 'Roboto-Slab';
+  color: white;
 }
 
 /*------Responsive-------*/
