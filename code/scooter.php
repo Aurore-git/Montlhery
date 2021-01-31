@@ -21,7 +21,7 @@
               Cette nouvelle réglementation ne concerne que les usagers n’ayant pas conduit de deux-roues au cours des 5 dernières années.
             </p>
           </div>
-          <div id="MonCollapse2" class="collapse">
+          <div id="monCollapse2" class="collapse">
             <p>
               2011 a à peine débuté que, déjà, nous faisons en sorte de tenir l’une de nos bonnes résolutions, à savoir coller au plus près de l’actualité en matière de législation. Le Ministère de l’intérieur a en effet annoncé hier la mise en place d’une <strong class="c-blue">formation obligatoire de 7 heures</strong> pour tous les conducteurs de scooters 125cm3 et de scooters à 3 roues, et ce à compter du 1 er janvier 2011… c’est-à-dire aujourd’hui !
             </p>
@@ -32,7 +32,7 @@
           </div>
 
           <!-- les boutons d'actions -->
-          <button class="code-interest" type="button" data-target="#MonCollapse2" data-toggle="collapse" aria-expanded="false" aria-controls="MonCollapse2">Lire la suite</button>
+          <button class="code-interest" type="button" data-target="#monCollapse2" data-toggle="collapse" aria-expanded="false" aria-controls="#monCollapse2">Lire la suite</button>
  
         </div>
       </div>
