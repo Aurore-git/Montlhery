@@ -21,7 +21,7 @@
               Pour vous accompagner dans votre formation et vous faire progresser sur les différents points techniques importants, l’auto-école Montlhéry vous propose une formation assurée par deux moniteurs d’expérience (plus de 700 motards ayant suivi leur formation). 
             </p>
           </div>
-          <div id="MonCollapse2" class="collapse">
+          <div id="monCollapse2" class="collapse">
             <p>
               Vous profiterez d’un matériel adapté qui augmentera toutes vos chances de réussite à l’examen (une moto pour chaque élève : MT-07), un contact radio permanent sur route. Les cours hors circulation s’effectuent sur la piste moto-école qui se trouve à 1,4 km de l’auto-école (à l’entrée de Narbonne coté Coursan proche de la déchetterie) ce qui permet de ne pas perdre de temps pour accéder à celle-ci (4 minutes de trajet).
             </p>
@@ -33,7 +33,7 @@
           </div>
 
           <!-- les boutons d'actions -->
-          <button class="code-interest" type="button" data-target="#MonCollapse2" data-toggle="collapse" aria-expanded="false" aria-controls="MonCollapse2">Lire la suite</button>
+          <button class="code-interest" type="button" data-target="#monCollapse2" data-toggle="collapse" aria-expanded="false" aria-controls="#monCollapse2">Lire la suite</button>
  
         </div>
       </div>
@@ -167,12 +167,12 @@
 
 <!-- les boutons d'actions -->
 <p class="text-center">
-  <button class="button-historique-permis-moto mb-5" type="button" data-target="#MonCollapse" data-toggle="collapse" aria-expanded="false" aria-controls="MonCollapse">Lire tout l'historique du permis moto</button>
+  <button class="button-historique-permis-moto mb-5" type="button" data-target="#monCollapse" data-toggle="collapse" aria-expanded="false" aria-controls="#monCollapse">Lire tout l'historique du permis moto</button>
 </p>
  
 <!-- le contenu masqué -->
  
-<section id="MonCollapse" class="collapse">
+<section id="monCollapse" class="collapse">
   <div class="col-12">
       <h1 class="mb-3">Historique et évolution du permis moto</h1>
   </div>
