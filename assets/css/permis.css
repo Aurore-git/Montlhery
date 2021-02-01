@@ -76,7 +76,7 @@ hr.hr-custom-p{
   background-color: #ffffff;
 }
 
-.landing-page-description .jumbotron ul li::before {
+.landing-page-description .jumbotron .card ul li::before {
   content: '';
   display: inline-block;
   height: 25px;
@@ -87,14 +87,14 @@ hr.hr-custom-p{
   background-size: cover;
 }
 
-.landing-page-description .jumbotron ul li {
+.landing-page-description .jumbotron .card ul li {
   list-style: none;
   color: #757575 !important;
   font-size: 1.2em;
   margin-bottom: 7px;
 }
 
-.landing-page-description .jumbotron ul {
+.landing-page-description .jumbotron .card ul {
   margin-top: -30px;
   margin-bottom: 30px;
   padding: 0;
@@ -607,6 +607,12 @@ svg.svg-info-points-2{
   }
 }
 
+@media (max-width: 1200px){
+  h2.nom-permis-moto, h2.nom-cours-de-code{
+    font-size: 2em !important;
+  }
+}
+
 @media (max-width: 900px) {
   .pictures-permis-moto {
     width: 170px;
@@ -668,6 +674,10 @@ svg.svg-info-points-2{
   h2.title-cases-law {
     font-size: 1.4em !important;
   }
+
+  h2.nom-permis-moto, h2.nom-cours-de-code{
+    font-size: 1.4em !important;
+  }
 }
 
 
@@ -681,6 +691,16 @@ div.section-formation {
   background-size: contain;
   background-size: 230px;
   background-position:  69rem 8rem;
+}
+
+.pictures-permis-auto{
+  object-fit: contain;
+  width: 80%;
+  max-width: 400px;
+}
+
+svg.permis-auto{
+  color: white;
 }
 
 .custom-row-formation {

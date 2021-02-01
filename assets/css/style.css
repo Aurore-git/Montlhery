@@ -573,7 +573,7 @@ span.collected-marks {
 
 @media (max-width: 1300px) {
   h1 {
-    font-size: 2em !important;
+    font-size: 2.3em !important;
   }
 
   .container-permis {
@@ -861,10 +861,6 @@ span.collected-marks {
 
 
 @media (max-width: 600px){
-  h1{
-    font-size: 1.8em !important;
-  }
-
   h2{
     font-size: 1.4em !important;
   }
