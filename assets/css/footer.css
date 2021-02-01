@@ -10,8 +10,18 @@ footer .custom-row .card {
   margin-bottom: 2em;
 }
 
-footer div.card-body p.prepacode-section {
+footer .prepacode-section {
   text-align: center;
+}
+
+footer .prepacode-section img {
+  padding: 1em;
+  transition: 1s;
+}
+footer .prepacode-section img:hover {
+  box-shadow: 0 0 25px 10px #c0c0c0;
+  background: #1668ba;
+  transform: rotateZ(10deg);
 }
 
 footer p.card-text {
