@@ -571,14 +571,10 @@ span.collected-marks {
   }
 }
 
-<<<<<<< HEAD
-@media (max-width: 1300px){
-=======
 @media (max-width: 1300px) {
   h1 {
     font-size: 2em !important;
   }
->>>>>>> refs/remotes/origin/main
 
   .container-permis {
     margin-left: 5%;
@@ -610,22 +606,16 @@ span.collected-marks {
     font-size: 0.9em;
   }
 
-  @media (max-width: 1200px) {
-    .p-8 {
+  .p-8 {
       padding: 20px 40px;
-    }
-  }
+    }    
 }
 
-
-@media (max-width: 1100px){
+@media (max-width: 1100px) {
   h1{
     font-size: 2em !important;
   }
-  
 
-@media (max-width: 1100px) {
->>>>>>> refs/remotes/origin/main
   .flickity .carousel-cell {
     width: 200px;
     height: 200px;
@@ -871,13 +861,18 @@ span.collected-marks {
 
 
 @media (max-width: 600px){
+  h1{
+    font-size: 1.8em !important;
+  }
+
   h2{
     font-size: 1.4em !important;
+  }
 }
 
 @media (max-width: 600px) {
   .p-8 {
-    padding: 10px 10px;
+    padding: 20px 10px;
   }
 }
 
