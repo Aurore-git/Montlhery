@@ -21,7 +21,7 @@
               Nous ne dispensons plus les formations aux permis remorque.
             </p>
             <p>
-            	Vous pouvez retrouvez ci-dessous les renseignements associés à la formation au permis remorque.
+              Vous pouvez retrouvez ci-dessous les renseignements associés à la formation au permis remorque.
             </p>
           </div> 
         </div>

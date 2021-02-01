@@ -1,3 +1,5 @@
+<button id="back-to-top" class="btn "><i class="text-center fas fa-chevron-up"></i></button>
+
 <footer>
   <div class="container-fluid">
     <div class="custom-row row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center">
@@ -121,7 +123,6 @@
 
 <!-- ----------------_Custom JS_---------------- -->
 <script src="../assets/js/script.js"></script>
-<script src="../assets/js/nav.js"></script>
 
 </body>
 <!-- **$$**--------------------------_End </BODY>_--------------------------**$$** -->

@@ -28,7 +28,7 @@
               la présentation à l’épreuve pratique du permis de conduire .
             </p>
           </div>
-          <div id="monCollapse" class="collapse">
+          <div id="mon-collapse" class="collapse">
             <p>
               La formation se fait au choix en deux demi-journées. Elle est
               dispensée par un moniteur diplômé qui responsabilise et
@@ -47,10 +47,10 @@
           <button
             class="code-interest"
             type="button"
-            data-target="#monCollapse"
+            data-target="#mon-collapse"
             data-toggle="collapse"
             aria-expanded="false"
-            aria-controls="#monCollapse"
+            aria-controls="#mon-collapse"
           >
             Lire le suite
           </button>

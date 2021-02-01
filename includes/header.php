@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Auto-école Montlhery - Narbonne</title>
-   <!-- ----------------_Bootstrap CSS_---------------- -->
+  <!-- ----------------_Bootstrap CSS_---------------- -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -17,6 +17,9 @@
       rel="stylesheet"
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
+
+    <!-- -----------------_Awesome font_---------------- -->
+    <script src="https://kit.fontawesome.com/c70a4c5665.js" crossorigin="anonymous"></script>
 
     <!-- -----------------_Custom CSS_---------------- -->
 
@@ -38,20 +41,20 @@
             <span class="navbar-toggler-icon"></span>
       </button>
       <!--Liens ancres-->
-       <div id="navbarContent" class="collapse navbar-collapse justify-content-end">
+      <div id="navbarContent" class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="code/permis.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Permis <img src="assets/img/icones/arrow.png" alt="dropdown-menu" class="arrow-nav-dropdown-menu"/>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-               <li><a class="dropdown-item" href="code/permis-accelere.php">Permis accéléré</a></li>
-                      <li><a class="dropdown-item" href="code/permis-auto.php">Permis auto</a></li>
-                      <li><a class="dropdown-item" href="code/permis-moto.php">Permis moto</a></li>
-                      <li><a class="dropdown-item" href="code/permis-remorque.php">Permis remorque</a></li>
-                      <li><a class="dropdown-item" href="code/permis-am-bsr.php">Permis AM(BSR)</a></li>
-                      <li><a class="dropdown-item" href="code/scooter.php">125cm3</a></li>
-                      <li><a class="dropdown-item" href="code/cours-de-code.php">Code de la route</a></li>
+                <li><a class="dropdown-item" href="code/permis-accelere.php">Permis accéléré</a></li>
+                <li><a class="dropdown-item" href="code/permis-auto.php">Permis auto</a></li>
+                <li><a class="dropdown-item" href="code/permis-moto.php">Permis moto</a></li>
+                <li><a class="dropdown-item" href="code/permis-remorque.php">Permis remorque</a></li>
+                <li><a class="dropdown-item" href="code/permis-am-bsr.php">Permis AM(BSR)</a></li>
+                <li><a class="dropdown-item" href="code/scooter.php">125cm3</a></li>
+                <li><a class="dropdown-item" href="code/cours-de-code.php">Code de la route</a></li>
               </ul>
             </li>
             <li class="nav-item">

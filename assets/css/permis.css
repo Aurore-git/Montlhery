@@ -18,7 +18,7 @@
   background-color: #f2f0ff !important;
 }
 
-.bg-custom-dark-blue{
+.bg-custom-dark-blue {
   background-color: #012169 !important;
 }
 
@@ -54,9 +54,9 @@ ul.ul-style li::before {
   background-size: cover;
 }
 
-hr.hr-custom-p{
+hr.hr-custom-p {
   padding: 0.5px;
-  background-color: #EDEDED;
+  background-color: #ededed;
 }
 
 /* --------------------------------------Permis accélleré  -----------------------*/
@@ -259,7 +259,7 @@ div.container-fluid.section-internet {
   font-family: 'Roboto-Slab';
 }
 
-ul.ul-am-bsr{
+ul.ul-am-bsr {
   padding: 0 10px;
   list-style: none;
 }
@@ -279,16 +279,149 @@ ul.ul-am-bsr li::before {
   background-size: cover;
 }
 
-@media (max-width: 1200px){
-  .sequence-5{
+@media (max-width: 1200px) {
+  .sequence-5 {
     margin-top: 30px;
   }
 }
 
-@media (max-width: 991px){
-  .sequence-4{
+@media (max-width: 991px) {
+  .sequence-4 {
     margin-top: 30px;
   }
+}
+
+/*------------------------------------------PAGE CONTACT---------------------*/
+
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section .contact-info {
+  max-width: 500px;
+  line-height: 65px;
+  font-size: 18px;
+}
+
+.contact-section .contact-info i {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.contact-form {
+  max-width: 700px;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+}
+
+.contact-form h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.contact-form .text-box {
+  background: #000;
+  color: #fff;
+  border: none;
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form textarea {
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .send-btn {
+  float: right;
+  background: #2e94e3;
+  color: #fff;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.contact-form .send-btn:hover {
+  background: #0582e3;
+}
+
+@media screen and (max-width: 950px) {
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    margin: 30px 50px;
+  }
+
+  .contact-form h2 {
+    font-size: 30px;
+  }
+
+  .contact-form .text-box {
+    width: 100%;
+  }
+}
+
+/*css for alert messages*/
+
+.alert-success {
+  z-index: 1;
+  background: #d4edda;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: relative;
+  border-left: 8px solid #3ad66e;
+  border-radius: 4px;
+}
+
+.alert-error {
+  z-index: 1000;
+  background: #fff3cd;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 500px;
+  top: 400px;
+  border-left: 8px solid #ffa502;
+  border-radius: 4px;
 }
 
 /*-------------------------------------Permis moto -----------------------*/
@@ -505,7 +638,7 @@ ul.skills-permis-scooter li::before {
   font-size: 1.6em;
 }
 
-p.info-points{
+p.info-points {
   font-size: 1.3em;
   color: white;
 }
@@ -514,25 +647,25 @@ h2.title-cases-law {
   font-family: 'Roboto-Slab';
 }
 
-.pictures-points{
+.pictures-points {
   width: 230px;
   margin-bottom: 15px;
 }
 
-.pictures-points-law{
+.pictures-points-law {
   width: 200px;
   height: 200px;
   margin-top: -100px;
   margin-bottom: 15px;
 }
 
-svg.svg-info-points{
+svg.svg-info-points {
   color: white;
   float: left;
   margin-right: 30px;
 }
 
-svg.svg-info-points-2{
+svg.svg-info-points-2 {
   color: #0d7aff;
   margin-right: 10px;
   margin-top: -5px;
@@ -571,8 +704,8 @@ svg.svg-info-points-2{
   }
 }
 
-@media (max-width: 1250px){
-  .pictures-points-law{
+@media (max-width: 1250px) {
+  .pictures-points-law {
     width: 150px;
     height: 150px;
     margin-top: 0;
@@ -607,8 +740,9 @@ svg.svg-info-points-2{
   }
 }
 
-@media (max-width: 1200px){
-  h2.nom-permis-moto, h2.nom-cours-de-code{
+@media (max-width: 1200px) {
+  h2.nom-permis-moto,
+  h2.nom-cours-de-code {
     font-size: 2em !important;
   }
 }
@@ -619,15 +753,15 @@ svg.svg-info-points-2{
   }
 }
 
-@media (min-width: 500px){
-  .pictures-points{
+@media (min-width: 500px) {
+  .pictures-points {
     float: right;
     width: 250px;
   }
 }
 
-@media (min-width: 800px){
-  .pictures-points{
+@media (min-width: 800px) {
+  .pictures-points {
     width: 350px;
   }
 }
@@ -667,7 +801,7 @@ svg.svg-info-points-2{
     padding: 0;
   }
 
-  ul.ul-style{
+  ul.ul-style {
     padding: 0;
   }
 
@@ -675,11 +809,11 @@ svg.svg-info-points-2{
     font-size: 1.4em !important;
   }
 
-  h2.nom-permis-moto, h2.nom-cours-de-code{
+  h2.nom-permis-moto,
+  h2.nom-cours-de-code {
     font-size: 1.4em !important;
   }
 }
-
 
 /*---------------------------Page PERMIS AUTO-----------------------------------*/
 
@@ -690,120 +824,122 @@ div.section-formation {
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 230px;
-  background-position:  69rem 8rem;
+  background-position: 69rem 8rem;
 }
 
-.pictures-permis-auto{
+.pictures-permis-auto {
   object-fit: contain;
   width: 80%;
   max-width: 400px;
 }
 
-svg.permis-auto{
+svg.permis-auto {
   color: white;
 }
 
 .custom-row-formation {
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   justify-content: start;
-  align-items:center;
-  padding-right:9%;
+  align-items: center;
+  padding-right: 9%;
 }
 
 .custom-row-formation > div {
   margin-left: 1.5rem;
 }
 
-
 /*CONDUITE ACCOMPAGNÉE*/
 
-.card-car{
-  width:"20%"; 
-  height:"20%";
+.card-car {
+  width: '20%';
+  height: '20%';
 }
 
 /*Formation initiale*/
-div.container-fluid-bleu{
-  color:#757575;
-  text-align:justify;
-  align-self:center;
-  justify-content:center;
+div.container-fluid-bleu {
+  color: #757575;
+  text-align: justify;
+  align-self: center;
+  justify-content: center;
   background-color: #f0f2ff;
-  height:20%;
-  padding-left:5%;
-  padding-right:5%;
-  padding-bottom:3%;
+  height: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
 }
-.init{
-  padding-top:2%;
-}
-
-.livret,.eval{
-  padding-top:3%;
-  padding-right:2%;
+.init {
+  padding-top: 2%;
 }
 
-.fin{
-  width:98%;
-  color:grey;
-  height:2%;
+.livret,
+.eval {
+  padding-top: 3%;
+  padding-right: 2%;
+}
+
+.fin {
+  width: 98%;
+  color: grey;
+  height: 2%;
 }
 
 /*Accompagnateur*/
-div.container-fluid-blanc{
-  background-image:url(../img/illustrations/bonhomme.jpg);
+div.container-fluid-blanc {
+  background-image: url(../img/illustrations/bonhomme.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 280px;
-  background-position:  59rem 8rem;
-  text-align:justify;
-  padding-left:7%;
-  padding-right:7%;
-  padding-top:5%;
-  padding-bottom:5%;
+  background-position: 59rem 8rem;
+  text-align: justify;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-.assurance,.accompagnateur{
-  padding-top:2%;
+.assurance,
+.accompagnateur {
+  padding-top: 2%;
 }
 
-.bonhomme{
-  width:20%;
-  height:20%;
-  align-self:center;
-  margin-left:15%;
-  margin-bottom:20%;
+.bonhomme {
+  width: 20%;
+  height: 20%;
+  align-self: center;
+  margin-left: 15%;
+  margin-bottom: 20%;
 }
 
 /*Permis*/
-.examen,.probatoire{
-  text-align:justify;
-  color:#757575;
+.examen,
+.probatoire {
+  text-align: justify;
+  color: #757575;
   border-left: 1px solid;
-  border-color:#1668ba;
+  border-color: #1668ba;
   padding-left: 3%;
 }
 
 /*Bonus*/
-div.container-fluid-fonce{
-text-align:justify;
-color:#1668ba;
-font-size:bold;
-padding-left:2%;
-padding-right:2%;
-padding-top:2%;
-padding-bottom:2%;
-background-color:#fff;
-font-style:bold;
+div.container-fluid-fonce {
+  text-align: justify;
+  color: #1668ba;
+  font-size: bold;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #fff;
+  font-style: bold;
 }
 
-.conduite,.bonus{
-  padding-top:2%;
-  padding-left:8%;
-  padding-right:5%;
+.conduite,
+.bonus {
+  padding-top: 2%;
+  padding-left: 8%;
+  padding-right: 5%;
 }
-
 
 /* RESPONSIF */
 @media (max-width: 1200px) {
@@ -822,8 +958,8 @@ font-style:bold;
   .custom-row-formation > div {
     margin-left: 0;
   }
-/*Conduite accompagnée*/
-div.container-fluid-blanc {
-  background-image: none;
-}
+  /*Conduite accompagnée*/
+  div.container-fluid-blanc {
+    background-image: none;
+  }
 }
