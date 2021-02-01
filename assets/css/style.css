@@ -1,9 +1,9 @@
-@font-face{
+@font-face {
   font-family: 'Raleway-Medium';
   src: url(../fonts/raleway/Raleway-Medium.ttf);
 }
 
-@font-face{
+@font-face {
   font-family: 'Roboto-Slab';
   src: url(../fonts/roboto-slab/RobotoSlab-Regular.ttf);
 }
@@ -14,63 +14,63 @@
 
 body {
   font-family: 'Raleway-Medium';
-  color: #2D2F31;
+  color: #2d2f31;
 }
 
-button{
+button {
   letter-spacing: 1px;
 }
 
-h1{
+h1 {
   font-family: 'Roboto-Slab';
   text-align: center !important;
   font-size: 4em !important;
   font-weight: bold;
-  color: #1668BA;
+  color: #1668ba;
   padding-top: 20px;
   padding-bottom: 20px;
   letter-spacing: 1px;
 }
 
-h2{
+h2 {
   font-family: 'Raleway-Medium';
   font-size: 2em !important;
   font-weight: bold;
-  color: #1668BA;
+  color: #1668ba;
 }
 
-h3{
+h3 {
   font-family: 'Roboto-Slab';
   text-transform: uppercase;
   font-weight: bold;
-  color: #102B53;
+  color: #102b53;
   font-size: 1.4em;
 }
 
-.row{
+.row {
   margin: 0;
 }
 
-.container-fluid{
+.container-fluid {
   margin: 0;
   padding: 0;
 }
 
-.p-8{
+.p-8 {
   padding: 40px 80px;
 }
 
 /*------Section - Préparer son permis------*/
-.container-permis{
+.container-permis {
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.permis{
+.permis {
   margin-bottom: 80px;
 }
 
-div.card{
+div.card {
   background-color: #f0f2ff;
   border: none;
   text-align: center;
@@ -79,14 +79,14 @@ div.card{
   margin-right: 30px;
 }
 
-.card-img-top{
+.card-img-top {
   width: 65%;
   height: auto;
   align-self: center;
   margin-top: -35%;
 }
 
-.card-title{
+.card-title {
   text-align: center;
   color: #1c2381;
   font-weight: bold;
@@ -95,10 +95,10 @@ div.card{
   letter-spacing: 1px;
 }
 
-button.interest{
+button.interest {
   border: none;
   background-color: #d8e6fc;
-  color: #1C458a;
+  color: #1c458a;
   font-size: 1.4em;
   padding: 15px;
   padding-left: 50px;
@@ -106,22 +106,22 @@ button.interest{
   margin-bottom: 30px;
 }
 
-button.interest a{
-  color: #1c458A;
+button.interest a {
+  color: #1c458a;
 }
 
-button.interest a:hover{
+button.interest a:hover {
   color: #113571;
   text-decoration: none;
 }
 
-button.interest:hover{
+button.interest:hover {
   background-color: #c0d1ee;
 }
 
 /*------Section : Mieux préparer son code------*/
 
-div.container-fluid.section-code{
+div.container-fluid.section-code {
   background-color: #f0f2ff;
   align-items: center;
   margin-top: 40px;
@@ -130,7 +130,7 @@ div.container-fluid.section-code{
   padding-bottom: 50px;
 }
 
-.section-code-logo-prepacode{
+.section-code-logo-prepacode {
   align-self: center;
 }
 
@@ -143,13 +143,12 @@ div.container-fluid.section-code{
   transform: rotateZ(10deg);
 }
 
-
-.description-code{
+.description-code {
   color: #757575;
   letter-spacing: 1px;
 }
 
-button.code-interest{
+button.code-interest {
   border: none;
   background-color: #1668ba;
   color: white;
@@ -161,39 +160,39 @@ button.code-interest{
   margin-top: 20px;
 }
 
-h1.left{
+h1.left {
   text-align: left !important;
   margin-bottom: 20px;
 }
 
-button.code-interest:hover{
+button.code-interest:hover {
   background-color: #0f559b;
 }
 
-button.code-interest a{
+button.code-interest a {
   color: white;
 }
 
-button.code-interest a:hover{
+button.code-interest a:hover {
   text-decoration: none;
   color: white;
 }
 
 /*------Section - Notre histoire------*/
 
-.container-fluid-history{
+.container-fluid-history {
   margin-bottom: 80px;
 }
 
-.section-history{
+.section-history {
   justify-content: center;
 }
 
-.title-our-history{
-    margin-bottom: 55px;
+.title-our-history {
+  margin-bottom: 55px;
 }
 
-.section-history-description{
+.section-history-description {
   text-align: justify;
   border-left: 1px solid #bebebe;
   padding-left: 30px;
@@ -203,30 +202,30 @@ button.code-interest a:hover{
   letter-spacing: 0.25px;
 }
 
-.section-history-description p{
+.section-history-description p {
   margin-bottom: 0;
   letter-spacing: 1px;
 }
 
-.section-photo-history{
+.section-photo-history {
   text-align: center;
   align-self: center;
 }
 
-.photo-history{
+.photo-history {
   width: 350px;
   height: auto;
   border-radius: 10px;
 }
 
-div.section-history-description strong{
-  color: #1668bA;
+div.section-history-description strong {
+  color: #1668ba;
 }
 
 /*------Section - Notre équipe------*/
 /*------Les formateurs------*/
 
-.section-team:last-child{
+.section-team:last-child {
   justify-content: center;
   background-color: #f0f2ff;
   margin-bottom: 70px;
@@ -234,41 +233,41 @@ div.section-history-description strong{
   padding-bottom: 30px;
 }
 
-.photo-history{
+.photo-history {
   width: 80%;
 }
 
-.section-team-formateurs{
+.section-team-formateurs {
   padding-left: 30px;
 }
 
-.section-team h1{
+.section-team h1 {
   text-align: left !important;
 }
 
-.section-flickity{
+.section-flickity {
   align-self: center;
 }
 
-.team-description{
+.team-description {
   font-family: 'Roboto-Slab';
   font-size: 2.2em;
-  color: #1668bA;
+  color: #1668ba;
   margin-top: -40px;
 }
 
-.six{
+.six {
   font-size: 2.4em;
 }
 
-.section-team ul li{
+.section-team ul li {
   list-style: none;
   color: #757575 !important;
   font-size: 1.2em;
   line-height: 40px;
 }
 
-.section-team ul li::before{
+.section-team ul li::before {
   content: '';
   display: inline-block;
   height: 25px;
@@ -279,16 +278,16 @@ div.section-history-description strong{
   background-size: cover;
 }
 
-.section-team ul li:nth-child(2){
+.section-team ul li:nth-child(2) {
   padding-left: 15px;
 }
 
-.section-team ul li:last-child{
+.section-team ul li:last-child {
   padding-left: 30px;
 }
 
 /*------Flickity carousel------*/
- 
+
 .flickity .carousel {
   width: 90%;
   margin: 0 auto;
@@ -317,7 +316,7 @@ div.section-history-description strong{
   font-weight: 700;
 }
 
-.flickity ol.flickity-page-dots{
+.flickity ol.flickity-page-dots {
   display: none;
 }
 
@@ -326,11 +325,11 @@ div.section-history-description strong{
   height: 130%;
 }
 
-.flickity-prev-next-button.next{
+.flickity-prev-next-button.next {
   margin-right: -30px !important;
 }
 
-.flickity-prev-next-button.previous{
+.flickity-prev-next-button.previous {
   margin-left: -60px !important;
 }
 
@@ -342,12 +341,12 @@ div.section-history-description strong{
 
 .flickity-button:hover {
   background: none;
-  color: #1668BA;
+  color: #1668ba;
 }
 
 /*------Marks and Statistics------*/
 
-.section-stats{
+.section-stats {
   margin-left: 80px !important;
   margin-right: 80px !important;
   align-items: flex-start;
@@ -355,29 +354,29 @@ div.section-history-description strong{
   margin-bottom: 60px;
 }
 
-.section-stats-pictures{
+.section-stats-pictures {
   text-align: center;
 }
 
-.section-stats h1{
+.section-stats h1 {
   text-align: left !important;
   display: flex;
   margin-right: 30px;
   align-items: center;
 }
 
-.icon-info{
+.icon-info {
   width: 50px;
   height: 50px;
   margin-left: 20px;
 }
 
-.icon-info:hover{
+.icon-info:hover {
   opacity: 0.9;
   cursor: pointer;
 }
 
-button.button-info-stat{
+button.button-info-stat {
   background-color: #1668ba;
   border: none;
   color: white;
@@ -388,7 +387,7 @@ button.button-info-stat{
   margin-bottom: 40px;
 }
 
-button .button-info-stat-i{
+button .button-info-stat-i {
   background-color: #0f4c8a;
   width: 40px;
   height: 40px;
@@ -396,85 +395,84 @@ button .button-info-stat-i{
   margin-right: 20px;
 }
 
-button.button-info-stat:hover{
+button.button-info-stat:hover {
   background-color: #0f4c8a;
 }
 
-.section-stats h2{
+.section-stats h2 {
   margin-top: -20px;
   margin-bottom: 30px;
   font-size: 1.2em !important;
 }
 
-.pictures{
+.pictures {
   width: 70%;
   height: auto;
 }
 
-.section-stats p{
+.section-stats p {
   color: #757575;
   font-size: 1.1em;
 }
 
-.pourcentage{
+.pourcentage {
   font-size: 2em;
-  color: #1668BA;
+  color: #1668ba;
   font-weight: bold;
 }
 
-p.marknote{
-  color: #093C70;
+p.marknote {
+  color: #093c70;
   font-size: 2em;
 }
 
-span.mark-number{
+span.mark-number {
   font-size: 2.4em;
   color: #2b67f5;
 }
 
-span.collected-marks-number{
+span.collected-marks-number {
   font-size: 25px;
   color: #2b67f5;
 }
 
-span.collected-marks{
+span.collected-marks {
   font-size: 15px;
 }
 
 /*------ Section - Map ------*/
-.section-map h1{
+.section-map h1 {
   padding-top: 20px;
   padding-bottom: 70px;
 }
 
-.map{
+.map {
   width: 100%;
   height: 450px;
 }
 
 /*------------Responsive------------*/
 
-@media (min-width: 1800px){
-
-  .section-history h1{
+@media (min-width: 1800px) {
+  .section-history h1 {
     padding-bottom: 50px;
     padding-top: 30px;
   }
 
-  .section-history-description{
+  .section-history-description {
     font-size: 1.5em;
   }
 
-  .section-team{
+  .section-team {
     padding-top: 60px;
   }
 
-  p.team-description{
+  p.team-description {
     font-size: 3em;
   }
 
-  .section-team-formateurs ul{
-    font-size : 1.4em;
+  .section-team-formateurs ul {
+    font-size: 1.4em;
     line-height: 50px;
     letter-spacing: 1px;
   }
@@ -490,21 +488,21 @@ span.collected-marks{
     height: 180%;
   }
 
-  .flickity-prev-next-button.next{
+  .flickity-prev-next-button.next {
     margin-right: -60px !important;
   }
 
-  .flickity-prev-next-button.previous{
+  .flickity-prev-next-button.previous {
     margin-left: -90px !important;
   }
 
-  .map{
+  .map {
     width: 100%;
     height: 600px;
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1550px){
+@media (min-width: 1200px) and (max-width: 1550px) {
   .flickity .carousel-cell {
     width: 180px;
     height: 180px;
@@ -512,391 +510,402 @@ span.collected-marks{
   }
 }
 
-@media (min-width: 901px){
-  .section-code-logo-prepacode img{
+@media (min-width: 901px) {
+  .section-code-logo-prepacode img {
     width: 250px;
     height: auto;
   }
 }
 
-@media (min-width : 1500px){
-  .section-code-logo-prepacode img{
+@media (min-width: 1500px) {
+  .section-code-logo-prepacode img {
     width: 400px;
     height: auto;
   }
 
-  .section-permis h1{
+  .section-permis h1 {
     margin-bottom: 40px;
   }
 }
 
-@media (max-width: 1600px){
-
-  h1{
+@media (max-width: 1600px) {
+  h1 {
     font-size: 3em !important;
   }
 
-  .card-title{
+  .card-title {
     font-size: 1.5em;
   }
 
-  button.interest{
+  button.interest {
     border: none;
     background-color: #d8e6fc;
-    color: #1C458a;
+    color: #1c458a;
     font-size: 1em;
   }
-  .section-history-description{
+  .section-history-description {
     font-size: 1.25em;
   }
 }
 
-@media (max-width: 1500px){
-  .section-history-description{
+@media (max-width: 1500px) {
+  .section-history-description {
     font-size: 1.2em;
   }
 
-  .icon-info{
+  .icon-info {
     width: 40px;
     height: 40px;
     margin-left: 20px;
   }
 }
 
-@media (max-width: 1400px){
-  button.interest{
+@media (max-width: 1400px) {
+  button.interest {
     padding-right: 25px;
     padding-left: 25px;
   }
 
-  .section-history-description{
+  .section-history-description {
     font-size: 1em;
   }
 }
 
+<<<<<<< HEAD
 @media (max-width: 1300px){
+=======
+@media (max-width: 1300px) {
+  h1 {
+    font-size: 2em !important;
+  }
+>>>>>>> refs/remotes/origin/main
 
-  .container-permis{
+  .container-permis {
     margin-left: 5%;
     margin-right: 5%;
   }
 
-  div.card{
+  div.card {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .section-history-description{
+  .section-history-description {
     font-size: 1em;
   }
 
-  .icon-info{
+  .icon-info {
     width: 30px;
     height: 30px;
     margin-left: 20px;
   }
 
-  .collected-marks-number{
+  .collected-marks-number {
     display: block !important;
   }
 }
 
-@media (max-width : 1200px){
-  
-  .section-history-description{
+@media (max-width: 1200px) {
+  .section-history-description {
     font-size: 0.9em;
   }
 
-  @media (max-width: 1200px){
-    .p-8{
+  @media (max-width: 1200px) {
+    .p-8 {
       padding: 20px 40px;
     }
   }
 }
+
 
 @media (max-width: 1100px){
   h1{
     font-size: 2em !important;
   }
   
+
+@media (max-width: 1100px) {
+>>>>>>> refs/remotes/origin/main
   .flickity .carousel-cell {
     width: 200px;
     height: 200px;
   }
-  .section-team ul li{
+  .section-team ul li {
     font-size: 1em;
   }
 
-  .section-history-description{
+  .section-history-description {
     font-size: 0.8em;
   }
 }
 
-@media (max-width: 1000px){
-  p.description-code{
+@media (max-width: 1000px) {
+  p.description-code {
     font-size: 0.8em;
   }
 
-  .permis{
+  .permis {
     margin-bottom: 15px;
   }
 
-  .section-permis h1{
+  .section-permis h1 {
     margin-bottom: 60px;
   }
 
-  .map{
+  .map {
     height: 280px;
   }
 }
 
-@media (max-width: 991px){
-  .photo-history{
+@media (max-width: 991px) {
+  .photo-history {
     width: 70%;
   }
 
-  .section-history-description{
+  .section-history-description {
     border: none;
   }
 }
 
-@media (max-width: 935px){
-
-  .card-title{
+@media (max-width: 935px) {
+  .card-title {
     font-size: 1.3em;
   }
 
-  button.interest{
+  button.interest {
     font-size: 0.8em;
     padding-right: 25px;
     padding-left: 25px;
   }
 
-  button.interest{
+  button.interest {
     padding-right: 30px;
     padding-left: 30px;
   }
 
-  p.card-title, button.interest{
+  p.card-title,
+  button.interest {
     margin-top: -30px;
   }
 }
 
-@media (max-width: 900px){
-
-  .section-code-logo-prepacode img{
+@media (max-width: 900px) {
+  .section-code-logo-prepacode img {
     width: 200px;
     height: auto;
   }
 
   .flickity .carousel-cell {
-  width: 150px;
-  height: 150px;
-  margin-right: 10%;
+    width: 150px;
+    height: 150px;
+    margin-right: 10%;
   }
   .flickity-prev-next-button .flickity-button-icon {
     width: 100%;
     height: 100%;
   }
 
-  div.section-team h1{
+  div.section-team h1 {
     font-size: 2em !important;
   }
 
-  .six{
+  .six {
     font-size: 1.5em;
   }
 
-  .team-description{
+  .team-description {
     font-size: 2em;
   }
 
-  .section-history h1{
+  .section-history h1 {
     padding-bottom: 10px !important;
     padding-top: 10px !important;
   }
 
-  .photo-history{
+  .photo-history {
     width: 80%;
   }
 }
 
-@media (min-width: 767px) and (max-width: 844px){
-  .card-title{
+@media (min-width: 767px) and (max-width: 844px) {
+  .card-title {
     font-size: 1em;
   }
 
-  button.interest{
+  button.interest {
     font-size: 0.6em;
   }
 }
 
-@media (max-width: 767px){
-  .section-inner-code{
+@media (max-width: 767px) {
+  .section-inner-code {
     text-align: center;
   }
-  .section-inner-code h1.left{
+  .section-inner-code h1.left {
     text-align: center !important;
   }
-  p.description-code{
+  p.description-code {
     font-size: 1.2em;
   }
 
-  div.container-permis.section-permis div.card:first-child{
+  div.container-permis.section-permis div.card:first-child {
     margin-top: 150px;
   }
 
-  div.container-permis.section-permis div.card{
+  div.container-permis.section-permis div.card {
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  .section-history-description{
+  .section-history-description {
     font-size: 1.2em;
   }
 
-  .section-photo-history{
+  .section-photo-history {
     margin-top: 30px;
   }
 
-  .flickity-prev-next-button.next{
+  .flickity-prev-next-button.next {
     margin-right: 0 !important;
   }
 
-  .flickity-prev-next-button.previous{
+  .flickity-prev-next-button.previous {
     margin-left: 0 !important;
   }
 
-  .section-team-formateurs{
+  .section-team-formateurs {
     margin-bottom: 30px;
   }
 
-  p.marknote{
+  p.marknote {
     text-align: center;
   }
 
-  span.collected-marks-number{
+  span.collected-marks-number {
     margin-top: -10px;
     margin-bottom: 20px;
   }
 
-  .section-stats p.button-stats{
+  .section-stats p.button-stats {
     text-align: center;
   }
 }
 
-@media (min-width: 550px) and (max-width: 767px){
-  .section-team-formateurs{
+@media (min-width: 550px) and (max-width: 767px) {
+  .section-team-formateurs {
     padding-left: none;
     text-align: center;
   }
 
-  .section-team-formateurs h1{
+  .section-team-formateurs h1 {
     display: inline-block;
     margin-right: 70px;
   }
 
-  .section-team-formateurs ul li{
+  .section-team-formateurs ul li {
     display: inline-block;
   }
 
-  .section-team-formateurs ul{
+  .section-team-formateurs ul {
     display: inline-block;
   }
 
-  .section-team-formateurs p.team-description{
+  .section-team-formateurs p.team-description {
     display: inline-block;
     text-align: right !important;
   }
 }
 
-@media (min-width: 480px) and (max-width: 767px){
-  .card-title{
+@media (min-width: 480px) and (max-width: 767px) {
+  .card-title {
     font-size: 2em;
   }
 
-  button.interest{
+  button.interest {
     font-size: 1.4em;
     padding-right: 50px;
     padding-left: 50px;
   }
 
-  p.card-title, button.interest{
+  p.card-title,
+  button.interest {
     margin-top: -50px;
   }
 }
 
-@media (max-width: 620px){
-
-  div.container-permis.section-permis div.card:first-child{
+@media (max-width: 620px) {
+  div.container-permis.section-permis div.card:first-child {
     margin-top: 80px;
   }
 
   .flickity .carousel-cell {
-  margin-right: 13%;
+    margin-right: 13%;
   }
 
   .flickity-prev-next-button .flickity-button-icon {
-  width: 70%;
-  height: 70%;
+    width: 70%;
+    height: 70%;
   }
 
-   .section-stats{
+  .section-stats {
     margin: 10px !important;
   }
 
-  .map{
+  .map {
     height: 180px;
   }
 }
 
-@media (min-width: 621px){
-   button.button-info-stat{
+@media (min-width: 621px) {
+  button.button-info-stat {
     margin-bottom: 0;
   }
 }
 
-@media (max-width: 750px){
-  .section-permis h1{
+@media (max-width: 750px) {
+  .section-permis h1 {
     margin-top: 40px;
     margin-bottom: 0;
   }
 }
 
+
 @media (max-width: 600px){
   h2{
     font-size: 1.4em !important;
+}
+
+@media (max-width: 600px) {
+  .p-8 {
+    padding: 10px 10px;
   }
 }
 
-@media (max-width: 480px){
-
-  .card-title{
+@media (max-width: 480px) {
+  .card-title {
     font-size: 1.5em;
   }
 
-  button.interest{
+  button.interest {
     font-size: 1.1em;
     padding-right: 50px;
     padding-left: 50px;
   }
 }
 
-@media (max-width: 430px){
-
-
-  div.container-permis.section-permis div.card:first-child{
+@media (max-width: 430px) {
+  div.container-permis.section-permis div.card:first-child {
     margin-top: 40px;
   }
 
-  button.interest{
+  button.interest {
     font-size: 0.9em;
     padding-right: 20px;
     padding-left: 20px;
   }
 }
 
-@media (max-width: 411px){
+@media (max-width: 411px) {
   .flickity .carousel-cell {
     width: 200px;
     height: 200px;
@@ -904,13 +913,12 @@ span.collected-marks{
   }
 }
 
-@media (max-width: 350px){
- 
+@media (max-width: 350px) {
   .section-stats h1 {
     font-size: 1.6em !important;
   }
 
-  .icon-info{
+  .icon-info {
     width: 20px;
     height: 20px;
     margin-left: 10px;

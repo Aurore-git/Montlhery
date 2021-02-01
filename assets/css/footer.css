@@ -19,7 +19,7 @@ footer .prepacode-section img {
   transition: 1s;
 }
 footer .prepacode-section img:hover {
-  box-shadow: 0 0 25px 10px #c0c0c0;
+  box-shadow: 0 0 15px 2px #f2f0ff;
   background: #1668ba;
   transform: rotateZ(10deg);
 }
