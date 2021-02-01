@@ -98,6 +98,7 @@
       Site hébergé pas inheo - crée par Simplon - copyright 2021
     </div>
   </div>
+
 </footer>
 
 <!-- Optional JavaScript; choose one of the two! -->
@@ -126,6 +127,7 @@
 
 <!-- JavaScript -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 </body>
 <!-- **$$**--------------------------_End </BODY>_--------------------------**$$** -->
 </html>

@@ -226,6 +226,7 @@ Nicolas et Gary Caussignac dirigent l’auto-école accompagnés de cinq autres 
     </div>
   </div>
 </div>
+
 <!--Map-->
 <div class="container-fluid">
   <div class="col-12 section-map">

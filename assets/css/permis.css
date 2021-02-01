@@ -259,6 +259,38 @@ div.container-fluid.section-internet {
   font-family: 'Roboto-Slab';
 }
 
+ul.ul-am-bsr{
+  padding: 0 10px;
+  list-style: none;
+}
+
+ul.ul-am-bsr li {
+  margin-bottom: 10px;
+}
+
+ul.ul-am-bsr li::before {
+  content: '';
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 10px;
+  margin-bottom: -4px;
+  background-image: url(../img/icones/check1.png);
+  background-size: cover;
+}
+
+@media (max-width: 1200px){
+  .sequence-5{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 991px){
+  .sequence-4{
+    margin-top: 30px;
+  }
+}
+
 /*-------------------------------------Permis moto -----------------------*/
 /*section catégories*/
 .section-categories-permis-moto {

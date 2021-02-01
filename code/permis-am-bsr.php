@@ -6,7 +6,7 @@
 </div>
 
 <!--Section JUMBOTRON-->
-<div class="container-fluid mt-2 mb-5">
+<div class="container-fluid mt-2">
   <div class="landing-page-description">
     <div class="jumbotron row p-8">
       <div class="col-12 col-md-8">
@@ -78,8 +78,13 @@
 </div>
 
 <!-- Section formation BSR -->
-<div class="container-fluid section-formation-bsr my-5 p-8">
-  <h1 class="mb-4">Déroulement de la formation</h1>
+<div class="row">
+  <div class="col-12">
+    <h1 class="mb-4">Déroulement de la formation</h1>
+  </div>
+</div>
+
+<div class="container-fluid section-formation-bsr p-8">
   <div class="row justify-content-around">
     <div class="col-md-12 col-lg-6 d-flex justify-content-center">
       <div class="card bg-custom-blue">
@@ -107,13 +112,17 @@
       </div>
     </div>
     <div class="col-md-12 col-lg-6 d-flex justify-content-center">
-      <div class="card align-self-center">
+      <div class="card align-self-center h-100">
         <div class="row no-gutters">
           <div class="card-body">
             <h5 class="card-title">Séquence 1</h5>
-            <p class="card-text lead">30 minutes</p>
-            <p class="card-text align-self-center">
-              Échanges autour des représentations de la conduite et de
+            <p class="card-text lead mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill mr-2" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+            </svg>
+          30 minutes</p>
+            <p class="card-text align-self-center my-4">
+              Échanges autour des représentations de la <strong class="c-blue">conduite</strong> et de
               l’expérience de chacun.
             </p>
           </div>
@@ -121,22 +130,26 @@
       </div>
     </div>
 
-    <div class="col-12 d-flex justify-content-center">
+    <div class="col-12 d-flex my-4 justify-content-center">
       <div class="card align-self-center">
         <div class="card-body">
           <h5 class="card-title">Séquence 2</h5>
           <p class="card-text lead text-center">
-            1 heure minimum<br />
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill mr-2" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+            </svg>
+            1 heure minimum
+          <p class="card-text font-weight-bold lead">
             Formation pratique hors circulation
           </p>
           <div class="card-text row text-left">
+              <ul class="col-12 col-md-6 ul-style">
+                <li><strong class="c-blue">Prise en main</strong> du 2 roues</li>
+                <li>Travail de l’<strong class="c-blue">équilibre</strong> et dosage du <strong class="c-blue">freinage</strong></li>
+                <li><strong class="c-blue">Inclinaison</strong> du scooter.</li>
+              </ul>
             <p class="col-12 col-md-6">
-              -Prise en main du 2 roues<br />
-              -Travail de l’équilibre et dosage du freinage<br />
-              -Inclinaison du scooter.
-            </p>
-            <p class="col-12 col-md-6">
-              Les cours hors circulation s’effectuent sur la piste moto-école
+              Les cours hors circulation s’effectuent sur la <strong class="c-blue">piste moto-école</strong>
               qui se trouve à 1,4 km de l’auto-école (à l’entrée de Narbonne
               coté Coursan proche de la déchetterie) ce qui permet de ne pas
               perdre de temps pour accéder à celle-ci.
@@ -151,51 +164,68 @@
         <div class="card-body">
           <h5 class="card-title">Séquence 3</h5>
           <p class="card-text lead">
-            30 minutes<br />
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill mr-2" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+            </svg>
+            30 minutes
+          </p>
+          <p class="card-text lead font-weight-bold">
             Formation théorique de la pratique
           </p>
           <div class="card-text row text-left">
-            <p class="align-self-center">
-              -Connaissance des règles de circulation.<br />
-              -Savoir reconnaître les zones de danger.<br />
-              -Savoir évaluer le danger. <br />
-              -Prises de risques et ses conséquences. <br />
-              -Savoir se comporter à l’égard des autres usagers. <br />
-              -Adaptation de la vitesse.
-            </p>
+            <ul class="ul-am-bsr">
+              <li>Connaissance des <strong class="c-blue">règles de circulation</strong>.</li>
+              <li>Savoir reconnaître les <strong class="c-blue">zones de danger</strong>.</li>
+              <li>Savoir <strong class="c-blue">évaluer le danger</strong>.</li>
+              <li>Prises de <strong class="c-blue">risques</strong> et ses <strong class="c-blue">conséquences</strong>.</li>
+              <li>Savoir se comporter à l’égard des <strong class="c-blue">autres usagers</strong>.</li>
+              <li>Adaptation de la <strong class="c-blue">vitesse</strong>.</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-lg-6 col-xl-4">
+    <div class="col-sm-12 col-lg-6 col-xl-4 sequence-4">
       <div class="card h-100 align-self-center">
         <div class="card-body">
           <h5 class="card-title">Séquence 4</h5>
           <p class="card-text lead">
-            3 heures minimum <br />
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill mr-2" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+            </svg>
+            3 heures minimum
+          </p>
+          <p class="card-text font-weight-bold lead">
             Formation pratique en circulation
           </p>
           <p class="card-text text-left">
-            -Mise en pratique des règles de circulation.<br />
-            -Recherche des indices formels et informels. <br />
-            -Maintenir les marges de sécurité. <br />
-            -Adapter son allure. <br />
-            -Franchir les intersections et changer de direction. <br />
-            -Saisir les informations (anticiper)
+            <ul class="text-left ul-am-bsr">
+              <li>Mise en pratique des <strong class="c-blue">règles de circulation</strong>.</li>
+              <li>Recherche des <strong class="c-blue">indices formels</strong> et <strong class="c-blue">informels</strong>.</li>
+              <li>Maintenir les <strong class="c-blue">marges de sécurité</strong>.</li>
+              <li>Adapter son <strong class="c-blue">allure</strong>.</li>
+              <li>Franchir les <strong class="c-blue">intersections</strong> et changer de <strong class="c-blue">direction</strong>.</li>
+              <li>Saisir les <strong class="c-blue">informations</strong> (anticiper)</li>
+            </ul>
           </p>
         </div>
       </div>
     </div>
-    <div class="col-lg-12 col-xl-4">
+    <div class="col-lg-12 col-xl-4 sequence-5">
       <div class="card h-100 align-self-center">
         <div class="card-body">
           <h5 class="card-title">Séquence 5</h5>
           <p class="card-text lead">
-            1 heure <br />
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill mr-2" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+            </svg>
+            1 heure
+          </p>
+          <p class="card-text font-weight-bold lead mb-5">
             Sensibilisation
           </p>
           <p class="card-text">
-            Sensibilisation aux risques en présence pour les mineurs d’un
+            <strong class="c-blue">Sensibilisation aux risques</strong> en présence pour les mineurs d’un
             représentant légal
           </p>
         </div>
@@ -212,10 +242,10 @@
 </div>
 
 <!-- Section Enjeu Formation -->
-<div class="container-fluid section-enjeu my-5 p-8">
+<div class="container-fluid section-enjeu p-8">
   <div class="row">
     <div class="col">
-      <h1 class="text-center">L’enjeu de la formation</h1>
+      <h1 class="text-center mb-4">L’enjeu de la formation</h1>
       <p class="formule-description">
         L’objectif général de la formation est d’amener
         <strong> tout conducteur </strong>à la maitrise de compétences en termes
