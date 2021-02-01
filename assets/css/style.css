@@ -575,9 +575,6 @@ span.collected-marks{
 }
 
 @media (max-width: 1300px){
-  h1{
-    font-size: 2em !important;
-  }
 
   .container-permis{
     margin-left: 5%;
@@ -618,6 +615,10 @@ span.collected-marks{
 }
 
 @media (max-width: 1100px){
+  h1{
+    font-size: 2em !important;
+  }
+  
   .flickity .carousel-cell {
     width: 200px;
     height: 200px;
@@ -863,9 +864,10 @@ span.collected-marks{
 }
 
 @media (max-width: 600px){
-  .p-8{
-    padding: 10px 10px;
+  h2{
+    font-size: 1.4em !important;
   }
+}
 
 @media (max-width: 480px){
 

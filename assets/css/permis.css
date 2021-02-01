@@ -17,6 +17,11 @@
 .bg-custom-grey {
   background-color: #f2f0ff !important;
 }
+
+.bg-custom-dark-blue{
+  background-color: #012169 !important;
+}
+
 .bg-custom-blue {
   background-color: #1668ba !important;
 }
@@ -28,9 +33,6 @@
 }
 .bg-custom-blue4 {
   background-color: #16baa1 !important;
-}
-.bg-custom-blue5 {
-  background-color: #16ba72;
 }
 
 ul.ul-style {
@@ -50,6 +52,11 @@ ul.ul-style li::before {
   margin-bottom: -4px;
   background-image: url(../img/icones/check.png);
   background-size: cover;
+}
+
+hr.hr-custom-p{
+  padding: 0.5px;
+  background-color: #EDEDED;
 }
 
 /* --------------------------------------Permis accélleré  -----------------------*/
@@ -470,13 +477,40 @@ ul.skills-permis-scooter li::before {
 /*------------------------------------------Page récupération de points---------------------*/
 
 .lead-points {
-  color: white;
   font-size: 1.6em;
+}
+
+p.info-points{
+  font-size: 1.3em;
+  color: white;
 }
 
 h2.title-cases-law {
   font-family: 'Roboto-Slab';
+}
+
+.pictures-points{
+  width: 230px;
+  margin-bottom: 15px;
+}
+
+.pictures-points-law{
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-bottom: 15px;
+}
+
+svg.svg-info-points{
   color: white;
+  float: left;
+  margin-right: 30px;
+}
+
+svg.svg-info-points-2{
+  color: #0d7aff;
+  margin-right: 10px;
+  margin-top: -5px;
 }
 
 /*------Responsive-------*/
@@ -508,7 +542,16 @@ h2.title-cases-law {
 
 @media (max-width: 1400px) {
   .pictures-permis-moto {
-    width: 250px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 1250px){
+  .pictures-points-law{
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+    width: 150px;
   }
 }
 
@@ -545,6 +588,19 @@ h2.title-cases-law {
   }
 }
 
+@media (min-width: 500px){
+  .pictures-points{
+    float: right;
+    width: 250px;
+  }
+}
+
+@media (min-width: 800px){
+  .pictures-points{
+    width: 350px;
+  }
+}
+
 @media (min-width: 767px) {
   .picture-permis-scooter {
     float: left;
@@ -573,10 +629,18 @@ h2.title-cases-law {
 
 @media (max-width: 600px) {
   .p-8 {
-    padding: 10px 10px;
+    padding: 20px 10px;
   }
 
   .competences-permis-moto ul {
     padding: 0;
+  }
+
+  ul.ul-style{
+    padding: 0;
+  }
+
+  h2.title-cases-law {
+    font-size: 1.4em !important;
   }
 }

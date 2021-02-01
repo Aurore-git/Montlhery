@@ -64,3 +64,9 @@ footer .copyright {
     margin-top: 0;
   }
 }
+
+@media (max-width: 767px){
+  .copyright{
+    text-align: center;
+  }
+}
