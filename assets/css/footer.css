@@ -4,9 +4,10 @@ footer {
   letter-spacing: 1px;
 }
 
-.custom-row .card {
+footer .custom-row .card {
   justify-content: center;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 footer div.card-body p.prepacode-section {
