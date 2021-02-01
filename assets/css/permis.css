@@ -2,7 +2,7 @@
   letter-spacing: 1px;
 }
 
-/*general styles*/
+/*----------------------------------------General Styles----------------------------*/
 .c-blue {
   color: #1868ba;
 }
@@ -14,12 +14,24 @@
   padding: 40px 80px;
 }
 
-.bg-custom-grey {background-color: #f2f0ff;}
-.bg-custom-blue{background-color: #1668ba;}
-.bg-custom-blue2{background-color: #1697BA;}
-.bg-custom-blue3{background-color: #16B5BA;}
-.bg-custom-blue4{background-color: #16BAA1;}
-.bg-custom-blue5{background-color: #16BA72;}
+.bg-custom-grey {
+  background-color: #f2f0ff !important;
+}
+.bg-custom-blue {
+  background-color: #1668ba !important;
+}
+.bg-custom-blue2 {
+  background-color: #1697ba !important;
+}
+.bg-custom-blue3 {
+  background-color: #16b5ba !important;
+}
+.bg-custom-blue4 {
+  background-color: #16baa1 !important;
+}
+.bg-custom-blue5 {
+  background-color: #16ba72;
+}
 
 ul.ul-style {
   list-style: none;
@@ -40,7 +52,7 @@ ul.ul-style li::before {
   background-size: cover;
 }
 
-/* Permis accélleré Landing Page */
+/* --------------------------------------Permis accélleré  -----------------------*/
 .landing-page-image-container {
   display: flex;
   max-height: 300px;
@@ -129,8 +141,7 @@ div.container-fluid.section-vacation {
   background-color: #f0f2ff;
   background-image: url(../img/illustrations/vacation2.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-size: 230px;
+  background-size: 14%;
   background-position: 90% 50%;
   margin-top: 40px;
   margin-bottom: 70px;
@@ -143,23 +154,34 @@ div.container-fluid.section-vacation {
 }
 
 /* Responsif */
+@media (max-width: 1960px) {
+  div.container-fluid.section-exam {
+    background-position: -10%;
+  }
+}
 @media (max-width: 1800px) {
   div.container-fluid.section-exam {
-    background-position: -15%;
+    background-position: -25%;
   }
 }
 
 @media (max-width: 1500px) {
   div.container-fluid.section-exam {
-    background-position: -25%;
+    background-position: -40%;
+  }
+}
+
+@media (max-width: 1400px) {
+  div.container-fluid.section-exam {
+    background-position: -55%;
   }
 }
 @media (max-width: 1300px) {
   div.container-fluid.section-exam {
-    background-position: -35%;
+    background-position: -60%;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   div.container-fluid.section-exam {
     background-image: none;
   }
@@ -180,7 +202,7 @@ div.container-fluid.section-vacation {
   }
 }
 
-/*------Section - Code de la Route  ------*/
+/*----------------------------------------Code de la Route  ----------------------*/
 div.container-fluid.section-internet {
   background-color: #1668ba;
   padding-top: 30px;
@@ -204,7 +226,7 @@ div.container-fluid.section-internet {
   transform: rotateZ(10deg);
 }
 
-/*------Section - PERMIS BSR AM------*/
+/*------------------------------------------PERMIS BSR AM---------------------*/
 
 .bsr-custom-row {
   background-color: #1668ba;
@@ -229,7 +251,6 @@ div.container-fluid.section-internet {
   background-color: #1668ba;
 }
 .section-formation .card {
-  width: 100%;
   margin: 1%;
 }
 
@@ -238,7 +259,10 @@ div.container-fluid.section-internet {
   font-family: 'Roboto-Slab';
 }
 
-/*------Section - Permis moto ------*/
+.section-enjeu {
+}
+
+/*-------------------------------------Permis moto -----------------------*/
 /*section catégories*/
 .section-categories-permis-moto {
   background-color: #f2f0ff;
@@ -372,7 +396,7 @@ svg.bi-info-circle-permis-moto {
   margin-right: 30px;
 }
 
-/*premis remorque*/
+/*---------------------------------------Permis Remorque----------------------------------*/
 
 .landing-page-description .jumbotron .caravane-card ul li::before {
   display: none;
@@ -382,7 +406,7 @@ svg.bi-info-circle-permis-moto {
   color: #db3025;
 }
 
-/*permis 125*/
+/*-----------------------------------------Permis 125-------------------------------------*/
 
 .end-section-categories-permis-moto {
   border-left: 1px solid lightgrey;
@@ -446,14 +470,14 @@ ul.skills-permis-scooter li::before {
   background-size: cover;
 }
 
-/*page récupération de points*/
+/*------------------------------------------Page récupération de points---------------------*/
 
-.lead-points{
+.lead-points {
   color: white;
   font-size: 1.6em;
 }
 
-h2.title-cases-law{
+h2.title-cases-law {
   font-family: 'Roboto-Slab';
   color: white;
 }

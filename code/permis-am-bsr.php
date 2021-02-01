@@ -80,6 +80,46 @@
 <!-- Section formation BSR -->
 <div class="container-fluid section-formation my-5 p-8">
   <h1 class="mb-4">Déroulement de la formation</h1>
+  <div class="row bg-dark justify-content-around">
+    <div class="col">
+      <div class="card bg-custom-blue">
+        <div class="row no-gutters">
+          <div class="col-md-4 d-flex">
+            <img
+              src="../assets/img/illustrations/bsr.png"
+              class="card-img align-self-center"
+              alt="bsr image"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title text-left text-white">
+                5 Séquences<br />
+                Durée <strong>8 heures.</strong>
+              </h4>
+              <p class="card-text text-left text-white">
+                La formation s’effectue par groupe de deux élèves (14 ans
+                minimum) sur un cyclomoteur ( 1 cyclo par élève)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex">
+      <div class="card align-self-center">
+        <div class="card-body">
+          <h5 class="card-title">Séquence 1</h5>
+          <p class="card-text lead">30 minutes</p>
+          <p class="card-text align-self-center">
+            Échanges autour des représentations de la conduite et de
+            l’expérience de chacun.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div>
     <div class="row mb-4">
       <div class="col-sm-12 col-xl-6 mb-3 d-flex justify-content-around">
@@ -91,10 +131,15 @@
             />
           </div>
           <div class="align-self-center mr-2">
-            <h4>5 Séquence d'une durée de<br/> <strong>8 heures.</strong></h4>
-            <p>La formation s’effectue par groupe de deux élèves (14 ans minimum) sur un cyclomoteur ( 1 cyclo par élève)</p>
+            <h4>
+              5 Séquence d'une durée de<br />
+              <strong>8 heures.</strong>
+            </h4>
+            <p>
+              La formation s’effectue par groupe de deux élèves (14 ans minimum)
+              sur un cyclomoteur ( 1 cyclo par élève)
+            </p>
           </div>
-          
         </div>
       </div>
       <div class="col-sm-12 col-xl-6 mb-3 d-flex justify-content-center">
@@ -134,7 +179,7 @@
         </div>
       </div>
       <div
-        class="row justify-content-around mb-3 d-flex justify-content-center"
+        class="row justify-content-around mb-5 d-flex justify-content-center"
       >
         <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
           <div class="card h-100 align-self-center">
@@ -176,41 +221,52 @@
             </div>
           </div>
         </div>
-        <div
-          class="col-12 col-md-4 mb-3 d-flex justify-content-center flex-column"
-        >
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Séquence 5</h5>
-            <p class="card-text lead">1 heure <br /> Sensibilisation</p>
-            <p class="card-text">Sensibilisation aux risques en présence pour les mineurs d’un représentant légal</p>
-          </div>
-          <div class="bsr-certification">
-            <img class="card-img-bottom" src="../assets/img/illustrations/brevet.png" alt="bsr ilustration">
-          </div>
-          
-        </div>
+        <div class="col-12 col-md-4 d-flex justify-content-center flex-column">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Séquence 5</h5>
+              <p class="card-text lead">
+                1 heure <br />
+                Sensibilisation
+              </p>
+              <p class="card-text">
+                Sensibilisation aux risques en présence pour les mineurs d’un
+                représentant légal
+              </p>
+            </div>
+            <div class="bg-custom-blue">
+              <img
+                class="card-img-bottom"
+                src="../assets/img/illustrations/brevet.png"
+                alt="bsr ilustration"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- Section vacance -->
-  <div class="container-fluid section-vacation my-5 p-8">
-    <div class="custom-row-vacation row">
-      <div class="col-12 col-md-10 col-lg-8">
-        <h1 class="text-left">
-          L’enjeu de la formation
-        </h1>
-        <p class="text-justify lead">
-          L’objectif général de la formation est d’amener tout conducteur à la maitrise de compétences en termes de savoirs, savoir-être, savoir-faire et savoir devenir.
-          Cette formation permet aux débutants ainsi qu’aux initiés d’acquérir des bases qui leur permettront d’avoir un avenir au guidon d’un cyclo avec les connaissances indispensables pour allier plaisir et sécurité.
-        </p>
-
-      </div>
-    </div>
-  </div>
-  <!--footer-->
-  <?php include '../includes/footer-page.php'; ?>
 </div>
+
+<!-- Section Enjeu Formation -->
+<div class="container-fluid section-enjeu my-5 p-8">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-center">L’enjeu de la formation</h1>
+      <p class="formule-description">
+        L’objectif général de la formation est d’amener
+        <strong> tout conducteur </strong>à la maitrise de compétences en termes
+        de
+        <strong> savoirs, savoir-être, savoir-faire et savoir devenir.</strong>
+        Cette formation permet aux débutants ainsi qu’aux initiés
+        <strong> d’acquérir des bases </strong>qui leur permettront d’avoir un
+        avenir au guidon d’un cyclo avec les
+        <strong
+          >connaissances indispensables pour allier plaisir et sécurité.</strong
+        >
+      </p>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<?php include '../includes/footer-page.php'; ?>
