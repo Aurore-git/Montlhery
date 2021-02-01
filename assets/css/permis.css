@@ -228,12 +228,7 @@ div.container-fluid.section-internet {
 
 /*------------------------------------------PERMIS BSR AM---------------------*/
 
-.bsr-custom-row {
-  background-color: #1668ba;
-  color: #fff;
-  display: flex;
-}
-.section-formation .bsr-image {
+.section-formation-bsr .bsr-image {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -241,20 +236,18 @@ div.container-fluid.section-internet {
   color: #fff;
   width: 100%;
 }
-.section-formation .bsr-image img {
+.section-formation-bsr .bsr-image img {
   width: 100%;
   object-fit: contain;
   padding: 4%;
 }
 
-.section-formation .bsr-certification {
-  background-color: #1668ba;
-}
-.section-formation .card {
-  margin: 1%;
+.section-formation-bsr .card {
+  margin: 0;
+  width: 100%;
 }
 
-.section-formation .card-title {
+.section-formation-bsr .card-title {
   color: #1668ba;
   font-family: 'Roboto-Slab';
 }

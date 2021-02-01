@@ -78,10 +78,10 @@
 </div>
 
 <!-- Section formation BSR -->
-<div class="container-fluid section-formation my-5 p-8">
+<div class="container-fluid section-formation-bsr my-5 p-8">
   <h1 class="mb-4">Déroulement de la formation</h1>
-  <div class="row bg-dark justify-content-around">
-    <div class="col">
+  <div class="row justify-content-around">
+    <div class="col-md-12 col-lg-6 d-flex justify-content-center">
       <div class="card bg-custom-blue">
         <div class="row no-gutters">
           <div class="col-md-4 d-flex">
@@ -106,44 +106,9 @@
         </div>
       </div>
     </div>
-    <div class="col d-flex">
+    <div class="col-md-12 col-lg-6 d-flex justify-content-center">
       <div class="card align-self-center">
-        <div class="card-body">
-          <h5 class="card-title">Séquence 1</h5>
-          <p class="card-text lead">30 minutes</p>
-          <p class="card-text align-self-center">
-            Échanges autour des représentations de la conduite et de
-            l’expérience de chacun.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div>
-    <div class="row mb-4">
-      <div class="col-sm-12 col-xl-6 mb-3 d-flex justify-content-around">
-        <div class="bsr-custom-row">
-          <div class="bsr-image">
-            <img
-              src="../assets/img/illustrations/bsr.png"
-              alt="Permis Bsr image"
-            />
-          </div>
-          <div class="align-self-center mr-2">
-            <h4>
-              5 Séquence d'une durée de<br />
-              <strong>8 heures.</strong>
-            </h4>
-            <p>
-              La formation s’effectue par groupe de deux élèves (14 ans minimum)
-              sur un cyclomoteur ( 1 cyclo par élève)
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-xl-6 mb-3 d-flex justify-content-center">
-        <div class="card align-self-center">
+        <div class="row no-gutters">
           <div class="card-body">
             <h5 class="card-title">Séquence 1</h5>
             <p class="card-text lead">30 minutes</p>
@@ -154,94 +119,92 @@
           </div>
         </div>
       </div>
-      <div class="col-12 mb-3 d-flex justify-content-center">
-        <div class="card align-self-center">
-          <div class="card-body">
-            <h5 class="card-title">Séquence 2</h5>
-            <p class="card-text lead text-center">
-              1 heure minimum<br />
-              Formation pratique hors circulation
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <div class="card align-self-center">
+        <div class="card-body">
+          <h5 class="card-title">Séquence 2</h5>
+          <p class="card-text lead text-center">
+            1 heure minimum<br />
+            Formation pratique hors circulation
+          </p>
+          <div class="card-text row text-left">
+            <p class="col-12 col-md-6">
+              -Prise en main du 2 roues<br />
+              -Travail de l’équilibre et dosage du freinage<br />
+              -Inclinaison du scooter.
             </p>
-            <div class="card-text row text-left">
-              <p class="col-12 col-md-6">
-                -Prise en main du 2 roues<br />
-                -Travail de l’équilibre et dosage du freinage<br />
-                -Inclinaison du scooter.
-              </p>
-              <p class="col-12 col-md-6">
-                Les cours hors circulation s’effectuent sur la piste moto-école
-                qui se trouve à 1,4 km de l’auto-école (à l’entrée de Narbonne
-                coté Coursan proche de la déchetterie) ce qui permet de ne pas
-                perdre de temps pour accéder à celle-ci.
-              </p>
-            </div>
+            <p class="col-12 col-md-6">
+              Les cours hors circulation s’effectuent sur la piste moto-école
+              qui se trouve à 1,4 km de l’auto-école (à l’entrée de Narbonne
+              coté Coursan proche de la déchetterie) ce qui permet de ne pas
+              perdre de temps pour accéder à celle-ci.
+            </p>
           </div>
         </div>
       </div>
-      <div
-        class="row justify-content-around mb-5 d-flex justify-content-center"
-      >
-        <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
-          <div class="card h-100 align-self-center">
-            <div class="card-body">
-              <h5 class="card-title">Séquence 3</h5>
-              <p class="card-text lead">
-                30 minutes<br />
-                Formation théorique de la pratique
-              </p>
-              <div class="card-text row text-left">
-                <p class="align-self-center">
-                  -Connaissance des règles de circulation.<br />
-                  -Savoir reconnaître les zones de danger.<br />
-                  -Savoir évaluer le danger. <br />
-                  -Prises de risques et ses conséquences. <br />
-                  -Savoir se comporter à l’égard des autres usagers. <br />
-                  -Adaptation de la vitesse.
-                </p>
-              </div>
-            </div>
+    </div>
+
+    <div class="col-sm-12 col-lg-6 col-xl-4">
+      <div class="card h-100 align-self-center">
+        <div class="card-body">
+          <h5 class="card-title">Séquence 3</h5>
+          <p class="card-text lead">
+            30 minutes<br />
+            Formation théorique de la pratique
+          </p>
+          <div class="card-text row text-left">
+            <p class="align-self-center">
+              -Connaissance des règles de circulation.<br />
+              -Savoir reconnaître les zones de danger.<br />
+              -Savoir évaluer le danger. <br />
+              -Prises de risques et ses conséquences. <br />
+              -Savoir se comporter à l’égard des autres usagers. <br />
+              -Adaptation de la vitesse.
+            </p>
           </div>
         </div>
-        <div class="col-12 col-md-4 mb-3 d-flex justify-content-center">
-          <div class="card h-100 align-self-baseline">
-            <div class="card-body">
-              <h5 class="card-title">Séquence 4</h5>
-              <p class="card-text lead">
-                3 heures minimum <br />
-                Formation pratique en circulation
-              </p>
-              <p class="card-text text-left">
-                -Mise en pratique des règles de circulation.<br />
-                -Recherche des indices formels et informels. <br />
-                -Maintenir les marges de sécurité. <br />
-                -Adapter son allure. <br />
-                -Franchir les intersections et changer de direction. <br />
-                -Saisir les informations (anticiper)
-              </p>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-lg-6 col-xl-4">
+      <div class="card h-100 align-self-center">
+        <div class="card-body">
+          <h5 class="card-title">Séquence 4</h5>
+          <p class="card-text lead">
+            3 heures minimum <br />
+            Formation pratique en circulation
+          </p>
+          <p class="card-text text-left">
+            -Mise en pratique des règles de circulation.<br />
+            -Recherche des indices formels et informels. <br />
+            -Maintenir les marges de sécurité. <br />
+            -Adapter son allure. <br />
+            -Franchir les intersections et changer de direction. <br />
+            -Saisir les informations (anticiper)
+          </p>
         </div>
-        <div class="col-12 col-md-4 d-flex justify-content-center flex-column">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Séquence 5</h5>
-              <p class="card-text lead">
-                1 heure <br />
-                Sensibilisation
-              </p>
-              <p class="card-text">
-                Sensibilisation aux risques en présence pour les mineurs d’un
-                représentant légal
-              </p>
-            </div>
-            <div class="bg-custom-blue">
-              <img
-                class="card-img-bottom"
-                src="../assets/img/illustrations/brevet.png"
-                alt="bsr ilustration"
-              />
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="col-lg-12 col-xl-4">
+      <div class="card h-100 align-self-center">
+        <div class="card-body">
+          <h5 class="card-title">Séquence 5</h5>
+          <p class="card-text lead">
+            1 heure <br />
+            Sensibilisation
+          </p>
+          <p class="card-text">
+            Sensibilisation aux risques en présence pour les mineurs d’un
+            représentant légal
+          </p>
+        </div>
+        <div class="bg-custom-blue">
+          <img
+            class="card-img-bottom"
+            src="../assets/img/illustrations/brevet.png"
+            alt="bsr ilustration"
+          />
         </div>
       </div>
     </div>
