@@ -78,13 +78,13 @@ footer .copyright {
   color: #f2f0ff;
   position: fixed;
   bottom: 25px;
-  right: 25px;
+  left: 25px;
   opacity: 0;
   transition: opacity 1s;
-  width: 4em;
-  height: 4em;
+  width: 3em;
+  height: 3em;
 }
 
 #back-to-top i {
-  font-size: 2em;
+  font-size: 1.5em;
 }

@@ -15,11 +15,6 @@ window.onscroll = function () {
   }
 };
 
-// Empecher le renvoie du Formulaire au refresh
-if (window.history.replaceState) {
-  window.history.replaceState(null, null, window.location.href);
-}
-
 // Button Du scroll ver haut de page smooth
 document.getElementById('back-to-top').addEventListener('click', function () {
   window.scrollTo({

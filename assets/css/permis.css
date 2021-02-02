@@ -343,9 +343,9 @@ ul.ul-am-bsr li::before {
 }
 
 .contact-form textarea {
-  background: #000;
+  background: #f0f2ff;
   color: #fff;
-  border: none;
+  border: 1px solid gainsboro;
   width: 100%;
   padding: 12px;
   font-size: 15px;
@@ -401,7 +401,7 @@ ul.ul-am-bsr li::before {
 /*css for alert messages*/
 
 .alert-success {
-  z-index: 1;
+  z-index: 1000;
   background: #d4edda;
   font-size: 18px;
   padding: 20px 40px;
@@ -417,9 +417,7 @@ ul.ul-am-bsr li::before {
   font-size: 18px;
   padding: 20px 40px;
   min-width: 420px;
-  position: fixed;
-  right: 500px;
-  top: 400px;
+  position: relative;
   border-left: 8px solid #ffa502;
   border-radius: 4px;
 }

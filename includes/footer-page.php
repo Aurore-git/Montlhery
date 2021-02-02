@@ -124,6 +124,9 @@
 <!-- ----------------_Custom JS_---------------- -->
 <script src="../assets/js/script.js"></script>
 
+<!-- ----------------_Captcha_---------------- -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
 </body>
 <!-- **$$**--------------------------_End </BODY>_--------------------------**$$** -->
 </html>

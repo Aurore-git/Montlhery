@@ -3,9 +3,6 @@
 <!--header-->
 <?php include '../includes/header-page.php'; ?>
 
-
-
-
 <div class="container-fluid my-5 p-8">
   <h1>Comment nous contacter ?</h1>
   <div class="row">
@@ -40,16 +37,24 @@
       <!--contact section start-->
 
       <!--alert messages start-->
-      <?php echo $alert; ?>
+      <?php
+       echo $alert;
+       echo $error1;
+       echo $error2;
+       echo $error3;
+       echo $error4;
+       echo $error5;
+       ?>
       <!--alert messages end-->
       <div class="contact-section">
         <div class="contact-form">
-          <form class="contact" action="" method="post">
+          <form class="contact" action="" method="POST">
             <input
               type="text"
               name="name"
               class="text-box"
               placeholder="Prenom"
+              maxlength="20"
               required
             />
             <input
@@ -57,6 +62,7 @@
               name="email"
               class="text-box"
               placeholder="Email"
+              maxlength="40"
               required
             />
             <input
@@ -65,6 +71,7 @@
               class="text-box"
               placeholder="Code Postal"
               required
+              maxlength="10"
             />
             <input
               type="text"
@@ -72,6 +79,7 @@
               class="text-box"
               placeholder="Ville"
               required
+              maxlength="20"
             />
             <input
               type="text"
@@ -79,6 +87,7 @@
               class="text-box w-100"
               placeholder="Objets"
               required
+              maxlength="40"
             />
             <textarea
               name="message"
@@ -87,6 +96,12 @@
               rows="10"
               placeholder="Message"
             ></textarea>
+            <input
+              type="hidden"
+              id="recaptchaResponse"
+              name="recaptcha-response"
+            />
+
             <input type="submit" name="submit" class="send-btn" value="Send" />
           </form>
           <?php
@@ -112,9 +127,36 @@
   </div>
 </div>
 
+<!-- Captcha -->
+
+<script src="https://www.google.com/recaptcha/api.js?render=6Lex4EYaAAAAANYJIq6KZ5hxd4yKn44d-YiWu8Wb"></script>
+
+<script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.ready(function () {
+      grecaptcha
+        .execute('6Lex4EYaAAAAANYJIq6KZ5hxd4yKn44d-YiWu8Wb', {
+          action: 'submit',
+        })
+        .then(function (token) {
+          document.getElementById('recaptcha-response').value = token;
+          // Add your logic to submit to your backend server here.
+        });
+    });
+  }
+</script>
+
+<!-- Dont re send Form request -->
 <?php
 header('Location: contact.php');
 ?>
+
+<script>
+  if (window.history.replaceState) {
+    window.history.replaceState(null, null, window.location.href);
+  }
+</script>
 
 <!--footer-->
 <?php include '../includes/footer-page.php'; ?>
