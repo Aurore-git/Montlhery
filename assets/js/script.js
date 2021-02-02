@@ -6,6 +6,7 @@ window.onscroll = function () {
   } else {
     document.getElementById('logo').style.width = '180px';
     document.getElementById('nav').style.padding = '0 10px';
+    document.getElementById('logo').style.transition = 'ease 1s';
   }
 
   if (document.documentElement.scrollTop > 250) {

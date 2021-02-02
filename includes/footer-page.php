@@ -97,7 +97,7 @@
     </div>
     </div>
     <div class="row copyright justify-content-center">
-      Site hébergé pas inheo - crée par Simplon - copyright 2021
+      Site hébergé par inheo - créé par Simplon - copyright 2021
     </div>
   </div>
   

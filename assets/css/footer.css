@@ -72,6 +72,12 @@ footer .copyright {
   }
 }
 
+@media (max-width: 480px){
+  #back-to-top {
+    display: none;
+  }
+}
+
 #back-to-top {
   z-index: 1000;
   background-color: #1668ba;

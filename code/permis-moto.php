@@ -12,31 +12,24 @@
       <div class="col-12 col-md-8">
         <h1>Permis moto</h1>
         <p class="lead">
-          <strong>A moto encore plus qu’en voiture le conducteur est vulnérable</strong>, c’est pourquoi une <strong>formation
-            sérieuse</strong> et <strong>technique</strong> semble être nécessaire à toute personne sensée.
+          A moto encore plus qu’en voiture le conducteur est <strong class="c-blue">vulnérable</strong>, c’est pourquoi une <strong class="c-blue">formation sérieuse</strong> et <strong class="c-blue">technique</strong> semble être nécessaire à toute personne sensée.
         </p>
         <hr class="my-4" />
         <div class="row">
           <div>
             <p>
-              Pour vous accompagner dans votre formation et vous faire progresser sur les différents points techniques importants,
-              l’auto-école Montlhéry vous propose une formation assurée par deux moniteurs d’expérience (plus de 700 motards ayant
-              suivi leur formation).
+              Pour vous accompagner dans votre formation et vous faire progresser sur les différents points techniques importants, l’auto-école Montlhéry vous propose une formation assurée par deux moniteurs d’expérience (plus de 700 motards ayant suivi leur formation).
             </p>
           </div>
           <div id="mon-collapse" class="collapse">
             <p>
-              Vous profiterez d’un matériel adapté qui augmentera toutes vos chances de réussite à l’examen (une moto pour chaque
-              élève : MT-07), un contact radio permanent sur route. Les cours hors circulation s’effectuent sur la piste
-              moto-école qui se trouve à 1,4 km de l’auto-école (à l’entrée de Narbonne coté Coursan proche de la déchetterie) ce
-              qui permet de ne pas perdre de temps pour accéder à celle-ci (4 minutes de trajet).
+              Vous profiterez d’un matériel adapté qui augmentera toutes vos <strong class="c-blue">chances de réussite à l’examen</strong> (une moto pour chaque
+              élève : MT-07), un contact radio permanent sur route. Les <strong class="c-blue">cours</strong> hors circulation s’effectuent sur la piste <strong class="c-blue">moto-école</strong> qui se trouve à 1,4 km de l’auto-école (à l’entrée de Narbonne coté Coursan proche de la déchetterie) ce qui permet de ne pas perdre de temps pour accéder à celle-ci (4 minutes de trajet).
             </p>
 
             <p>
-              La piste moto est partagée avec d’autres moto-école de Narbonne et alentours.
-              Le point de rendez-vous est toujours à l’auto-école. Les débutants font le trajet de l’auto-école à la piste moto
-              avec la voiture de l’auto-école s’ils sont titulaires du permis B ou éventuellement en passager moto avec
-              l’enseignant.
+              La <strong class="c-blue">piste moto</strong> est partagée avec d’autres moto-école de Narbonne et alentours.
+              Le point de rendez-vous est toujours à l’auto-école. Les débutants font le trajet de l’auto-école à la piste moto avec la voiture de l’auto-école s’ils sont titulaires du permis B ou éventuellement en passager moto avec l’enseignant.
             </p>
           </div>
 
@@ -100,10 +93,7 @@
         <path
           d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
       </svg>
-      Les titulaires du permis B depuis au moins deux ans peuvent conduire une motocyclette légère sous réserve d’effectuer une
-      formation de 7h donnant lieu à la délivrance d’une attestation de formation permettant de s’assurer et de conduire sur le
-      territoire français uniquement. Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernées par cette
-      formation ainsi que celles qui étaient déja assurées sur un 125cm3 dans les 5 ans qui précédaient le 1 janvier 2011.
+      Les titulaires du permis B depuis au moins deux ans peuvent conduire une motocyclette légère sous réserve d’effectuer une <strong>formation de 7h</strong> donnant lieu à la délivrance d’une <strong>attestation de formation</strong> permettant de s’assurer et de conduire sur le <strong>territoire français uniquement</strong>. Les personnes ayant obtenu le permis avant le 1 mars 1980 ne sont pas concernées par cette formation ainsi que celles qui étaient déja assurées sur un 125cm3 dans les 5 ans qui précédaient le 1 janvier 2011.
     </p>
   </div>
 </div>
@@ -172,25 +162,23 @@
   <div class="col-12 col-lg-6">
     <h3 class="text-center mb-5">Formation <br />sur piste fermée</h3>
     <ul class="mb-4">
-      <li>Etude des différentes positions sur la moto (route et vitesse) et leurs conséquences</li>
-      <li>Education et amélioration du sens de l’équilibre par le regard et les différentes sensations physiques.</li>
-      <li>Technique du freinage (avant-arrière dissocié et associé) Freinage d’urgence en ligne et en virage</li>
-      <li>Les transferts de masse et leurs conséquences.</li>
-      <li>Les différentes techniques de sollicitation d’une moto en courbe et en virages</li>
-      <li>Technique d’évitement d’un obstacle (association du regard et du contre braquage)</li>
+      <li>Etude des différentes <strong class="c-blue">positions</strong> sur la moto (route et vitesse) et leurs <strong class="c-blue">conséquences</strong></li>
+      <li>Education et amélioration du sens de l’<strong class="c-blue">équilibre</strong> par le regard et les différentes <strong class="c-blue">sensations</strong> physiques.</li>
+      <li>Technique du <strong class="c-blue">freinage</strong> (avant-arrière dissocié et associé) Freinage d’urgence en ligne et en virage</li>
+      <li>Les <strong class="c-blue">transferts de masse</strong> et leurs conséquences.</li>
+      <li>Les différentes techniques de sollicitation d’une moto en <strong class="c-blue">courbe</strong> et en <strong class="c-blue">virages</strong></li>
+      <li>Technique d’<strong class="c-blue">évitement d’un obstacle</strong> (association du regard et du contre braquage)</li>
     </ul>
   </div>
   <div class="col-12 col-lg-6">
     <h3 class="text-center mb-5">Formation <br /> sur hors piste</h3>
     <ul>
-      <li>Etude des trajectoires en courbe – virage – épingle à cheveu (une étude théorique en salle précède la mise en pratique
+      <li>Etude des <strong class="c-blue">trajectoires en courbe</strong> – virage – épingle à cheveu (une étude théorique en salle précède la mise en pratique
         sur route)</li>
-      <li>Connaître les dangers spécifiques à la moto.</li>
-      <li>Apprendre à observer</li>
-      <li>Savoir se placer sur la chaussée</li>
-      <li> Préparer des échappatoires en cas d’urgence. Cette formation permet aux débutants ainsi qu’aux initiés d’acquérir des
-        bases qui leur permettront de se présenter à l’examen du permis moto avec toutes les chances de réussite, et un avenir au
-        guidon d’une moto avec les connaissances indispensables pour allier plaisir et sécurité.</li>
+      <li>Connaître les <strong class="c-blue">dangers spécifiques</strong> à la moto.</li>
+      <li>Apprendre à <strong class="c-blue">observer</strong></li>
+      <li>Savoir <strong class="c-blue">se placer</strong> sur la chaussée</li>
+      <li> Préparer des <strong class="c-blue">échappatoires</strong> en cas d’urgence. Cette formation permet aux débutants ainsi qu’aux initiés d’acquérir des bases qui leur permettront de se présenter à l’examen du <strong class="c-blue">permis moto</strong> avec toutes les chances de réussite, et un avenir au guidon d’une moto avec les connaissances indispensables pour allier <strong class="c-blue">plaisir</strong> et <strong class="c-blue">sécurité</strong>.</li>
     </ul>
   </div>
 </div>
@@ -211,8 +199,7 @@
   <div class="row history-permis-moto p-8">
     <div class="col-12 col-md-4">
       <p>
-        <span class="font-weight-bold">a – Avant le 1er mars 1980, la réglementation française distinguait deux catégories
-          d’engins à 2 roues immatriculés :</span>
+        <span class="font-weight-bold">a – Avant le 1er mars 1980, la réglementation française distinguait deux catégories d’engins à 2 roues immatriculés :</span>
         <hr />
         – les véhicules dont la cylindré était comprise entre 50 et 125 cm3 au plus, administrativement catalogués «
         <i>vélomoteurs</i> », conduits à partir de 16 ans après un examen qui ne comporté pas d’épreuve pratique, ou à partir de
