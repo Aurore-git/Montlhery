@@ -5,7 +5,6 @@
 
 
 
-
 <div class="container-fluid my-5 p-8">
   <h1>Comment nous contacter ?</h1>
   <div class="row">
@@ -49,7 +48,7 @@
               type="text"
               name="name"
               class="text-box"
-              placeholder="Nom Prenom"
+              placeholder="Prenom"
               required
             />
             <input
@@ -89,6 +88,9 @@
             ></textarea>
             <input type="submit" name="submit" class="send-btn" value="Send" />
           </form>
+          <?php
+            if(isset($output)){ echo $output;}
+          ?>
         </div>
       </div>
       <!--contact section end-->
