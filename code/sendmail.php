@@ -15,10 +15,10 @@ $alert = '';
 
 
 if(isset($_POST['submit'])){
-  $regex ="/^[a-zA-Z ]+$/";
+  $regex ="/^[a-zA-Z\s]+$/";
   $regexMail ="/^[a-zA-Z\d\._-]+@[a-zA-Z\d\._-]+\.[a-zA-Z\d\.]+$/";
   $regexPostal ="/^[\d]+$/";
-  $regexMessage ="/^[a-zA-Z\d\._- ]+$/";
+  $regexMessage ="/^[a-zA-Z\s\d\._-]+$/";
 
   $name = htmlspecialchars($_POST['name']);
   $email = htmlspecialchars($_POST['email']);
@@ -56,15 +56,32 @@ if(isset($_POST['submit'])){
     echo('Erreur');
   };
 
-  if(preg_match($regexPostal, $objets))
+  if(preg_match($regex, $city))
   {
     $output ="<span style='color:green>Valide</span>";
-    echo($objets . " " . $message);
+    echo($city);
+  }else{
+    $output ="<span style='color:red>Erreur</span>";
+    echo('Erreur');
+  };
+
+  if(preg_match($regexMessage, $objets))
+  {
+    $output ="<span style='color:green>Valide</span>";
+    echo($objets);
   }else{
     $output ="<span style='color:red>Erreur</span>";
     echo('Erreur');
   };
   
+  if(preg_match($regexMessage, $message))
+  {
+    $output ="<span style='color:green>Valide</span>";
+    echo($message);
+  }else{
+    $output ="<span style='color:red>Erreur</span>";
+    echo('Erreur');
+  };
   
   
 
