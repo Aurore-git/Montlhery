@@ -8,7 +8,7 @@
 <!--Section JUMBOTRON-->
 <div class="container-fluid mt-2 mb-5">
   <div class="landing-page-description">
-    <div class="jumbotron row p-4">
+    <div class="jumbotron row p-8">
         <div class="col-12 col-md-8">
           <h1 class="">L'Apprentissage Anticipé de Conduite AAC</h1>
           <h2>L'AAC Qu'est-ce que c'est ?</h2>
