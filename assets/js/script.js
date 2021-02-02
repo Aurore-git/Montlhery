@@ -6,6 +6,7 @@ window.onscroll = function () {
   } else {
     document.getElementById('logo').style.width = '180px';
     document.getElementById('nav').style.padding = '0 10px';
+    document.getElementById('logo').style.transition = 'ease 1s';
   }
 
   if (document.documentElement.scrollTop > 250) {
@@ -22,4 +23,17 @@ document.getElementById('back-to-top').addEventListener('click', function () {
     left: 0,
     behavior: 'smooth',
   });
+});
+
+
+
+//Smooth vers les ancres
+document.querySelectorAll('a[href^="#ancre"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });

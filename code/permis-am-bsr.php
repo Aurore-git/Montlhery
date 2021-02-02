@@ -12,8 +12,8 @@
       <div class="col-12 col-md-8">
         <h1>Le Permis Am (Brevet de Sécurité Routière)</h1>
         <p class="lead">
-          Le scooter, le 50 à vitesses, la mobylette sont les premiers moyens de
-          locomotion qui sont mis à la disposition du jeune conducteur. Pour
+          Le scooter, le 50 à vitesses, la <strong class="c-blue">mobylette</strong> sont les premiers moyens de
+          locomotion qui sont mis à la disposition du <strong class="c-blue">jeune conducteur</strong>. Pour
           permettre l’accès à tout le monde, nous proposons aux élèves deux
           cyclos.
         </p>
@@ -21,25 +21,17 @@
         <div class="row">
           <div>
             <p>
-              En effet il n’y a plus de délai obligatoire entre l’enregistrement
-              du dossier en préfecture et le passage de l’examen théorique
-              (code), il faut tout de même compter une semaine de traitement du
-              dossier et un délai de quelques jours entre le passage du code et
-              la présentation à l’épreuve pratique du permis de conduire .
+              La formation se fait au choix en deux demi-journées. Elle est
+              dispensée par un moniteur diplômé qui <strong class="c-blue">responsabilise</strong> et
+              <strong class="c-blue">sensibilise</strong> les élèves aux dangers de la route.Par sa proximité et
+              l’expérience personnelle qu’il partage avec eux, il crée une
+              <strong class="c-blue">relation de confiance</strong> et de <strong class="c-blue">respect</strong>.
             </p>
           </div>
           <div id="mon-collapse" class="collapse">
             <p>
-              La formation se fait au choix en deux demi-journées. Elle est
-              dispensée par un moniteur diplômé qui responsabilise et
-              sensibilise les élèves aux dangers de la route.Par sa proximité et
-              l’expérience personnelle qu’il partage avec eux, il crée une
-              relation de confiance et de respect.
-            </p>
-
-            <p>
-              Apres la formation, l’enseignant délivre une attestation qui
-              permet de conduire et de s’assurer, et nous constituons un dossier
+              Apres la formation, l’enseignant délivre une <strong class="c-blue">attestation</strong> qui
+              permet de <strong class="c-blue">conduire</strong> et de s’<strong class="c-blue">assurer</strong>, et nous constituons un dossier
               pour que la préfecture envoie au domicile le permis AM.
             </p>
           </div>

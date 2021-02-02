@@ -30,7 +30,7 @@
         <p class="slider-p"><span class="titretextcarousel">Tu peux voir</span><br/>
           <span class="titretextcarousel">tous nos permis</span><br/>
         </p>
-          <button class="button-slider"><a href="code/permis.php">Voir tous les permis</a></button>
+          <button class="button-slider"><a href="#ancre1">Voir tous les permis</a></button>
       </div>
     </div>   
   </div>
@@ -49,7 +49,7 @@
 <div class="container-permis section-permis">
   <div class="row">
     <div class="col-12 permis">
-      <h1>Préparer son permis</h1>
+      <h1 id="ancre1">Préparer son permis</h1>
     </div>
     <div class="col-12 col-md-4">
       <div class="card">
