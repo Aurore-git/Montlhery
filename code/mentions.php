@@ -42,14 +42,10 @@
 			</ul>
 		<h2 class="mentions-legales">Plan interactif - Plan de ville</h2>
 		<p>Les informations disponibles dans le plan sont fournies à titre indicatif.<br/>
-		Elles n'ont pas, elles même, de valeur juridique particulière et ne sauraient engager en aucun cas la responsabilité de l'auto-école
-		</p>
-		<h2 class="mentions-legales">RGPD - protection de vos données</h2>
-		<p>Le Règlement Général sur la Protection des Données (RGPD) est entré en vigueur le 25 mai 2018. Ce nouveau règlement européen s’inscrit dans la continuité de la Loi française Informatique et Libertés de 1978 et renforce la règlementation sur l’utilisation des données à caractère personnel. Il harmonise les règles en Europe en offrant un cadre juridique unique et encadre la mise en conformité des traitements de données tout en constituant un facteur de transparence et de confiance à l’égard des citoyens. Il fixe donc les conditions dans lesquelles de telles données peuvent être légalement collectées, conservées et exploitées.
-		</p>
-		<p>Les informations recueillies par le formulaire sont transférées au destinataire choisi pour répondre à votre demande. Les données obligatoires sont mentionnées par un astérisque, si elles ne sont pas renseignées, la demande est impossible.
+		Elles n'ont pas, elles même, de valeur juridique particulière et ne sauraient engager en aucun cas la responsabilité de l'auto-école.
 		</p>
 		<h2 class="mentions-legales">Confidentialité des courriers</h2>
+		<p>Aucune donnée personnelle n’est conservée par notre site via le formulaire de contact.</p>
 		<p>Concernant les informations relatives à l'envoi de courriers électroniques nous vous informons que :
 		</p>
 		<ul class="ul-style">
@@ -62,15 +58,15 @@
 		<p>Ce site a été conçu et réalisé par une équipe d'apprenants en formation développement web et applications web mobiles appartenant à la structure Simplon, Narbonne.</p>
 		<p>L'équipe de développement web se constitue de 4 apprenants : Aurore, Benjamin, Clarisse et Mikail.</p>
 		<h2 class="mentions-legales">Hébergement</h2>
-		<p>L'hébergement est réalisé par <a href="https://www.ihneo.fr/">inheo</a>.</p>
+		<p>L'hébergement est réalisé par <a href="https://infinityfree.net/">infinityfree.net</a>.</p>
 		<h2 class="mentions-legales">Politique des cookies</h2>
 		<p class="font-weight-bold lead">Qu'est-ce qu'un cookie ?</p>
 		<p>Un cookie est un petit fichier texte déposé sur votre ordinateur lors de la visite d'un site. Ils ont pour but de collecter des informations relatives à votre navigation sur les sites et de vous adresser des services personnalisés. Dans votre ordinateur les cookies sont gérés par votre navigateur internet.</p>
 		<p class="font-weight-bold lead">Quels sont les cookies utilisés sur le site <a href="../index.php">auto-école Montlhery</a> ?</p>
 		<p>
-			Afin de rendre les services plus performants, le site utilise des « cookies ». Ces cookies fournissent des informations sur la façon dont nos sites sont utilisés et permettent de fluidifier la navigation et d’améliorer l’expérience utilisateur.
+			Le site n'utilise pas de cookies à l'heure actuelle.
 		</p>
-		<p class="font-weight-bold lead">Comment suppr­imer les cookies liés à ma visite sur <a href="../index.php">auto-école Montlhery</a> ?</p>
+		<p class="font-weight-bold lead">Comment suppr­imer les cookies, s'il y en a, liés à ma visite sur <a href="../index.php">auto-école Montlhery</a> ?</p>
 		<p>Vous pouvez choisir de désactiver les cookies dans votre navigateur à tout moment en suivant les ­instructions fournies dans les fichiers d'aide de votre navigateur.<br/><br/>
 		Vous pouvez également paramétrer vos cookies directement dans les réglages de votre navigateur.</p>
 		<ul class="ul-style">
