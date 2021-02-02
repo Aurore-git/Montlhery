@@ -29,3 +29,14 @@ document.getElementById('back-to-top').addEventListener('click', function () {
     behavior: 'smooth',
   });
 });
+
+//Smooth vers les ancres
+document.querySelectorAll('a[href^="#ancre"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
