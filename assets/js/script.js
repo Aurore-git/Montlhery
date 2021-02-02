@@ -30,6 +30,8 @@ document.getElementById('back-to-top').addEventListener('click', function () {
   });
 });
 
+
+
 //Smooth vers les ancres
 document.querySelectorAll('a[href^="#ancre"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

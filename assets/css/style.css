@@ -60,13 +60,13 @@ h3 {
   padding: 40px 80px;
 }
 
-/*ancre qui ne cache pas le titre*/
-h1[id^="ancre"] {
+/*/*ancre qui ne cache pas le titre*/
+/*h1[id^="ancre"] {
 padding-top: 120px;
 position: relative;
 top: -120px;
 margin-bottom: -100px;
-}
+}*/
 
 /*------Section - Préparer son permis------*/
 .container-permis {
