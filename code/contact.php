@@ -5,6 +5,7 @@
 
 
 
+
 <div class="container-fluid my-5 p-8">
   <h1>Comment nous contacter ?</h1>
   <div class="row">
@@ -111,6 +112,9 @@
   </div>
 </div>
 
+<?php
+header('Location: contact.php');
+?>
 
 <!--footer-->
 <?php include '../includes/footer-page.php'; ?>
