@@ -11,8 +11,9 @@
             <strong>Lundi au Vendredi:</strong> <br />
             10h à 12h et de 14h à 19h <br />
             <strong>Samedi:</strong> <br />
-            10h à 12h et de 14h à 18h
+            10h à 12h et de 14h à 18h<br/>
           </p>
+          <p class="card-text">Agrément E1201102800</p>
         </div>
       </div>
     </div>
@@ -97,7 +98,7 @@
     </div>
     </div>
     <div class="row copyright justify-content-center">
-      Site hébergé par inheo - créé par Simplon - copyright 2021
+      Site hébergé par inheo - créé par Simplon - copyright 2021 - <a href="../code/mentions.php" class="a-mentions">Mentions légales</a>
     </div>
   </div>
   

@@ -978,3 +978,15 @@ div.container-fluid-fonce {
     background-image: none;
   }
 }
+
+/*---Mentions légales---*/
+
+h2.mentions-legales{
+  font-size: 0.5em;
+  font-family: 'Roboto-Slab';
+  margin: 30px 0;
+}
+
+.links-mentions{
+  word-break: break-all;
+}

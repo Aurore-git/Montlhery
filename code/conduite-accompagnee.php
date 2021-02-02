@@ -103,18 +103,21 @@
 <div class="bg-custom-grey">
     <div class="row p-8">
       <div class="col-12">
-         <h1 class="text-left">Le permis</h1>
+         <h1 class="text-left">Le permis probatoire</h1>
       </div>
-      <div class="col-12 col-md-7" >
-        <h2 class="mb-4">Le permis probatoire</h2>
+      <div class="col-12" >
           <p>A la date d’obtention du permis, votre <strong class="c-blue">capital de point est de 6</strong>. C’est seulement au terme d’une période dite ‘<strong class="c-blue">probatoire</strong> ‘, et à condition qu’aucun retrait de point n’ait eu lieu pendant cette période, que le capital de 12 points est constitué. Dans le cadre de l’<strong class="c-blue">apprentissage anticipé de la conduite</strong>, la <strong class="c-blue">période probatoire est de 2 ans</strong> au lieu de 3 lors d’une formation traditionnelle: tous les ans on récupère <strong class="c-blue">3 points au lieu de 2</strong> par la filière traditionnelle.</p>              
       </div>
-      <div class="col-12 col-md-5">
-        <h2 class="mb-4">Le permis de conduire</h2>
-          <p>Vous ne pourrez passer votre examen qu’au moins 12 mois après la délivrance de l’attestation de fin de formation initiale et à condition d’avoir <strong class="c-blue">au moins 17 ans et demi</strong> (il sera cependant possible de conduire seul qu’à partir de 18 ans).
+    </div>
+</div>
+<div class="bg-custom-blue">
+  <div class="row p-8">
+    <div class="col-12">
+        <h1 class="text-left text-white">Le permis de conduire</h2>
+          <p class="text-white">Vous ne pourrez passer votre examen qu’au moins 12 mois après la délivrance de l’attestation de fin de formation initiale et à condition d’avoir <strong>au moins 17 ans et demi</strong> (il sera cependant possible de conduire seul qu’à partir de 18 ans).
           </p>           
       </div>
-    </div>
+  </div>
 </div>
 
 <!--Section Bonus-->
