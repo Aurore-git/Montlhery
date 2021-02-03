@@ -1,12 +1,12 @@
 window.onscroll = function () {
-  if (document.documentElement.scrollTop > 110) {
-    document.getElementById('logo').style.width = '200px';
+  if (document.documentElement.scrollTop > 300) {
+    document.getElementById('logo').style.width = '150px';
     document.getElementById('logo').style.transition = 'ease 1s';
 
     document.getElementById('nav').style.padding = '0px 10px';
     document.getElementById('nav').style.transition = 'ease 1s';
-  } else if (document.documentElement.scrollTop < 90) {
-    document.getElementById('logo').style.width = '400px';
+  } else if (document.documentElement.scrollTop < 80) {
+    document.getElementById('logo').style.width = '300px';
     document.getElementById('logo').style.transition = 'ease 1s';
 
     document.getElementById('nav').style.padding = '10px 10px';

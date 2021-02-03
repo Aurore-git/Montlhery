@@ -45,7 +45,6 @@ header li a:hover {
 .logo-link img {
   align-self: center;
   object-fit: contain;
-  width: 400px;
 }
 
 /*dropdown menu*/
