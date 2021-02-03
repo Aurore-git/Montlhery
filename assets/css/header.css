@@ -45,6 +45,7 @@ header li a:hover {
 .logo-link img {
   align-self: center;
   object-fit: contain;
+  width: 400px;
 }
 
 /*dropdown menu*/
@@ -102,11 +103,11 @@ header .navbar-nav {
     font-weight: normal;
   }
 
-  .logo-link img {
+  /* .logo-link img {
     width: 150px !important;
     height: auto !important;
     margin: 10px !important;
-  }
+  } */
 
   header img.arrow-nav-dropdown-menu {
     width: 15px;

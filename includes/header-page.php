@@ -32,7 +32,7 @@
     <nav class=" nav navbar navbar-expand-lg navbar-light bg-white" id="nav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="logo-link" href="index.php">
+          <a class="logo-link" href="../index.php">
             <img src="../assets/img/logos/montlhery.png" alt="logo" id="logo">
           </a>
         </li>
