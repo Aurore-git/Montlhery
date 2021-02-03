@@ -9,6 +9,7 @@ header nav {
   letter-spacing: 1px;
   font-family: 'Raleway-Medium';
   font-size: 1.5em;
+  padding: 8px 16px;
 }
 
 header li {
@@ -38,13 +39,13 @@ header li a:hover {
 }
 
 .logo-link {
-  border: solid turquoise 2px;
   display: flex;
 }
 
 .logo-link img {
   align-self: center;
   object-fit: contain;
+  width: 180px;
 }
 
 /*dropdown menu*/

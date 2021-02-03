@@ -1,15 +1,15 @@
 window.onscroll = function () {
   if (document.documentElement.scrollTop > 300) {
-    document.getElementById('logo').style.width = '150px';
+    document.getElementById('logo').style.width = '140px';
     document.getElementById('logo').style.transition = 'ease 1s';
 
-    document.getElementById('nav').style.padding = '0px 10px';
+    document.getElementById('nav').style.padding = '0 16px';
     document.getElementById('nav').style.transition = 'ease 1s';
   } else if (document.documentElement.scrollTop < 80) {
-    document.getElementById('logo').style.width = '300px';
+    document.getElementById('logo').style.width = '180px';
     document.getElementById('logo').style.transition = 'ease 1s';
 
-    document.getElementById('nav').style.padding = '10px 10px';
+    document.getElementById('nav').style.padding = '8px 16px';
     document.getElementById('nav').style.transition = 'ease 1s';
   }
 
