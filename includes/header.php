@@ -80,7 +80,7 @@
       
       <!--Bouton pour téléphone-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" name="navigation"></span>
       </button>
       <!--Liens ancres-->
       <div id="navbarContent" class="collapse navbar-collapse justify-content-end">

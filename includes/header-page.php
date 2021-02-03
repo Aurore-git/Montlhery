@@ -77,7 +77,7 @@
       </ul>
       
       <!--Bouton pour téléphone-->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" name="navigation">
             <span class="navbar-toggler-icon"></span>
       </button>
       <!--Liens ancres-->
