@@ -1,12 +1,16 @@
 window.onscroll = function () {
-  if (document.documentElement.scrollTop > 100) {
-    document.getElementById('logo').style.width = '100px';
-    document.getElementById('nav').style.padding = '0 10px';
+  if (document.documentElement.scrollTop > 110) {
+    document.getElementById('logo').style.width = '200px';
     document.getElementById('logo').style.transition = 'ease 1s';
-  } else {
-    document.getElementById('logo').style.width = '180px';
-    document.getElementById('nav').style.padding = '0 10px';
+
+    document.getElementById('nav').style.padding = '0px 10px';
+    document.getElementById('nav').style.transition = 'ease 1s';
+  } else if (document.documentElement.scrollTop < 90) {
+    document.getElementById('logo').style.width = '400px';
     document.getElementById('logo').style.transition = 'ease 1s';
+
+    document.getElementById('nav').style.padding = '10px 10px';
+    document.getElementById('nav').style.transition = 'ease 1s';
   }
 
   if (document.documentElement.scrollTop > 250) {
@@ -25,15 +29,13 @@ document.getElementById('back-to-top').addEventListener('click', function () {
   });
 });
 
-
-
 //Smooth vers les ancres
-document.querySelectorAll('a[href^="#ancre"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+document.querySelectorAll('a[href^="#ancre"]').forEach((anchor) => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth',
     });
+  });
 });
