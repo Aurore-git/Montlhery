@@ -9,6 +9,13 @@
     />
   <meta name="author" content="Simplon" />
   <title>Auto-école Montlhery - Narbonne</title>
+  <!-- OPEN Graph -->
+  <meta property="og:title" content="Auto-école Montlhery - Narbonne" />
+  <meta property="og:type" content="permis.code" />
+  <meta property="og:url" content="http://montlhery-narbonne.epizy.com/index.php" />
+  <meta property="og:image" content="http://montlhery-narbonne.epizy.com/assets/img/logos/montlhery.png" />
+  <meta property="og:description" 
+  content="Auto-école Montlhery - Narbonne Permis Code de la route." />
   
   <!-- Fav icon -->
   <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
