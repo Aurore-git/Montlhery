@@ -158,6 +158,18 @@ Nicolas et Gary Caussignac dirigent l’auto-école accompagnés de cinq autres 
       <div class="flickity">
         <div class="carousel custom-div" data-flickity='{ "groupCells": true }'>
           <div class="carousel-cell">
+            <div class="col">
+              <img src="assets/img/slider/floriane.jpg" alt="floriane" />
+              <p class="text-center custom-color">Floriane</p>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="col">
+              <img src="assets/img/slider/gary.jpg" alt="gary" />
+              <p class="text-center custom-color">Gary</p>
+            </div>
+          </div>
+          <div class="carousel-cell">
             <div class="d-flex">
               <div class="col">
                 <img src="assets/img/slider/cedric.jpg" alt="cedric" />
@@ -169,18 +181,6 @@ Nicolas et Gary Caussignac dirigent l’auto-école accompagnés de cinq autres 
             <div class="col">
               <img src="assets/img/slider/dimitri.jpg" alt="dimitri" />
               <p class="text-center custom-color">Dimitri</p>
-            </div>
-          </div>
-          <div class="carousel-cell">
-            <div class="col">
-              <img src="assets/img/slider/floriane.jpg" alt="floriane" />
-              <p class="text-center custom-color">Floriane</p>
-            </div>
-          </div>
-          <div class="carousel-cell">
-            <div class="col">
-              <img src="assets/img/slider/gary.jpg" alt="gary" />
-              <p class="text-center custom-color">Gary</p>
             </div>
           </div>
           <div class="carousel-cell">
