@@ -206,8 +206,8 @@ div.container-fluid.section-vacation {
   }
 }
 
-@media (max-width: 767px){
-  div.card-custom-position{
+@media (max-width: 767px) {
+  div.card-custom-position {
     margin-top: 20px;
   }
 }
@@ -346,7 +346,7 @@ ul.ul-am-bsr li::before {
 }
 
 .contact-form textarea {
-  background: #f0f2ff;
+  background: #0f111d;
   color: #fff;
   border: 1px solid gainsboro;
   width: 100%;
@@ -858,12 +858,12 @@ svg.permis-auto {
 
 /*CONDUITE ACCOMPAGNÉE*/
 
-svg.conduite-accompagnee{
+svg.conduite-accompagnee {
   color: #1668ba;
   margin-top: -6px;
 }
 
-p.description-conduite-accompagnee{
+p.description-conduite-accompagnee {
   font-size: 1.1em;
   color: #1668ba;
 }
@@ -915,7 +915,7 @@ div.container-fluid-blanc {
   padding-top: 2%;
 }
 
-.img-assurance{
+.img-assurance {
   margin-top: -70px;
   z-index: -2;
 }
@@ -943,7 +943,7 @@ div.container-fluid-fonce {
 }
 
 /* RESPONSIF */
-@media (max-width: 1500px){
+@media (max-width: 1500px) {
   div.container-fluid-blanc {
     background-position: 93% 30%;
   }
@@ -970,7 +970,7 @@ div.container-fluid-fonce {
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   /*Conduite accompagnée*/
   div.container-fluid-blanc {
     background-image: none;
@@ -979,12 +979,12 @@ div.container-fluid-fonce {
 
 /*---Mentions légales---*/
 
-h2.mentions-legales{
+h2.mentions-legales {
   font-size: 0.5em;
   font-family: 'Roboto-Slab';
   margin: 30px 0;
 }
 
-.links-mentions{
+.links-mentions {
   word-break: break-all;
 }

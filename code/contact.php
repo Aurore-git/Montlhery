@@ -44,6 +44,7 @@
        echo $error3;
        echo $error4;
        echo $error5;
+       echo $error6;
        ?>
       <!--alert messages end-->
       <div class="contact-section">
@@ -53,7 +54,7 @@
               type="text"
               name="name"
               class="text-box"
-              placeholder="Prenom"
+              placeholder="Prenom*"
               maxlength="20"
               required
             />
@@ -61,7 +62,7 @@
               type="email"
               name="email"
               class="text-box"
-              placeholder="Email"
+              placeholder="Email*"
               maxlength="40"
               required
             />
@@ -69,7 +70,7 @@
               type="number"
               name="postal"
               class="text-box"
-              placeholder="Code Postal"
+              placeholder="Code Postal*"
               required
               maxlength="10"
             />
@@ -77,7 +78,7 @@
               type="text"
               name="city"
               class="text-box"
-              placeholder="Ville"
+              placeholder="Ville*"
               required
               maxlength="20"
             />
@@ -85,7 +86,7 @@
               type="text"
               name="objets"
               class="text-box w-100"
-              placeholder="Objets"
+              placeholder="Objets*"
               required
               maxlength="40"
             />
@@ -94,7 +95,10 @@
               id=""
               cols="30"
               rows="10"
-              placeholder="Message"
+              placeholder="Message*"
+              required
+              maxlength="1500"
+              
             ></textarea>
             <input
               type="hidden"
@@ -103,6 +107,10 @@
             />
 
             <input type="submit" name="submit" class="send-btn" value="Send" />
+            <p>
+              Tout les champs * sont obligatoire <br />
+              Aucune donnée personnelle n’est conservée par notre site via le formulaire de contact.
+          </p>
           </form>
           <?php
             if(isset($output)){ echo $output;}
@@ -132,25 +140,15 @@
 <script src="https://www.google.com/recaptcha/api.js?render=6Lex4EYaAAAAANYJIq6KZ5hxd4yKn44d-YiWu8Wb"></script>
 
 <script>
-  function onClick(e) {
-    e.preventDefault();
     grecaptcha.ready(function () {
-      grecaptcha
-        .execute('6Lex4EYaAAAAANYJIq6KZ5hxd4yKn44d-YiWu8Wb', {
-          action: 'submit',
-        })
-        .then(function (token) {
-          document.getElementById('recaptcha-response').value = token;
-          // Add your logic to submit to your backend server here.
-        });
+      grecaptcha.execute('6Lex4EYaAAAAANYJIq6KZ5hxd4yKn44d-YiWu8Wb',
+      {action: 'submit'}).then(function (token) {
+        document.getElementById('recaptchaResponse').value = token;
+        // Add your logic to submit to your backend server here.
+      });
     });
-  }
 </script>
 
-<!-- Dont re send Form request -->
-<?php
-header('Location: contact.php');
-?>
 
 <script>
   if (window.history.replaceState) {
