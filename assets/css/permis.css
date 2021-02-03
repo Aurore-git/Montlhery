@@ -14,6 +14,11 @@
   padding: 40px 80px;
 }
 
+p.low{
+  font-size: 0.8em;
+  max-width: 450px;
+}
+
 .bg-custom-grey {
   background-color: #f2f0ff !important;
 }
@@ -324,18 +329,17 @@ ul.ul-am-bsr li::before {
 }
 
 .contact-form h2 {
-  color: #fff;
-  text-align: center;
+  color: #2d2f31;
   font-size: 35px;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
 
 .contact-form .text-box {
-  background: #000;
-  color: #fff;
-  border: none;
-  width: calc(50% - 10px);
+  background: #fff;
+  color: #2d2f31;
+  border: 1px solid #C1C1C1;
+  width: calc(50% - 5px);
   height: 50px;
   padding: 12px;
   font-size: 15px;
@@ -346,9 +350,9 @@ ul.ul-am-bsr li::before {
 }
 
 .contact-form textarea {
-  background: #0f111d;
-  color: #fff;
-  border: 1px solid gainsboro;
+  background: #fff;
+  color: #2d2f31;
+  border: 1px solid #C1C1C1;
   width: 100%;
   padding: 12px;
   font-size: 15px;
@@ -382,6 +386,38 @@ ul.ul-am-bsr li::before {
   background: #0582e3;
 }
 
+h1.title-contact{
+  text-align: center !important;
+}
+
+h2.contact{
+  font-family: 'Roboto-Slab' !important;
+}
+
+.map-contact{
+  max-height: 250px;
+}
+
+@media (min-width: 1800px){
+  .map-contact-sidebar{
+    display: block;
+  }
+
+  .map-contact-footer{
+    display: none;
+  }
+}
+
+@media (max-width: 1799px){
+  .map-contact-sidebar{
+    display: none;
+  }
+
+  .map-contact-footer{
+    display: block;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .contact-section {
     flex-direction: column;
@@ -398,6 +434,30 @@ ul.ul-am-bsr li::before {
 
   .contact-form .text-box {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-info,
+  .contact-form {
+    margin: 5px 5px;
+  }
+}
+/*--Adresse et map--*/
+
+img.illu{
+  max-width: 300px;
+}
+
+@media (max-width: 400px){
+  img.illu{
+    width: 220px;
+  }
+}
+
+@media (max-width: 300px){
+  img.illu{
+    width: 180px;
   }
 }
 
@@ -986,5 +1046,5 @@ h2.mentions-legales {
 }
 
 .links-mentions {
-  word-break: break-all;
+  word-break: break-word;
 }
