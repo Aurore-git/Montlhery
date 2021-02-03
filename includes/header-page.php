@@ -9,7 +9,17 @@
     />
   <meta name="author" content="Simplon" />
   <title>Auto-école Montlhery - Narbonne</title>
-    
+  
+  <!-- OPEN Graph -->
+  <meta property="og:title" content="Auto-école Montlhery - Narbonne" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://montlhery-narbonne.epizy.com" />
+  <meta property="og:description" 
+  content="Auto-école Montlhery à Narbonne - Permis de conduire (auto, moto, scooter...) - Code de la route - Conduite accompagnée - Récupération de points" />
+  <meta property="og:image" content="http://montlhery-narbonne.epizy.com/assets/img/logos/logo.png" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="400" />
+
     <!-- Fav icon -->
   <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/favicon/apple-icon-60x60.png">
