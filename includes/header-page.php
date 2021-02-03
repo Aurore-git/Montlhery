@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+      name="description"
+      content="Auto-école Montlhery - Narbonne Permis Code de la route"
+    />
+  <meta name="author" content="Simplon" />
   <title>Auto-école Montlhery - Narbonne</title>
     
     <!-- Fav icon -->
