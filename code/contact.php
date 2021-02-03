@@ -5,7 +5,7 @@
 
 <div class="container-fluid bg-custom-blue">
   <div class="row p-8 justify-content-center">
-    <h1 class="text-white title-contact"><i class="fas fa-mail-bulk mr-4"></i></i>Comment nous contacter ?</h1>
+    <h1 class="text-white title-contact"><i class="fas fa-mail-bulk mr-4"></i>Comment nous contacter ?</h1>
   </div>
 </div>
 <div class="container-fluid bg-custom-grey bg-custom-img">

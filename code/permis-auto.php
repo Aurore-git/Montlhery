@@ -27,10 +27,12 @@
 				<div id="mon-collapse" class="collapse">
 					<p>
 						Les cours de conduites ont lieu :
+					</p>
 					<ul class="ul-style">
 						<li>du lundi au vendredi de 8h à 12h et de 13h à 19h</li>
 						<li>le samedi de 8h à 12h et de 13h à 18h</li>
 					</ul>
+					<p>
 					Cette grande plage horaire offre de grandes <strong class="c-blue">possibilités de rendez vous</strong> en
 					fonction de votre emploi du temps.
 					Il est donc possible de concilier la <strong class="c-blue">préparation du permis de conduire</strong> et la
@@ -268,13 +270,13 @@
 		</p>
 		<p>
 			<span class="font-weight-bold">En cas d’échec</span>, nous vous orienterons vers deux possibilités :
+		</p>
 		<ul class="ul-style">
 			<li>Faire un <strong class="c-blue">complément de formation</strong> et <strong class="c-blue">repasser le
 					permis</strong>.</li>
 			<li>Effectuer une période de <strong class="c-blue">conduite supervisé</strong> (avec un accompagnateur) avant de
 				<strong class="c-blue">repasser l’épreuve</strong>.</li>
 		</ul>
-		</p>
 	</div>
 </div>
 <!--footer-->

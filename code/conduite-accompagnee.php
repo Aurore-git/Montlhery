@@ -113,7 +113,7 @@
 <div class="bg-custom-blue">
   <div class="row p-8">
     <div class="col-12">
-        <h1 class="text-left text-white">Le permis de conduire</h2>
+        <h1 class="text-left text-white">Le permis de conduire</h1>
           <p class="text-white">Vous ne pourrez passer votre examen qu’au moins 12 mois après la délivrance de l’attestation de fin de formation initiale et à condition d’avoir <strong>au moins 17 ans et demi</strong> (il sera cependant possible de conduire seul qu’à partir de 18 ans).
           </p>           
       </div>

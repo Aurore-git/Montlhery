@@ -200,7 +200,9 @@
     <div class="col-12 col-md-4">
       <p>
         <span class="font-weight-bold">a – Avant le 1er mars 1980, la réglementation française distinguait deux catégories d’engins à 2 roues immatriculés :</span>
+      </p>
         <hr />
+      <p>
         – les véhicules dont la cylindré était comprise entre 50 et 125 cm3 au plus, administrativement catalogués «
         <i>vélomoteurs</i> », conduits à partir de 16 ans après un examen qui ne comporté pas d’épreuve pratique, ou à partir de
         18 ans avec le permis B.<br /><br />
@@ -211,7 +213,9 @@
     <div class="col-12 col-md-4">
       <p>
         <span class="font-weight-bold">b – Entre le 1er mars 1980 et le 31 décembre 1984</span>
+      </p>
         <hr />
+      <p>
         Les motocyclettes sont réparties en 3 catégories auxquelles correspondent 3 permis de conduire différents :<br /><br />
         – <strong>motocycles de moins de 80 cm3</strong> (<strong class="c-blue">permis A1</strong>) : <i>âge requis 16
           ans</i><br /><br />
@@ -222,9 +226,10 @@
     </div>
     <div class="col-12 col-md-4">
       <p>
-        <span class="font-weight-bold">c – Entre le 1 er janvier 1985.et le 4 iuillet 1996 Il n’existe plus que deux catégories de
-          permis :</span>
+        <span class="font-weight-bold">c – Entre le 1 er janvier 1985.et le 4 iuillet 1996 Il n’existe plus que deux catégories de permis :</span>
+      </p>
         <hr />
+      <p>
         – la <strong>première catégorie</strong> : permis AL concerne la conduite des <strong class="c-blue">motocyclettes
           légères</strong> dont la cylindrée est limitée ci 125 cm3 et d’une puissance n’excédant pas 13 CV. Age requis: 16 ans
         mais jusqu’à 17 ans ne peuvent être conduits que des engins de cylindrée n’excédant pas 80 cm3.<br /><br />

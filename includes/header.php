@@ -13,10 +13,10 @@
   <!-- OPEN Graph -->
   <meta property="og:title" content="Auto-école Montlhery - Narbonne" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://montlhery-narbonne.epizy.com" />
+  <meta property="og:url" content="http://montlhery-narbonne.epizy.com/" />
   <meta property="og:description" 
   content="Auto-école Montlhery à Narbonne - Permis de conduire (auto, moto, scooter...) - Code de la route - Conduite accompagnée - Récupération de points..." />
-  <meta property="og:image" content="http://montlhery-narbonne.epizy.com/assets/img/logos/logo.png" />
+  <meta property="og:image:url" content="http://montlhery-narbonne.epizy.com/assets/img/logos/logo.png" />
   <meta property="og:image:width" content="400" />
   <meta property="og:image:height" content="400" />
   

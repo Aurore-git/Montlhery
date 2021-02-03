@@ -21,7 +21,7 @@
     <div class="card bg-transparent border-0">
         <div class="card-body links-mentions">
           <h4 class="card-title text-left">Nous joindre</h4>
-          <p class="card-text">
+          <div class="card-text">
             <a
               rel="noopener noreferrer"
               class="btn text-white"
@@ -73,7 +73,7 @@
                 </svg>
               </a>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </div>

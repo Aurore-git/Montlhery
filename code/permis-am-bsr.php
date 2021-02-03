@@ -103,7 +103,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12 col-lg-6 d-flex justify-content-center">
+    <div class="col-md-12 col-lg-6 d-flex justify-content-center sequence-1">
       <div class="card align-self-center h-100">
         <div class="row no-gutters">
           <div class="card-body">
@@ -190,7 +190,7 @@
           <p class="card-text font-weight-bold lead">
             Formation pratique en circulation
           </p>
-          <p class="card-text text-left">
+          <div class="card-text text-left">
             <ul class="text-left ul-am-bsr">
               <li>Mise en pratique des <strong class="c-blue">règles de circulation</strong>.</li>
               <li>Recherche des <strong class="c-blue">indices formels</strong> et <strong class="c-blue">informels</strong>.</li>
@@ -199,7 +199,7 @@
               <li>Franchir les <strong class="c-blue">intersections</strong> et changer de <strong class="c-blue">direction</strong>.</li>
               <li>Saisir les <strong class="c-blue">informations</strong> (anticiper)</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </div>
