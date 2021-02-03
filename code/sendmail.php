@@ -49,10 +49,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
       $data = json_decode($urlResponse);
 
-      echo "<pre>";
-      var_dump($urlResponse);
-      var_dump($data->success);
-      echo "</pre>";
+      // echo "<pre>";
+      // var_dump($urlResponse);
+      // var_dump($data->success);
+      // echo "</pre>";
       
       if($data->success){
         
@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                     </div>';
           };
       
-          echo($name ." , ". $email ." , ". $postal ." , ". $city ." , ". $objets ." , ". $message);
+          // echo($name ." , ". $email ." , ". $postal ." , ". $city ." , ". $objets ." , ". $message);
       
         }else{
           $error6 = '<div class="alert-error mb-5">

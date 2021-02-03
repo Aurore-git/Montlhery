@@ -107,9 +107,6 @@
               Aucune donnée personnelle n’est conservée par notre site via le formulaire de contact.
             </p>
           </form>
-          <?php
-            if(isset($output)){ echo $output;}
-          ?>
         </div>
       </div>
       <!--contact section end-->
