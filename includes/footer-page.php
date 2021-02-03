@@ -19,7 +19,7 @@
     </div>
     <div class="col mt-3">
     <div class="card bg-transparent border-0">
-        <div class="card-body">
+        <div class="card-body links-mentions">
           <h4 class="card-title text-left">Nous joindre</h4>
           <p class="card-text">
             <a
