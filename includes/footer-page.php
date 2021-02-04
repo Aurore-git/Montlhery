@@ -133,7 +133,7 @@
 <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
 <!-- ----------------_Custom JS_---------------- -->
-<script src="assets/js/script.js"></script>
+<script src="../assets/js/script.js"></script>
 
 <!-- Flickity JavaScript -->
 <script src="../assets/js/flickity.pkgd.min.js"></script>
