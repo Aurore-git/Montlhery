@@ -140,6 +140,7 @@
         <img
           src="../assets/img/logos/prepacode-index.png"
           alt="logo-prepacode"
+          class="prepacode-logo"
         />
       </a>
     </div>

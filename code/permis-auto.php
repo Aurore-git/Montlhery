@@ -174,14 +174,14 @@
 <!-- Section - déroulement des examens-->
 <div class="row p-8">
 	<div class="col-12">
-		<h1 class="mb-5">Déroulement des examens</h1>
+		<h1 class="mb-4">Déroulement des examens</h1>
 	</div>
 	<div class="col-12 col-lg-4 d-flex justify-content-around text-center">
 		<img src="../assets/img/illustrations/exam.png" alt="image d'un écran d'ordinateur affichant un examen réussi"
 			class="pictures-permis-auto" />
 	</div>
 	<div class="col-12 col-lg-8">
-		<h2 class="title-cases-law mb-4">L'examen théorique</h2>
+		<h2 class="title-cases-law mb-4 mt-3">L'examen théorique</h2>
 		<p>
 			Lorsque vous souhaitez passer l’<strong class="c-blue">examen théorique</strong>, nous pouvons vous inscrire pour une
 			session qui peut être collective ou individuelle suivant l’organisme sollicité. Nous vous conseillerons en fonction de
