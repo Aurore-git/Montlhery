@@ -91,14 +91,22 @@
         <div class="card-body">
           <p class="card-title text-center text-md-left text-white">
             Prépare ton code en ligne avec
-            <u>Prépacode</u>
+            <a
+              href="https://www.prepacode-enpc.fr/landing_page"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="page Prépacode"
+              class="text-white font-weight-bold"
+            >
+              <u>Prépacode</u>
+            </a>
           </p>
           <p class="card-text prepacode-section text-center text-md-left">
             <a
               href="https://www.prepacode-enpc.fr/landing_page"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Logo Retour Page Accueil"
+              aria-label="page Prépacode"
             >
               <img src="../assets/img/logos/prepacode.webp" alt="prepacode" class="prepacode" />
             </a>
