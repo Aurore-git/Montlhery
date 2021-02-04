@@ -56,7 +56,7 @@
         <img src="assets/img/cards/accelere.webp" alt="icon" class="card-img-top">
         <div class="card-body">
           <p class="card-title">Permis <span class="second-line">accéléré</span></p>
-          <a href="code/permis-accelere" aria-label="Permis-accelere info"><button class="interest">Ca m'intéresse !</button></a>
+          <a href="code/permis-accelere.php" aria-label="Permis-accelere info"><button class="interest">Ca m'intéresse !</button></a>
         </div>
       </div>
     </div>
