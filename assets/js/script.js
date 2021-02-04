@@ -1,5 +1,3 @@
-document.addEventListener('touchstart', { passive: true });
-
 window.onscroll = function () {
   if (document.documentElement.scrollTop > 300) {
     document.getElementById('logo').style.width = '140px';

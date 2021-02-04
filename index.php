@@ -209,6 +209,7 @@ Nicolas et Gary Caussignac dirigent l’auto-école accompagnés de cinq autres 
         <p>Notre enquête satisfaction montre que les apprenants à l'auto-
   école Montlhery sont très satisfaits de la formation proposée.</p>
         <p class="font-weight-bold marknote">Note : <span class="mark-number">8,5</span>/10 <span class="collected-marks-number mx-4">85 <span class="collected-marks">avis collectés</span></span></p>
+        <p class="low">*Note collectée au cours de l'année 2021</p>
     </div>
     <div class="col-12 col-md-6 col-lg-5 d-md-grid mx-lg-4">
       <div class="section-stats-pictures">

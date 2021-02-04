@@ -78,7 +78,7 @@
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="logo-link" href="index.php" aria-label="logo">
-            <img src="assets/img/logos/montlhery.webp" alt="logo" id="logo">
+            <img src="assets/img/logos/montlhery.webp" alt="logo" id="logo" width="180">
           </a>
         </li>
       </ul>
