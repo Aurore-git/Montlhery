@@ -51,9 +51,7 @@
   <!-- ----------------_Bootstrap CSS_---------------- -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
+      href="../assets/css/bootstrap.min.css"
     />
 
     <!-- -----------------_Custom CSS_---------------- -->
@@ -69,10 +67,8 @@
     
 
     <!-- ----------------_Flickty CSS_---------------- -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
-    />
+    <link rel="stylesheet"href="../assets/css/flickity.min.css"/>
+
 
     <!-- -----------------_Awesome font_---------------- -->
     <script src="https://kit.fontawesome.com/c70a4c5665.js" crossorigin="anonymous"></script>

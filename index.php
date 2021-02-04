@@ -62,7 +62,7 @@
     </div>
     <div class="col-6 col-md-4">
       <div class="card">
-        <img src="assets/img/cards/voiture2.webp" alt="icon" class="card-img-top">
+        <img src="assets/img/cards/voiture.webp" alt="icon" class="card-img-top">
         <div class="card-body">
           <p class="card-title">Permis <span class="second-line">voiture</span></p>
           <a href="code/permis-auto.php" aria-label="Permis voiture info"><button class="interest">Ca m'intéresse !</button></a>
@@ -80,7 +80,7 @@
     </div>
     <div class="col-6 col-md-4">
       <div class="card">
-        <img src="assets/img/cards/motorcycle.png" alt="icon" class="card-img-top">
+        <img src="assets/img/cards/motorcycle.webp" alt="icon" class="card-img-top">
         <div class="card-body">
           <p class="card-title">Permis <span class="second-line">125cm3</span></p>
           <a href="code/scooter.php" aria-label="Permis 125cm3 info"><button class="interest">Ca m'intéresse !</button></a>
@@ -98,7 +98,7 @@
     </div>
     <div class="col-6 col-md-4">
       <div class="card">
-        <img src="assets/img/cards/scooter.png" alt="icon" class="card-img-top">
+        <img src="assets/img/cards/scooter.webp" alt="icon" class="card-img-top">
         <div class="card-body">
           <p class="card-title">Permis <span class="second-line">AM(BSR)</span></p>
           <a href="code/permis-am-bsr.php" aria-label="Permis AM(BSR) info"><button class="interest">Ca m'intéresse !</button></a>

@@ -2,7 +2,7 @@
 <?php include '../includes/header-page.php'; ?>
 
 <div class="landing-page-image-container">
-  <img src="../assets/img/permis/3.jpg" alt="Code de la route foto" />
+  <img src="../assets/img/permis/3.webp" alt="Code de la route foto" />
 </div>
 
 <!--Section JUMBOTRON-->
@@ -31,7 +31,7 @@
       <div class="card-custom-position col-12 col-md-4">
         <div class="card">
           <img
-            src="../assets/img/cards/code.png"
+            src="../assets/img/cards/code.webp"
             alt="icon"
             class="card-img-top"
           />

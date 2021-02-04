@@ -2,7 +2,7 @@
 <?php include '../includes/header-page.php'; ?>
 
 <div class="landing-page-image-container">
-  <img src="../assets/img/permis/7.jpg" alt="image" />
+  <img src="../assets/img/permis/7.webp" alt="image Recuperation de Point" />
 </div>
 
 <!--Resume-->

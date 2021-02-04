@@ -2,7 +2,7 @@
 <?php include '../includes/header-page.php'; ?>
 
 <div class="landing-page-image-container">
-  <img src="../assets/img/permis/9.jpg" alt="femme au volant" />
+  <img src="../assets/img/permis/8.webp" alt="Conduite Accompagné photo" />
 </div>
 
 <!--Section JUMBOTRON-->
@@ -34,7 +34,7 @@
 
         <div class="card-custom-position col-12 col-md-4">
           <div class="card">
-            <img src="../assets/img/cards/conduite-accompagnee.png" alt="icon" class="card-img-top"/>  
+            <img src="../assets/img/cards/conduite-accompagnee.webp" alt="icon" class="card-img-top"/>  
             <div class="card-body">
               <ul class="ul-style c-blue">
                 <li class="mb-3">Tout sur la conduite accompagnée</li>

@@ -2,7 +2,7 @@
 <?php include '../includes/header-page.php'; ?>
 
 <div class="landing-page-image-container">
-	<img src="../assets/img/permis/car.jpg" alt="femme au volant" />
+	<img src="../assets/img/permis/9.webp" alt="Permis auto femme au volant " />
 </div>
 
 <!--Section JUMBOTRON-->
@@ -56,7 +56,7 @@
 
 			<div class="card-custom-position col-12 col-md-4">
 				<div class="card">
-					<img src="../assets/img/cards/voiture.png" width="50%" height="50%" alt="icon" class="card-img-top" />
+					<img src="../assets/img/cards/voiture.webp" width="50%" height="50%" alt="icon" class="card-img-top" />
 					<div class="card-body">
 						<ul>
 							<li>

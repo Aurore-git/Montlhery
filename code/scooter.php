@@ -2,7 +2,7 @@
 <?php include '../includes/header-page.php'; ?>
 
 <div class="landing-page-image-container">
-  <img src="../assets/img/permis/6.jpg" alt="Permis moto photo" />
+  <img src="../assets/img/permis/6.webp" alt="Permis 125 photo" />
 </div>
 
 <!--Section JUMBOTRON-->
@@ -67,7 +67,7 @@
       <div class="card-custom-position col-12 col-md-4">
         <div class="card">
           <img
-            src="../assets/img/cards/motorcycle.png"
+            src="../assets/img/cards/motorcycle.webp"
             alt="icon"
             class="card-img-top"
           />

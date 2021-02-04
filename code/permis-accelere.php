@@ -48,7 +48,7 @@
       <div class="card-custom-position col-12 col-md-4">
         <div class="card">
           <img
-            src="../assets/img/cards/accelere.png"
+            src="../assets/img/cards/accelere.webp"
             alt="icon"
             class="card-img-top"
             width="500"

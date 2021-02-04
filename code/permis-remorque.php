@@ -2,7 +2,7 @@
 <?php include '../includes/header-page.php'; ?>
 
 <div class="landing-page-image-container">
-  <img src="../assets/img/permis/5.jpg" alt="Permis caravane photo" />
+  <img src="../assets/img/permis/5.webp" alt="Permis caravane photo" />
 </div>
 
 <!--Section JUMBOTRON-->
@@ -30,7 +30,7 @@
       <div class="card-custom-position col-12 col-md-4">
         <div class="card">
           <img
-            src="../assets/img/cards/caravane.png"
+            src="../assets/img/cards/caravane.webp"
             alt="icon"
             class="card-img-top"
           />
