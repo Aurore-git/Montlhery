@@ -51,60 +51,56 @@
     <div class="col-12 permis">
       <h1 id="ancre1">Préparer son permis</h1>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-6 col-md-4">
       <div class="card">
         <img src="assets/img/cards/accelere.webp" alt="icon" class="card-img-top">
         <div class="card-body">
-          <p class="card-title">Permis accéléré</p>
+          <p class="card-title">Permis <span class="second-line">accéléré</span></p>
           <a href="code/permis-accelere" aria-label="Permis-accelere info"><button class="interest">Ca m'intéresse !</button></a>
         </div>
       </div>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-6 col-md-4">
       <div class="card">
         <img src="assets/img/cards/voiture2.webp" alt="icon" class="card-img-top">
         <div class="card-body">
-          <p class="card-title">Permis voiture</p>
+          <p class="card-title">Permis <span class="second-line">voiture</span></p>
           <a href="code/permis-auto.php" aria-label="Permis voiture info"><button class="interest">Ca m'intéresse !</button></a>
         </div>
       </div>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-6 col-md-4">
       <div class="card">
         <img src="assets/img/cards/moto.webp" alt="icon" class="card-img-top">
         <div class="card-body">
-          <p class="card-title">Permis moto</p>
+          <p class="card-title">Permis <span class="second-line">moto</span></p>
           <a href="code/permis-moto.php" aria-label="Permis moto info"><button class="interest">Ca m'intéresse !</button></a>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="container-permis section-permis">
-  <div class="row">
-    <div class="col-12 col-md-4">
+    <div class="col-6 col-md-4">
       <div class="card">
         <img src="assets/img/cards/motorcycle.png" alt="icon" class="card-img-top">
         <div class="card-body">
-          <p class="card-title">Permis 125cm3</p>
+          <p class="card-title">Permis <span class="second-line">125cm3</span></p>
           <a href="code/scooter.php" aria-label="Permis 125cm3 info"><button class="interest">Ca m'intéresse !</button></a>
         </div>
       </div>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-6 col-md-4">
       <div class="card">
         <img src="assets/img/cards/caravane.webp" alt="icon" class="card-img-top">
         <div class="card-body">
-          <p class="card-title">Permis remorque</p>
+          <p class="card-title">Permis <span class="second-line">remorque</span></p>
           <a href="code/permis-remorque.php" aria-label="Permis remorque info"><button class="interest">Ca m'intéresse !</button></a>
         </div>
       </div>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-6 col-md-4">
       <div class="card">
         <img src="assets/img/cards/scooter.png" alt="icon" class="card-img-top">
         <div class="card-body">
-          <p class="card-title">Permis AM(BSR)</p>
+          <p class="card-title">Permis <span class="second-line">AM(BSR)</span></p>
           <a href="code/permis-am-bsr.php" aria-label="Permis AM(BSR) info"><button class="interest">Ca m'intéresse !</button></a>
         </div>
       </div>

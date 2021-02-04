@@ -213,7 +213,7 @@ div.container-fluid.section-vacation {
 
 @media (max-width: 767px) {
   div.card-custom-position {
-    margin-top: 20px;
+    margin-top: 0;
   }
 }
 
@@ -844,6 +844,13 @@ svg.svg-info-points-2 {
 }
 
 @media (max-width: 767px) {
+  .card-img-top {
+      width: 40%;
+      height: auto;
+      align-self: center;
+      margin-top: -25%;
+  }
+
   .middle-section-categories-permis-moto {
     border-left: none;
     border-right: none;
@@ -1038,6 +1045,10 @@ div.container-fluid-fonce {
   /*Conduite accompagnée*/
   div.container-fluid-blanc {
     background-image: none;
+  }
+
+  .img-assurance {
+    width: 180px;
   }
 }
 

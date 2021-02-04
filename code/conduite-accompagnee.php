@@ -71,7 +71,7 @@
     <div class="row p-8">
         <div class="col-12 col-md-5 col-xl-3 d-flex justify-content-around text-center">
           <img src="../assets/img/illustrations/livret.png" alt="image d'un livret et d'une fille qui sourit"
-          class="pictures-permis-auto-2" />
+          class="d-none d-md-block pictures-permis-auto-2" />
         </div>
         <div class="col-12 col-md-7 col-xl-9">
           <h2 class="text-white text-center text-md-left">Un livret en guide suivi</h2>

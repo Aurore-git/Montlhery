@@ -2,19 +2,20 @@
   font-family: 'Raleway-Medium';
   font-style: normal;
   font-weight: 400;
-  src: local('Verdana, Geneva, Tahoma, sans-serif'),
-    local('Verdana, Geneva, Tahoma, sans-serif'),
-    url(../fonts/raleway/Raleway-Regular.ttf) format('ttf');
+  src: url(../fonts/raleway/Raleway-Regular.ttf),
+    local('Raleway-Medium, Geneva, Tahoma, sans-serif'),
+    local('Raleway-Medium, Geneva, Tahoma, sans-serif');
+    
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto-Slab';
+  font-family: 'Roboto-Slab'; 
   font-style: normal;
   font-weight: 400;
-  src: local('Verdana, Geneva, Tahoma, sans-serif'),
-    local('Verdana, Geneva, Tahoma, sans-serif'),
-    url(../fonts/roboto-slab/RobotoSlab-Regular.ttf) format('ttf');
+  src: url(../fonts/roboto-slab/RobotoSlab-Regular.ttf),
+      local('Roboto-Slab, Geneva, Tahoma, sans-serif'),
+      local('Roboto-Slab, Geneva, Tahoma, sans-serif');
   font-display: swap;
 }
 
@@ -135,6 +136,10 @@ button.interest a:hover {
 
 button.interest:hover {
   background-color: #c0d1ee;
+}
+
+.second-line{
+  display: inline-block;
 }
 
 /*------Section : Mieux préparer son code------*/
@@ -676,8 +681,8 @@ span.collected-marks {
 }
 
 @media (max-width: 935px) {
-  .card-title {
-    font-size: 1.3em;
+  .card-title{
+    font-size: 1.2em;
   }
 
   button.interest {
@@ -691,9 +696,13 @@ span.collected-marks {
     padding-left: 30px;
   }
 
-  p.card-title,
-  button.interest {
+  p.card-title{
     margin-top: -30px;
+    margin-bottom: 20px;
+  }
+
+  button.interest{
+    margin-bottom: 0;
   }
 }
 
@@ -757,7 +766,7 @@ span.collected-marks {
   }
 
   div.container-permis.section-permis div.card:first-child {
-    margin-top: 150px;
+    margin-top: 40px;
   }
 
   div.container-permis.section-permis div.card {
@@ -825,27 +834,22 @@ span.collected-marks {
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-  .card-title {
-    font-size: 2em;
+  button.interest {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
-  button.interest {
-    font-size: 1.4em;
-    padding-right: 50px;
-    padding-left: 50px;
-  }
-
-  p.card-title,
-  button.interest {
+  p.card-title{
     margin-top: -50px;
+    margin-bottom: 20px;
+  }
+
+  button.interest {
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 620px) {
-  div.container-permis.section-permis div.card:first-child {
-    margin-top: 80px;
-  }
-
   .flickity .carousel-cell {
     margin-right: 13%;
   }
@@ -872,8 +876,8 @@ span.collected-marks {
 
 @media (max-width: 750px) {
   .section-permis h1 {
-    margin-top: 40px;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 }
 
@@ -889,15 +893,24 @@ span.collected-marks {
   }
 }
 
-@media (max-width: 480px) {
-  .card-title {
-    font-size: 1.5em;
+@media (max-width: 530px){
+  .card-title{
+    font-size: 0.8em;
+  }
+
+  div.container-permis .card-body {
+    padding: 1.25rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
   }
 
   button.interest {
-    font-size: 1.1em;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    width: 100%;
+    font-size: 0.6em;
   }
 }
 
@@ -906,10 +919,8 @@ span.collected-marks {
     margin-top: 40px;
   }
 
-  button.interest {
-    font-size: 0.9em;
-    padding-right: 20px;
-    padding-left: 20px;
+  .second-line{
+    display: block;
   }
 }
 
@@ -930,5 +941,11 @@ span.collected-marks {
     width: 20px;
     height: 20px;
     margin-left: 10px;
+  }
+}
+
+@media (max-width: 295px){
+    button.interest {
+    font-size: 0.5em;
   }
 }
