@@ -47,18 +47,18 @@ footer a {
 
 footer .copyright {
   background: #07182a;
-  color: #5f6f80;
+  color: #D4DEE7;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 footer div.copyright a.a-mentions {
-  color: #5f6f80 !important;
+  color: #D4DEE7 !important;
   margin-left: 5px;
 }
 
 footer div.copyright a.a-mentions:hover {
-  color: #5f6f80 !important;
+  color: #DDEEF1 !important;
 }
 
 .separator-custom {

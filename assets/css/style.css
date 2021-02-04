@@ -167,7 +167,7 @@ div.container-fluid.section-code {
 }
 
 .description-code {
-  color: #757575;
+  color: #55575B;
   letter-spacing: 1px;
 }
 
@@ -285,7 +285,7 @@ div.section-history-description strong {
 
 .section-team ul li {
   list-style: none;
-  color: #757575 !important;
+  color: #55575B !important;
   font-size: 1.2em;
   line-height: 40px;
 }
@@ -434,7 +434,7 @@ button.button-info-stat:hover {
 }
 
 .section-stats p {
-  color: #757575;
+  color: #55575B;
   font-size: 1.1em;
 }
 

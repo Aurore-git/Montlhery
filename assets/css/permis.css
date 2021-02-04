@@ -94,7 +94,7 @@ hr.hr-custom-p {
 
 .landing-page-description .jumbotron .card ul li {
   list-style: none;
-  color: #757575;
+  color: #55575B;
   font-size: 1.1em;
   margin-bottom: 7px;
 }
@@ -195,19 +195,18 @@ div.container-fluid.section-vacation {
     background-image: none;
   }
 
-  div.container-fluid.section-vacation {
-    background-image: none;
-  }
-
   .custom-row-exam {
-    justify-content: center;
-  }
-  .custom-row-vacation {
     justify-content: center;
   }
 
   .custom-row-vacation > div {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 991px){
+  div.container-fluid.section-vacation {
+    background-image: none;
   }
 }
 
@@ -304,7 +303,6 @@ ul.ul-am-bsr li::before {
 }
 
 /*------------------------------------------PAGE CONTACT---------------------*/
-
 .contact-section {
   width: 100%;
   display: flex;
@@ -419,6 +417,18 @@ h2.contact{
 
   .map-contact-footer{
     display: block;
+  }
+}
+
+@media (max-width: 1400px){
+  .contact-info p{
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 1200px){
+  .contact-info p{
+    font-size: 0.8em;
   }
 }
 
@@ -887,6 +897,18 @@ svg.svg-info-points-2 {
   }
 }
 
+@media (max-width: 350px){
+  .prepacode-logo{
+    width: 200px;
+  }
+}
+
+@media (max-width: 300px){
+  .picture-permis-scooter {
+    width: 200px;
+  }
+}
+
 /*---------------------------Page PERMIS AUTO-----------------------------------*/
 
 /* Section Formation*/
@@ -946,7 +968,7 @@ p.description-conduite-accompagnee {
 
 /*Formation initiale*/
 div.container-fluid-bleu {
-  color: #757575;
+  color: #55575B;
   text-align: justify;
   align-self: center;
   justify-content: center;
@@ -1003,7 +1025,7 @@ div.container-fluid-blanc {
 .examen,
 .probatoire {
   text-align: justify;
-  color: #757575;
+  color: #55575B;
 }
 
 /*Bonus*/
@@ -1062,4 +1084,26 @@ h2.mentions-legales {
 
 .links-mentions {
   word-break: break-word;
+}
+
+/*breakwords*/
+
+.question-conduite-accompagnee{
+  display: inline-block;
+}
+
+@media (max-width: 385px){
+  .question-conduite-accompagnee{
+    display: block;
+  }
+}
+
+.question-contact{
+  display: inline-block;
+}
+
+@media (max-width: 500px){
+  .question-contact{
+    display: block;
+  }
 }
