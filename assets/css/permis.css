@@ -232,7 +232,7 @@ div.container-fluid.section-internet {
 }
 .prepa-code-transition img {
   padding: 3%;
-  transition: 1s;
+  transition: 0.5s;
 }
 .prepa-code-transition img:hover {
   box-shadow: 0 0 25px 10px #c0c0c0;
