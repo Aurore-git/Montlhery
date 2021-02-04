@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="col mt-3">
-    <div class="card bg-transparent border-0">
+    <div class="card bg-transparent text-left border-0">
         <div class="card-body links-mentions">
           <p class="card-title text-center text-md-left text-white">Nous joindre</p>
           <div class="card-text">
