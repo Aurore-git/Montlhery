@@ -9,18 +9,18 @@
     />
   <meta name="author" content="Simplon" />
   <title>Auto-école Montlhery - Narbonne</title>
-  
+
   <!-- OPEN Graph -->
   <meta property="og:title" content="Auto-école Montlhery - Narbonne" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://montlhery-narbonne.epizy.com/" />
   <meta property="og:description" 
-  content="Auto-école Montlhery à Narbonne - Permis de conduire (auto, moto, scooter...) - Code de la route - Conduite accompagnée - Récupération de points" />
+  content="Auto-école Montlhery à Narbonne - Permis de conduire (auto, moto, scooter...) - Code de la route - Conduite accompagnée - Récupération de points..." />
   <meta property="og:image:url" content="http://montlhery-narbonne.epizy.com/assets/img/logos/logo.png" />
   <meta property="og:image:width" content="400" />
   <meta property="og:image:height" content="400" />
-
-    <!-- Fav icon -->
+  
+  <!-- Fav icon -->
   <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/favicon/apple-icon-72x72.png">
@@ -34,15 +34,21 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="../assets/img/favicon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
+
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="../assets/img/favicon//ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="../assets/img/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-    
-    
-    
-    
-    <!-- ----------------_Bootstrap CSS_---------------- -->
+  
+
+    <!-- PRELOAD -->
+    <link rel="preload" href="../assets/fonts/raleway/Raleway-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="../assets/fonts/roboto-slab/RobotoSlab-Regular.ttf" as="font" type="font/ttf" crossorigin>
+
+
+
+
+  
+  <!-- ----------------_Bootstrap CSS_---------------- -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -50,19 +56,29 @@
       crossorigin="anonymous"
     />
 
+    <!-- -----------------_Custom CSS_---------------- -->
+
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+
+    <link rel="stylesheet" as="style" href="../assets/css/style.css" />
+    <link rel="stylesheet" as="style" href="../assets/css/permis.css" />
+      
+
+    <link rel="stylesheet" href="../assets/css/slider.css" />
+    
+
+    <!-- ----------------_Flickty CSS_---------------- -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
 
     <!-- -----------------_Awesome font_---------------- -->
     <script src="https://kit.fontawesome.com/c70a4c5665.js" crossorigin="anonymous"></script>
 
 
-    <!-- -----------------_Custom CSS_---------------- -->
-
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/css/header.css" />
-    <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="stylesheet" href="../assets/css/permis.css">
-
-    </head>
+</head>
 <body>
 <!--Barre de navigation-->
 <div class="font-weight-bold sticky-top">
@@ -70,41 +86,41 @@
     <nav class=" nav navbar navbar-expand-lg navbar-light bg-white" id="nav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="logo-link" href="../index.php">
-            <img src="../assets/img/logos/montlhery.png" alt="logo" id="logo">
+          <a class="logo-link" href="../index.php" aria-label="logo">
+            <img src="../assets/img/logos/montlhery.webp" alt="logo" id="logo">
           </a>
         </li>
       </ul>
       
       <!--Bouton pour téléphone-->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" name="navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-label="navigation">
             <span class="navbar-toggler-icon"></span>
       </button>
       <!--Liens ancres-->
       <div id="navbarContent" class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="permis.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="../code/permis.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="navigation fleche">
                 Permis <img src="../assets/img/icones/arrow.png" alt="dropdown-menu" class="arrow-nav-dropdown-menu"/>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="permis-accelere.php">Permis accéléré</a></li>
-                <li><a class="dropdown-item" href="permis-auto.php">Permis auto</a></li>
-                <li><a class="dropdown-item" href="permis-moto.php">Permis moto</a></li>
-                <li><a class="dropdown-item" href="permis-remorque.php">Permis remorque</a></li>
-                <li><a class="dropdown-item" href="permis-am-bsr.php">Permis AM(BSR)</a></li>
-                <li><a class="dropdown-item" href="scooter.php">125cm3</a></li>
-                <li><a class="dropdown-item" href="cours-de-code.php">Code de la route</a></li>
+                <li><a class="dropdown-item" href="../code/permis-accelere.php" aria-label="Permis accéléré">Permis accéléré</a></li>
+                <li><a class="dropdown-item" href="../code/permis-auto.php" aria-label="Permis auto">Permis auto</a></li>
+                <li><a class="dropdown-item" href="../code/permis-moto.php" aria-label="Permis moto">Permis moto</a></li>
+                <li><a class="dropdown-item" href="../code/permis-remorque.php" aria-label="Permis remorque">Permis remorque</a></li>
+                <li><a class="dropdown-item" href="../code/permis-am-bsr.php" aria-label="Permis AM(BSR)">Permis AM(BSR)</a></li>
+                <li><a class="dropdown-item" href="../code/scooter.php" aria-label="125cm3">125cm3</a></li>
+                <li><a class="dropdown-item" href="../code/cours-de-code.php" aria-label="Code de la route">Code de la route</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="conduite-accompagnee.php">Conduite accompagnée</a>
+              <a class="nav-link" href="../code/conduite-accompagnee.php" aria-label="Conduite accompagnée">Conduite accompagnée</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="recuperation-de-points.php">Récupération de points</a>
+              <a class="nav-link" href="../code/recuperation-de-points.php" aria-label="Récuperation de points">Récupération de points</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.php">Contact</a>
+              <a class="nav-link" href="../code/contact.php" aria-label="Contact">Contact</a>
             </li>
           </ul>
         </div>

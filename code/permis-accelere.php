@@ -2,7 +2,7 @@
 <?php include '../includes/header-page.php'; ?>
 
 <div class="landing-page-image-container">
-  <img src="../assets/img/permis/1.jpg" alt="Permis accelere foto" />
+  <img src="../assets/img/permis/1.webp" width="1920" height="1080" alt="Permis accelere foto" />
 </div>
 
 <!--Section JUMBOTRON-->
@@ -51,6 +51,8 @@
             src="../assets/img/cards/accelere.png"
             alt="icon"
             class="card-img-top"
+            width="500"
+            height="500"
           />
           <div class="card-body">
             <ul>

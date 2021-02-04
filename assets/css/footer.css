@@ -1,3 +1,5 @@
+/* ----------------------------------footer------------------------------- */
+
 footer {
   background: #012169;
   color: #ffffff;
@@ -19,7 +21,7 @@ footer .prepacode-section img {
   transition: 0.5s;
 }
 footer .prepacode-section img:hover {
-  border: 3px solid #88D6FF;
+  border: 3px solid #88d6ff;
   background: #1668ba;
   transform: rotateZ(10deg);
 }
@@ -50,12 +52,12 @@ footer .copyright {
   padding-bottom: 20px;
 }
 
-footer div.copyright a.a-mentions{
+footer div.copyright a.a-mentions {
   color: #5f6f80 !important;
   margin-left: 5px;
 }
 
-footer div.copyright a.a-mentions:hover{
+footer div.copyright a.a-mentions:hover {
   color: #5f6f80 !important;
 }
 
@@ -81,7 +83,7 @@ footer div.copyright a.a-mentions:hover{
   }
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
   #back-to-top {
     display: none;
   }
@@ -102,4 +104,8 @@ footer div.copyright a.a-mentions:hover{
 
 #back-to-top i {
   font-size: 1.5em;
+}
+
+footer p.card-title {
+  margin-top: 0;
 }

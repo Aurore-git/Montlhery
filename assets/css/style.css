@@ -1,11 +1,21 @@
 @font-face {
   font-family: 'Raleway-Medium';
-  src: url(../fonts/raleway/Raleway-Medium.ttf);
+  font-style: normal;
+  font-weight: 400;
+  src: local('Verdana, Geneva, Tahoma, sans-serif'),
+    local('Verdana, Geneva, Tahoma, sans-serif'),
+    url(../fonts/raleway/Raleway-Regular.ttf) format('ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Roboto-Slab';
-  src: url(../fonts/roboto-slab/RobotoSlab-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+  src: local('Verdana, Geneva, Tahoma, sans-serif'),
+    local('Verdana, Geneva, Tahoma, sans-serif'),
+    url(../fonts/roboto-slab/RobotoSlab-Regular.ttf) format('ttf');
+  font-display: swap;
 }
 
 * {
@@ -13,7 +23,7 @@
 }
 
 body {
-  font-family: 'Raleway-Medium', 'Arial', sans-serif;
+  font-family: 'Raleway-Medium';
   color: #2d2f31;
 }
 
@@ -615,12 +625,12 @@ span.collected-marks {
   }
 
   .p-8 {
-      padding: 20px 40px;
-    }    
+    padding: 20px 40px;
+  }
 }
 
 @media (max-width: 1100px) {
-  h1{
+  h1 {
     font-size: 2em !important;
   }
 
@@ -867,9 +877,8 @@ span.collected-marks {
   }
 }
 
-
-@media (max-width: 600px){
-  h2{
+@media (max-width: 600px) {
+  h2 {
     font-size: 1.4em !important;
   }
 }
